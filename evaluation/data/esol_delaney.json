@@ -1,0 +1,6770 @@
+[
+ {
+  "name": "Amigdalin",
+  "smiles": "OCC3OC(OCC2OC(OC(C#N)c1ccccc1)C(O)C(O)C2O)C(O)C(O)C3O",
+  "measured_logS": -0.77,
+  "published_esol_logS": -0.9740000000000001
+ },
+ {
+  "name": "Fenfuram",
+  "smiles": "Cc1occc1C(=O)Nc2ccccc2",
+  "measured_logS": -3.3,
+  "published_esol_logS": -2.885
+ },
+ {
+  "name": "citral",
+  "smiles": "CC(C)=CCCC(C)=CC(=O)",
+  "measured_logS": -2.06,
+  "published_esol_logS": -2.5789999999999997
+ },
+ {
+  "name": "Picene",
+  "smiles": "c1ccc2c(c1)ccc3c2ccc4c5ccccc5ccc43",
+  "measured_logS": -7.87,
+  "published_esol_logS": -6.617999999999999
+ },
+ {
+  "name": "Thiophene",
+  "smiles": "c1ccsc1",
+  "measured_logS": -1.33,
+  "published_esol_logS": -2.2319999999999998
+ },
+ {
+  "name": "benzothiazole",
+  "smiles": "c2ccc1scnc1c2",
+  "measured_logS": -1.5,
+  "published_esol_logS": -2.733
+ },
+ {
+  "name": "2,2,4,6,6'-PCB",
+  "smiles": "Clc1cc(Cl)c(c(Cl)c1)c2c(Cl)cccc2Cl",
+  "measured_logS": -7.32,
+  "published_esol_logS": -6.545
+ },
+ {
+  "name": "Estradiol",
+  "smiles": "CC12CCC3C(CCc4cc(O)ccc34)C2CCC1O",
+  "measured_logS": -5.03,
+  "published_esol_logS": -4.138
+ },
+ {
+  "name": "Dieldrin",
+  "smiles": "ClC4=C(Cl)C5(Cl)C3C1CC(C2OC12)C3C4(Cl)C5(Cl)Cl",
+  "measured_logS": -6.29,
+  "published_esol_logS": -4.533
+ },
+ {
+  "name": "Rotenone",
+  "smiles": "COc5cc4OCC3Oc2c1CC(Oc1ccc2C(=O)C3c4cc5OC)C(C)=C",
+  "measured_logS": -4.42,
+  "published_esol_logS": -5.246
+ },
+ {
+  "name": "2-pyrrolidone",
+  "smiles": "O=C1CCCN1",
+  "measured_logS": 1.07,
+  "published_esol_logS": 0.243
+ },
+ {
+  "name": "2-Chloronapthalene",
+  "smiles": "Clc1ccc2ccccc2c1",
+  "measured_logS": -4.14,
+  "published_esol_logS": -4.063
+ },
+ {
+  "name": "1-Pentene",
+  "smiles": "CCCC=C",
+  "measured_logS": -2.68,
+  "published_esol_logS": -2.01
+ },
+ {
+  "name": "Primidone",
+  "smiles": "CCC1(C(=O)NCNC1=O)c2ccccc2",
+  "measured_logS": -2.64,
+  "published_esol_logS": -1.8969999999999998
+ },
+ {
+  "name": "Tetradecane",
+  "smiles": "CCCCCCCCCCCCCC",
+  "measured_logS": -7.96,
+  "published_esol_logS": -5.45
+ },
+ {
+  "name": "2-Chloropropane",
+  "smiles": "CC(C)Cl",
+  "measured_logS": -1.41,
+  "published_esol_logS": -1.585
+ },
+ {
+  "name": "2-Methylbutanol",
+  "smiles": "CCC(C)CO",
+  "measured_logS": -0.47,
+  "published_esol_logS": -1.0270000000000001
+ },
+ {
+  "name": "Benzonitrile",
+  "smiles": "N#Cc1ccccc1",
+  "measured_logS": -1.0,
+  "published_esol_logS": -2.03
+ },
+ {
+  "name": "Diazinon",
+  "smiles": "CCOP(=S)(OCC)Oc1cc(C)nc(n1)C(C)C",
+  "measured_logS": -3.64,
+  "published_esol_logS": -3.989
+ },
+ {
+  "name": "2-Undecanol",
+  "smiles": "CCCCCCCCCC(C)O",
+  "measured_logS": -2.94,
+  "published_esol_logS": -3.096
+ },
+ {
+  "name": "2,2',3,4,6-PCB",
+  "smiles": "Clc1ccc(c(Cl)c1)c2c(Cl)ccc(Cl)c2Cl",
+  "measured_logS": -7.43,
+  "published_esol_logS": -6.627000000000001
+ },
+ {
+  "name": "Lenacil",
+  "smiles": "O=c2[nH]c1CCCc1c(=O)n2C3CCCCC3",
+  "measured_logS": -4.593999999999999,
+  "published_esol_logS": -3.355
+ },
+ {
+  "name": "Phorate",
+  "smiles": "CCOP(=S)(OCC)SCSCC",
+  "measured_logS": -4.11,
+  "published_esol_logS": -3.747
+ },
+ {
+  "name": "Phenacetin",
+  "smiles": "CCOc1ccc(NC(=O)C)cc1",
+  "measured_logS": -2.35,
+  "published_esol_logS": -2.342
+ },
+ {
+  "name": "Dinitramine",
+  "smiles": "CCN(CC)c1c(cc(c(N)c1N(=O)=O)C(F)(F)F)N(=O)=O",
+  "measured_logS": -5.47,
+  "published_esol_logS": -4.479
+ },
+ {
+  "name": "1-Heptanol",
+  "smiles": "CCCCCCCO",
+  "measured_logS": -1.81,
+  "published_esol_logS": -1.751
+ },
+ {
+  "name": "Theophylline",
+  "smiles": "Cn1c(=O)n(C)c2nc[nH]c2c1=O",
+  "measured_logS": -1.39,
+  "published_esol_logS": -1.452
+ },
+ {
+  "name": "Butethal",
+  "smiles": "CCCCC1(CC)C(=O)NC(=O)NC1=O",
+  "measured_logS": -1.661,
+  "published_esol_logS": -1.974
+ },
+ {
+  "name": "P,P'-DDE",
+  "smiles": "ClC(Cl)=C(c1ccc(Cl)cc1)c2ccc(Cl)cc2",
+  "measured_logS": -6.9,
+  "published_esol_logS": -6.553
+ },
+ {
+  "name": "Methyl octanoate",
+  "smiles": "CCCCCCCC(=O)OC",
+  "measured_logS": -3.17,
+  "published_esol_logS": -2.608
+ },
+ {
+  "name": "1,4-Diethylbenzene",
+  "smiles": "CCc1ccc(CC)cc1",
+  "measured_logS": -3.75,
+  "published_esol_logS": -3.633
+ },
+ {
+  "name": "Terbufos",
+  "smiles": "CCOP(=S)(OCC)SCSC(C)(C)C",
+  "measured_logS": -4.755,
+  "published_esol_logS": -4.367
+ },
+ {
+  "name": "Phenmedipham",
+  "smiles": "COC(=O)Nc1cccc(OC(=O)Nc2cccc(C)c2)c1",
+  "measured_logS": -4.805,
+  "published_esol_logS": -4.229
+ },
+ {
+  "name": "1,1-Dichloroethylene",
+  "smiles": "ClC(=C)Cl",
+  "measured_logS": -1.64,
+  "published_esol_logS": -1.939
+ },
+ {
+  "name": "1-Methylfluorene",
+  "smiles": "Cc1cccc2c1Cc3ccccc32",
+  "measured_logS": -5.22,
+  "published_esol_logS": -4.478
+ },
+ {
+  "name": "Valeraldehyde",
+  "smiles": "CCCCC=O",
+  "measured_logS": -0.85,
+  "published_esol_logS": -1.103
+ },
+ {
+  "name": "Diphenylamine",
+  "smiles": "N(c1ccccc1)c2ccccc2",
+  "measured_logS": -3.5039999999999996,
+  "published_esol_logS": -3.8569999999999998
+ },
+ {
+  "name": "Fenothiocarb",
+  "smiles": "CN(C)C(=O)SCCCCOc1ccccc1",
+  "measured_logS": -3.927,
+  "published_esol_logS": -3.2969999999999997
+ },
+ {
+  "name": "Piperophos",
+  "smiles": "CCCOP(=S)(OCCC)SCC(=O)N1CCCCC1C",
+  "measured_logS": -4.15,
+  "published_esol_logS": -4.637
+ },
+ {
+  "name": "1-Iodoheptane",
+  "smiles": "CCCCCCCI",
+  "measured_logS": -4.81,
+  "published_esol_logS": -3.904
+ },
+ {
+  "name": "3-Chlorobiphenyl",
+  "smiles": "c1c(Cl)cccc1c2ccccc2",
+  "measured_logS": -4.88,
+  "published_esol_logS": -4.685
+ },
+ {
+  "name": "4-Pentene-1-ol",
+  "smiles": "OCCCC=C",
+  "measured_logS": -0.15,
+  "published_esol_logS": -0.7909999999999999
+ },
+ {
+  "name": "Cyclobutyl-5-spirobarbituric acid",
+  "smiles": "O=C2NC(=O)C1(CCC1)C(=O)N2",
+  "measured_logS": -1.655,
+  "published_esol_logS": -0.527
+ },
+ {
+  "name": "menthol",
+  "smiles": "CC(C)C1CCC(C)CC1O",
+  "measured_logS": -2.53,
+  "published_esol_logS": -2.782
+ },
+ {
+  "name": "Isopropyl formate",
+  "smiles": "CC(C)OC=O",
+  "measured_logS": -0.63,
+  "published_esol_logS": -0.684
+ },
+ {
+  "name": "2-Heptanol",
+  "smiles": "CCCCCC(C)O",
+  "measured_logS": -1.55,
+  "published_esol_logS": -1.6780000000000002
+ },
+ {
+  "name": "p-Bromoacetanilide",
+  "smiles": "CC(=O)Nc1ccc(Br)cc1",
+  "measured_logS": -3.083,
+  "published_esol_logS": -3.012
+ },
+ {
+  "name": "brompyrazone",
+  "smiles": "c1ccccc1n2ncc(N)c(Br)c2(=O)",
+  "measured_logS": -3.127,
+  "published_esol_logS": -3.005
+ },
+ {
+  "name": "nifedipine",
+  "smiles": "COC(=O)C1=C(C)NC(=C(C1c2ccccc2N(=O)=O)C(=O)OC)C",
+  "measured_logS": -4.76,
+  "published_esol_logS": -4.248
+ },
+ {
+  "name": "2,7-dimethylquinoline",
+  "smiles": "c2c(C)cc1nc(C)ccc1c2",
+  "measured_logS": -1.94,
+  "published_esol_logS": -3.342
+ },
+ {
+  "name": "1-Octyne",
+  "smiles": "CCCCCCC#C",
+  "measured_logS": -3.66,
+  "published_esol_logS": -2.509
+ },
+ {
+  "name": "cyclobarbital",
+  "smiles": "CCC1(C(=O)NC(=O)NC1=O)C2=CCCCC2",
+  "measured_logS": -2.17,
+  "published_esol_logS": -2.421
+ },
+ {
+  "name": "Chrysene",
+  "smiles": "c1ccc2c(c1)ccc3c4ccccc4ccc23",
+  "measured_logS": -8.057,
+  "published_esol_logS": -5.568
+ },
+ {
+  "name": "Bromacil",
+  "smiles": "CCC(C)n1c(=O)[nH]c(C)c(Br)c1=O",
+  "measured_logS": -2.523,
+  "published_esol_logS": -3.4189999999999996
+ },
+ {
+  "name": "2,2',3,3',5,6-PCB",
+  "smiles": "Clc1cccc(c1Cl)c2c(Cl)c(Cl)cc(Cl)c2Cl",
+  "measured_logS": -8.6,
+  "published_esol_logS": -7.185
+ },
+ {
+  "name": "2-Methylphenol",
+  "smiles": "Cc1ccccc1O",
+  "measured_logS": -0.62,
+  "published_esol_logS": -2.281
+ },
+ {
+  "name": "2,2,5-Trimethylhexane",
+  "smiles": "CC(C)CCC(C)(C)C",
+  "measured_logS": -5.05,
+  "published_esol_logS": -3.6310000000000002
+ },
+ {
+  "name": "1,4-Dimethylnaphthalene",
+  "smiles": "Cc1ccc(C)c2ccccc12",
+  "measured_logS": -4.14,
+  "published_esol_logS": -4.147
+ },
+ {
+  "name": "6-Methylchrysene",
+  "smiles": "Cc1cc2c3ccccc3ccc2c4ccccc14",
+  "measured_logS": -6.57,
+  "published_esol_logS": -5.931
+ },
+ {
+  "name": "2-Pentanone",
+  "smiles": "CCCC(=O)C",
+  "measured_logS": -0.19,
+  "published_esol_logS": -0.846
+ },
+ {
+  "name": "2,2',3,3',5,5',6,6'-PCB",
+  "smiles": "Clc1cc(Cl)c(Cl)c(c1Cl)c2c(Cl)c(Cl)cc(Cl)c2Cl",
+  "measured_logS": -9.15,
+  "published_esol_logS": -8.304
+ },
+ {
+  "name": "Methyl butyrate",
+  "smiles": "CCCOC(=O)CC",
+  "measured_logS": -0.82,
+  "published_esol_logS": -1.545
+ },
+ {
+  "name": "Triamcinolone",
+  "smiles": "CC34CC(O)C1(F)C(CCC2=CC(=O)C=CC12C)C3CC(O)C4(O)C(=O)CO",
+  "measured_logS": -3.68,
+  "published_esol_logS": -2.734
+ },
+ {
+  "name": "p-Aminophenol",
+  "smiles": "Nc1ccc(O)cc1",
+  "measured_logS": -0.8,
+  "published_esol_logS": -1.2309999999999999
+ },
+ {
+  "name": "Benznidazole",
+  "smiles": "O=C(Cn1ccnc1N(=O)=O)NCc2ccccc2",
+  "measured_logS": -2.81,
+  "published_esol_logS": -2.3209999999999997
+ },
+ {
+  "name": "Atovaquone(0,430mg/ml) - neutral",
+  "smiles": "OC4=C(C1CCC(CC1)c2ccc(Cl)cc2)C(=O)c3ccccc3C4=O",
+  "measured_logS": -5.931,
+  "published_esol_logS": -6.269
+ },
+ {
+  "name": "Trietazine",
+  "smiles": "CCNc1nc(Cl)nc(n1)N(CC)CC",
+  "measured_logS": -4.06,
+  "published_esol_logS": -3.233
+ },
+ {
+  "name": "Pyrazinamide",
+  "smiles": "NC(=O)c1cnccn1",
+  "measured_logS": -0.667,
+  "published_esol_logS": -0.674
+ },
+ {
+  "name": "Carbromal",
+  "smiles": "CCC(Br)(CC)C(=O)NC(N)=O",
+  "measured_logS": -2.68,
+  "published_esol_logS": -2.198
+ },
+ {
+  "name": "2,2'-PCB",
+  "smiles": "Clc1ccccc1c2ccccc2Cl",
+  "measured_logS": -5.27,
+  "published_esol_logS": -4.984
+ },
+ {
+  "name": "nitrofurantoin",
+  "smiles": "O=C2CN(N=Cc1ccc(o1)N(=O)=O)C(=O)N2",
+  "measured_logS": -3.38,
+  "published_esol_logS": -1.2429999999999999
+ },
+ {
+  "name": "Nitrofen",
+  "smiles": "Clc2ccc(Oc1ccc(cc1)N(=O)=O)c(Cl)c2",
+  "measured_logS": -5.46,
+  "published_esol_logS": -5.361000000000001
+ },
+ {
+  "name": "Camphor",
+  "smiles": "CC1(C)C2CCC1(C)C(=O)C2",
+  "measured_logS": -1.96,
+  "published_esol_logS": -2.158
+ },
+ {
+  "name": "5-Allyl-5-phenylbarbital",
+  "smiles": "O=C1NC(=O)NC(=O)C1(CC=C)c1ccccc1",
+  "measured_logS": -2.369,
+  "published_esol_logS": -2.36
+ },
+ {
+  "name": "Pentyl propanoate",
+  "smiles": "CCCCC(=O)OCC",
+  "measured_logS": -2.25,
+  "published_esol_logS": -1.899
+ },
+ {
+  "name": "Isopentyl acetate",
+  "smiles": "CC(C)CCOC(=O)C",
+  "measured_logS": -1.92,
+  "published_esol_logS": -1.817
+ },
+ {
+  "name": "3-Hexanoyloxymethylphenyltoin",
+  "smiles": "O=C1N(COC(=O)CCCCC)C(=O)C(N1)(c2ccccc2)c3ccccc3",
+  "measured_logS": -5.886,
+  "published_esol_logS": -4.1530000000000005
+ },
+ {
+  "name": "2,3',5-PCB",
+  "smiles": "Clc1cccc(c1)c2cc(Cl)ccc2Cl",
+  "measured_logS": -6.01,
+  "published_esol_logS": -5.7620000000000005
+ },
+ {
+  "name": "1-Bromopropane",
+  "smiles": "CCCBr",
+  "measured_logS": -1.73,
+  "published_esol_logS": -1.949
+ },
+ {
+  "name": "Propiconazole",
+  "smiles": "CCCC1COC(Cn2cncn2)(O1)c3ccc(Cl)cc3Cl",
+  "measured_logS": -3.4930000000000003,
+  "published_esol_logS": -4.603
+ },
+ {
+  "name": "Formothion",
+  "smiles": "COP(=S)(OC)SCC(=O)N(C)C=O",
+  "measured_logS": -1.995,
+  "published_esol_logS": -2.0869999999999997
+ },
+ {
+  "name": "4-methylpteridine",
+  "smiles": "Cc1ncnc2nccnc12",
+  "measured_logS": -0.466,
+  "published_esol_logS": -1.24
+ },
+ {
+  "name": "Thiourea",
+  "smiles": "NC(=S)N",
+  "measured_logS": 0.32,
+  "published_esol_logS": 0.32899999999999996
+ },
+ {
+  "name": "p-Xylene",
+  "smiles": "Cc1ccc(C)cc1",
+  "measured_logS": -2.77,
+  "published_esol_logS": -3.035
+ },
+ {
+  "name": "1,2-Diethylbenzene",
+  "smiles": "CCc1ccccc1CC",
+  "measured_logS": -3.28,
+  "published_esol_logS": -3.6010000000000004
+ },
+ {
+  "name": "Hexachloroethane",
+  "smiles": "ClC(Cl)(Cl)C(Cl)(Cl)Cl",
+  "measured_logS": -3.67,
+  "published_esol_logS": -4.215
+ },
+ {
+  "name": "Flucythrinate",
+  "smiles": "CC(C)C(C(=O)OC(C#N)c1cccc(Oc2ccccc2)c1)c3ccc(OC(F)F)cc3",
+  "measured_logS": -6.876,
+  "published_esol_logS": -6.877999999999999
+ },
+ {
+  "name": "1-Nitropropane",
+  "smiles": "CCCN(=O)=O",
+  "measured_logS": -0.8,
+  "published_esol_logS": -0.816
+ },
+ {
+  "name": "Menthone",
+  "smiles": "CC(C)C1CCC(C)CC1=O",
+  "measured_logS": -2.35,
+  "published_esol_logS": -2.516
+ },
+ {
+  "name": "RTI 24",
+  "smiles": "CCN2c1cc(Cl)ccc1NC(=O)c3cccnc23",
+  "measured_logS": -5.36,
+  "published_esol_logS": -4.423
+ },
+ {
+  "name": "2,3-Dichloronitrobenzene",
+  "smiles": "O=N(=O)c1c(Cl)c(Cl)ccc1",
+  "measured_logS": -3.48,
+  "published_esol_logS": -3.322
+ },
+ {
+  "name": "thiamylal",
+  "smiles": "CCCC(C)C1(CC=C)C(=O)NC(=S)NC1=O",
+  "measured_logS": -3.46,
+  "published_esol_logS": -3.063
+ },
+ {
+  "name": "Fluoranthene",
+  "smiles": "c1ccc2c(c1)c3cccc4cccc2c34",
+  "measured_logS": -6.0,
+  "published_esol_logS": -4.957
+ },
+ {
+  "name": "Propylisopropylether",
+  "smiles": "CCCOC(C)C",
+  "measured_logS": -1.34,
+  "published_esol_logS": -1.354
+ },
+ {
+  "name": "1,3-Dimethylnaphthalene",
+  "smiles": "Cc1cc(C)c2ccccc2c1",
+  "measured_logS": -4.29,
+  "published_esol_logS": -4.147
+ },
+ {
+  "name": "diethylstilbestrol",
+  "smiles": "CCC(=C(CC)c1ccc(O)cc1)c2ccc(O)cc2",
+  "measured_logS": -4.07,
+  "published_esol_logS": -5.074
+ },
+ {
+  "name": "Chlorothalonil",
+  "smiles": "c1(C#N)c(Cl)c(C#N)c(Cl)c(Cl)c(Cl)1",
+  "measured_logS": -5.64,
+  "published_esol_logS": -3.995
+ },
+ {
+  "name": "2,3',4',5-PCB",
+  "smiles": "Clc1ccc(Cl)c(c1)c2ccc(Cl)c(Cl)c2",
+  "measured_logS": -7.25,
+  "published_esol_logS": -6.312
+ },
+ {
+  "name": "styrene oxide",
+  "smiles": "C1OC1c2ccccc2",
+  "measured_logS": -1.6,
+  "published_esol_logS": -1.8259999999999998
+ },
+ {
+  "name": "Isopropylbenzene",
+  "smiles": "CC(C)c1ccccc1",
+  "measured_logS": -3.27,
+  "published_esol_logS": -3.265
+ },
+ {
+  "name": "Deoxycorticosterone",
+  "smiles": "CC12CCC3C(CCC4=CC(=O)CCC34C)C2CCC1C(=O)CO",
+  "measured_logS": -3.45,
+  "published_esol_logS": -3.9389999999999996
+ },
+ {
+  "name": "chlorquinox",
+  "smiles": "c2(Cl)c(Cl)c(Cl)c1nccnc1c2(Cl)",
+  "measured_logS": -5.43,
+  "published_esol_logS": -4.438
+ },
+ {
+  "name": "L-arabinose",
+  "smiles": "C1OC(O)C(O)C(O)C1O",
+  "measured_logS": 0.39,
+  "published_esol_logS": 0.601
+ },
+ {
+  "name": "Dichloromethane",
+  "smiles": "ClCCl",
+  "measured_logS": -0.63,
+  "published_esol_logS": -1.156
+ },
+ {
+  "name": "1-Ethylnaphthalene",
+  "smiles": "CCc1cccc2ccccc12",
+  "measured_logS": -4.17,
+  "published_esol_logS": -4.1
+ },
+ {
+  "name": "Methyl formate",
+  "smiles": "COC=O",
+  "measured_logS": 0.58,
+  "published_esol_logS": -0.048
+ },
+ {
+  "name": "o-Nitrophenol",
+  "smiles": "Oc1ccccc1N(=O)=O",
+  "measured_logS": -1.74,
+  "published_esol_logS": -2.318
+ },
+ {
+  "name": "thymine",
+  "smiles": "Cc1c[nH]c(=O)[nH]c1=O",
+  "measured_logS": -1.506,
+  "published_esol_logS": -0.78
+ },
+ {
+  "name": "2-Methylpropane",
+  "smiles": "CC(C)C",
+  "measured_logS": -2.55,
+  "published_esol_logS": -1.891
+ },
+ {
+  "name": "Inosine",
+  "smiles": "OCC1OC(C(O)C1O)n2cnc3c(O)ncnc23",
+  "measured_logS": -1.23,
+  "published_esol_logS": -0.8340000000000001
+ },
+ {
+  "name": "Ioxynil",
+  "smiles": "Oc1c(I)cc(C#N)cc1I",
+  "measured_logS": -3.61,
+  "published_esol_logS": -4.615
+ },
+ {
+  "name": "Niclosamide",
+  "smiles": "Oc1ccc(Cl)cc1C(=O)Nc2ccc(cc2Cl)N(=O)=O",
+  "measured_logS": -4.7,
+  "published_esol_logS": -5.032
+ },
+ {
+  "name": "Pentane",
+  "smiles": "CCCCC",
+  "measured_logS": -3.18,
+  "published_esol_logS": -2.261
+ },
+ {
+  "name": "Phenol",
+  "smiles": "c1ccccc1O",
+  "measured_logS": 0.0,
+  "published_esol_logS": -1.9909999999999999
+ },
+ {
+  "name": "2-aminoanthracene",
+  "smiles": "Nc3ccc2cc1ccccc1cc2c3",
+  "measured_logS": -5.17,
+  "published_esol_logS": -3.7889999999999997
+ },
+ {
+  "name": "theobromine",
+  "smiles": "Cn1cnc2n(C)c(=O)[nH]c(=O)c12",
+  "measured_logS": -2.523,
+  "published_esol_logS": -1.05
+ },
+ {
+  "name": "Isoquinoline",
+  "smiles": "c1ccc2cnccc2c1",
+  "measured_logS": -1.45,
+  "published_esol_logS": -2.531
+ },
+ {
+  "name": "Anilofos",
+  "smiles": "COP(=S)(OC)SCC(=O)N(C(C)C)c1ccc(Cl)cc1",
+  "measured_logS": -4.4319999999999995,
+  "published_esol_logS": -5.106
+ },
+ {
+  "name": "Hexylbenzene",
+  "smiles": "CCCCCCc1ccccc1",
+  "measured_logS": -5.21,
+  "published_esol_logS": -4.22
+ },
+ {
+  "name": "2-Chlorobiphenyl",
+  "smiles": "Clc1ccccc1c2ccccc2",
+  "measured_logS": -4.54,
+  "published_esol_logS": -4.5280000000000005
+ },
+ {
+  "name": "2-Methyl-1-Pentene",
+  "smiles": "CCCC(=C)C",
+  "measured_logS": -3.03,
+  "published_esol_logS": -2.3480000000000003
+ },
+ {
+  "name": "2,3,4-Trimethylpentane",
+  "smiles": "CC(C)C(C)C(C)C",
+  "measured_logS": -4.8,
+  "published_esol_logS": -3.2760000000000002
+ },
+ {
+  "name": "Pentachlorobenzene",
+  "smiles": "Clc1cc(Cl)c(Cl)c(Cl)c1Cl",
+  "measured_logS": -5.65,
+  "published_esol_logS": -5.167999999999999
+ },
+ {
+  "name": "m-Nitrophenol",
+  "smiles": "Oc1cccc(c1)N(=O)=O",
+  "measured_logS": -1.01,
+  "published_esol_logS": -2.318
+ },
+ {
+  "name": "1-Decene",
+  "smiles": "CCCCCCCCC=C",
+  "measured_logS": -5.51,
+  "published_esol_logS": -3.781
+ },
+ {
+  "name": "Glyceryl triacetate",
+  "smiles": "CC(=O)OCC(COC(=O)C)OC(=O)C",
+  "measured_logS": -0.6,
+  "published_esol_logS": -1.285
+ },
+ {
+  "name": "dimethirimol",
+  "smiles": "CCCCc1c(C)nc(nc1O)N(C)C",
+  "measured_logS": -2.24,
+  "published_esol_logS": -3.57
+ },
+ {
+  "name": "Cyfluthrin",
+  "smiles": "CC1(C)C(C=C(Cl)Cl)C1C(=O)OC(C#N)c2ccc(F)c(Oc3ccccc3)c2",
+  "measured_logS": -7.337000000000001,
+  "published_esol_logS": -6.84
+ },
+ {
+  "name": "Pyridine",
+  "smiles": "c1ccncc1",
+  "measured_logS": 0.76,
+  "published_esol_logS": -1.4809999999999999
+ },
+ {
+  "name": "1-Bromoheptane",
+  "smiles": "CCCCCCCBr",
+  "measured_logS": -4.43,
+  "published_esol_logS": -3.366
+ },
+ {
+  "name": "3,4-Dimethylpyridine",
+  "smiles": "Cc1ccncc1C",
+  "measured_logS": 0.36,
+  "published_esol_logS": -2.0669999999999997
+ },
+ {
+  "name": "Fludrocortisone",
+  "smiles": "CC34CC(O)C1(F)C(CCC2=CC(=O)CCC12C)C3CCC4(O)C(=O)CO",
+  "measured_logS": -3.43,
+  "published_esol_logS": -3.1719999999999997
+ },
+ {
+  "name": "ethiofencarb",
+  "smiles": "CCSCc1ccccc1OC(=O)NC",
+  "measured_logS": -2.09,
+  "published_esol_logS": -2.855
+ },
+ {
+  "name": "Malonic acid diethylester",
+  "smiles": "CCOC(=O)CC(=O)OCC",
+  "measured_logS": -0.82,
+  "published_esol_logS": -1.413
+ },
+ {
+  "name": "d-Limonene",
+  "smiles": "CC1=CCC(CC1)C(C)=C",
+  "measured_logS": -4.26,
+  "published_esol_logS": -3.429
+ },
+ {
+  "name": "Indan",
+  "smiles": "C1Cc2ccccc2C1",
+  "measured_logS": -3.04,
+  "published_esol_logS": -3.057
+ },
+ {
+  "name": "p-t-Butylphenol",
+  "smiles": "CC(C)(C)c1ccc(O)cc1",
+  "measured_logS": -2.41,
+  "published_esol_logS": -3.1919999999999997
+ },
+ {
+  "name": "Cyclopropyl-5-spirobarbituric acid",
+  "smiles": "O=C2NC(=O)C1(CC1)C(=O)N2",
+  "measured_logS": -1.886,
+  "published_esol_logS": -0.08800000000000001
+ },
+ {
+  "name": "m-Chloroiodobenzene",
+  "smiles": "Clc1cccc(I)c1",
+  "measured_logS": -3.55,
+  "published_esol_logS": -4.3839999999999995
+ },
+ {
+  "name": "1-Bromonapthalene",
+  "smiles": "Brc1cccc2ccccc12",
+  "measured_logS": -4.35,
+  "published_esol_logS": -4.434
+ },
+ {
+  "name": "trans-2-Pentene",
+  "smiles": "CC/C=C/C",
+  "measured_logS": -2.54,
+  "published_esol_logS": -2.076
+ },
+ {
+  "name": "2,6-Dimethylpyridine",
+  "smiles": "Cc1cccc(C)n1",
+  "measured_logS": 0.45,
+  "published_esol_logS": -2.0980000000000003
+ },
+ {
+  "name": "Trichloroethylene",
+  "smiles": "ClC=C(Cl)Cl",
+  "measured_logS": -1.96,
+  "published_esol_logS": -2.312
+ },
+ {
+  "name": "1-Napthylamine",
+  "smiles": "Nc1cccc2ccccc12",
+  "measured_logS": -1.92,
+  "published_esol_logS": -2.721
+ },
+ {
+  "name": "m-Xylene",
+  "smiles": "Cc1cccc(C)c1",
+  "measured_logS": -2.82,
+  "published_esol_logS": -3.035
+ },
+ {
+  "name": "2-hydroxypteridine",
+  "smiles": "Oc2ncc1nccnc1n2",
+  "measured_logS": -1.9469999999999998,
+  "published_esol_logS": -1.4040000000000001
+ },
+ {
+  "name": "Methanol",
+  "smiles": "CO",
+  "measured_logS": 1.57,
+  "published_esol_logS": 0.441
+ },
+ {
+  "name": "Amobarbital",
+  "smiles": "CCC1(CCC(C)C)C(=O)NC(=O)NC1=O",
+  "measured_logS": -2.468,
+  "published_esol_logS": -2.312
+ },
+ {
+  "name": "2-Butanone",
+  "smiles": "CCC(=O)C",
+  "measured_logS": 0.52,
+  "published_esol_logS": -0.491
+ },
+ {
+  "name": "5-fluorouracil",
+  "smiles": "Fc1c[nH]c(=O)[nH]c1=O",
+  "measured_logS": -1.077,
+  "published_esol_logS": -0.792
+ },
+ {
+  "name": "tubercidin",
+  "smiles": "Nc1ncnc2n(ccc12)C3OC(CO)C(O)C3O",
+  "measured_logS": -1.95,
+  "published_esol_logS": -0.892
+ },
+ {
+  "name": "1,3-Benzenediol",
+  "smiles": "Oc1cccc(O)c1",
+  "measured_logS": 0.81,
+  "published_esol_logS": -1.59
+ },
+ {
+  "name": "1-Hexanol",
+  "smiles": "CCCCCCO",
+  "measured_logS": -1.24,
+  "published_esol_logS": -1.3969999999999998
+ },
+ {
+  "name": "1-Chloropentane",
+  "smiles": "CCCCCCl",
+  "measured_logS": -2.73,
+  "published_esol_logS": -2.294
+ },
+ {
+  "name": "1,3-Butadiene",
+  "smiles": "C=CC=C",
+  "measured_logS": -1.87,
+  "published_esol_logS": -1.376
+ },
+ {
+  "name": "Propyl acetate",
+  "smiles": "CCCOC(=O)C",
+  "measured_logS": -0.72,
+  "published_esol_logS": -1.125
+ },
+ {
+  "name": "5,6,7,8-tetrahydro-2-naphthol",
+  "smiles": "Oc2ccc1CCCCc1c2",
+  "measured_logS": -1.99,
+  "published_esol_logS": -3.0860000000000003
+ },
+ {
+  "name": "chloroacetamide",
+  "smiles": "NC(=O)CCl",
+  "measured_logS": -0.02,
+  "published_esol_logS": -0.106
+ },
+ {
+  "name": "Iodofenphos",
+  "smiles": "COP(=S)(OC)Oc1cc(Cl)c(I)cc1Cl",
+  "measured_logS": -6.62,
+  "published_esol_logS": -6.148
+ },
+ {
+  "name": "4-Chlorotoluene",
+  "smiles": "Cc1ccc(Cl)cc1",
+  "measured_logS": -3.08,
+  "published_esol_logS": -3.2969999999999997
+ },
+ {
+  "name": "Metribuzin",
+  "smiles": "CSc1nnc(c(=O)n1N)C(C)(C)C",
+  "measured_logS": -2.253,
+  "published_esol_logS": -2.324
+ },
+ {
+  "name": "Tricresyl phosphate",
+  "smiles": "Cc1ccc(OP(=O)(Oc2cccc(C)c2)Oc3ccccc3C)cc1",
+  "measured_logS": -6.01,
+  "published_esol_logS": -6.39
+ },
+ {
+  "name": "Caproaldehyde",
+  "smiles": "CCCCCC=O",
+  "measured_logS": -1.3,
+  "published_esol_logS": -1.4569999999999999
+ },
+ {
+  "name": "Butamben",
+  "smiles": "CCCCOC(=O)c1ccc(N)cc1",
+  "measured_logS": -3.082,
+  "published_esol_logS": -3.0389999999999997
+ },
+ {
+  "name": "RTI 3",
+  "smiles": "O2c1cc(C)ccc1N(C)C(=O)c3cc(N)cnc23",
+  "measured_logS": -3.043,
+  "published_esol_logS": -3.049
+ },
+ {
+  "name": "Nerol",
+  "smiles": "CC(C)=CCC/C(C)=C\\CO",
+  "measured_logS": -2.46,
+  "published_esol_logS": -2.603
+ },
+ {
+  "name": "2,4'-PCB",
+  "smiles": "Clc1ccc(cc1)c2ccccc2Cl",
+  "measured_logS": -5.28,
+  "published_esol_logS": -5.142
+ },
+ {
+  "name": "3-Octanoyloxymethylphenytoin",
+  "smiles": "O=C1N(COC(=O)CCCCCCC)C(=O)C(N1)(c2ccccc2)c3ccccc3",
+  "measured_logS": -6.523,
+  "published_esol_logS": -4.84
+ },
+ {
+  "name": "Nitroethane",
+  "smiles": "CCN(=O)=O",
+  "measured_logS": -0.22,
+  "published_esol_logS": -0.462
+ },
+ {
+  "name": "Ethalfluralin",
+  "smiles": "CCN(CC(C)=C)c1c(cc(cc1N(=O)=O)C(F)(F)F)N(=O)=O",
+  "measured_logS": -6.124,
+  "published_esol_logS": -5.063
+ },
+ {
+  "name": "1,2,3,4-Tetrachlorobenzene",
+  "smiles": "Clc1ccc(Cl)c(Cl)c1Cl",
+  "measured_logS": -4.57,
+  "published_esol_logS": -4.546
+ },
+ {
+  "name": "Meprobamate",
+  "smiles": "CCCC(C)(COC(N)=O)COC(N)=O",
+  "measured_logS": -1.807,
+  "published_esol_logS": -1.376
+ },
+ {
+  "name": "pregnenolone",
+  "smiles": "CC(=O)C3CCC4C2CC=C1CC(O)CCC1(C)C2CCC34C",
+  "measured_logS": -4.65,
+  "published_esol_logS": -4.342
+ },
+ {
+  "name": "Iodomethane",
+  "smiles": "CI",
+  "measured_logS": -1.0,
+  "published_esol_logS": -1.646
+ },
+ {
+  "name": "cycloheximide",
+  "smiles": "CC1CC(C)C(=O)C(C1)C(O)CC2CC(=O)NC(=O)C2",
+  "measured_logS": -1.13,
+  "published_esol_logS": -1.5319999999999998
+ },
+ {
+  "name": "3-Heptanoyloxymethylphenytoin",
+  "smiles": "O=C1N(COC(=O)CCCCCC)C(=O)C(N1)(c2ccccc2)c3ccccc3",
+  "measured_logS": -6.301,
+  "published_esol_logS": -4.496
+ },
+ {
+  "name": "isophorone",
+  "smiles": "CC1=CC(=O)CC(C)(C)C1",
+  "measured_logS": -1.06,
+  "published_esol_logS": -2.015
+ },
+ {
+  "name": "Butabarbital",
+  "smiles": "O=C1NC(=O)NC(=O)C1(CC)C(C)CC",
+  "measured_logS": -2.39,
+  "published_esol_logS": -1.9580000000000002
+ },
+ {
+  "name": "5-Nonanone",
+  "smiles": "CCCCC(=O)CCCC",
+  "measured_logS": -2.58,
+  "published_esol_logS": -2.329
+ },
+ {
+  "name": "Glutethimide",
+  "smiles": "CCC1(CCC(=O)NC1=O)c2ccccc2",
+  "measured_logS": -2.3369999999999997,
+  "published_esol_logS": -2.591
+ },
+ {
+  "name": "3-Methylpentane",
+  "smiles": "CCC(C)CC",
+  "measured_logS": -3.68,
+  "published_esol_logS": -2.6
+ },
+ {
+  "name": "Etofenprox",
+  "smiles": "CCOc1ccc(cc1)C(C)(C)COCc3cccc(Oc2ccccc2)c3",
+  "measured_logS": -8.6,
+  "published_esol_logS": -6.896
+ },
+ {
+  "name": "Methaqualone",
+  "smiles": "Cc1ccccc1n3c(C)nc2ccccc2c3=O",
+  "measured_logS": -2.925,
+  "published_esol_logS": -3.8810000000000002
+ },
+ {
+  "name": "Chloroacetonitrile",
+  "smiles": "ClCC#N",
+  "measured_logS": -0.092,
+  "published_esol_logS": -0.44799999999999995
+ },
+ {
+  "name": "Trichloronate",
+  "smiles": "CCOP(=S)(CC)Oc1cc(Cl)c(Cl)cc1Cl",
+  "measured_logS": -5.752000000000001,
+  "published_esol_logS": -5.225
+ },
+ {
+  "name": "Ethisterone",
+  "smiles": "CC12CCC(=O)C=C1CCC3C2CCC4(C)C3CCC4(O)C#C",
+  "measured_logS": -5.66,
+  "published_esol_logS": -3.858
+ },
+ {
+  "name": "Pyridazine",
+  "smiles": "c1ccnnc1",
+  "measured_logS": 1.1,
+  "published_esol_logS": -0.619
+ },
+ {
+  "name": "1,2,3,5-Tetrachlorobenzene",
+  "smiles": "Clc1cc(Cl)c(Cl)c(Cl)c1",
+  "measured_logS": -4.63,
+  "published_esol_logS": -4.621
+ },
+ {
+  "name": "Diosgenin",
+  "smiles": "C1C(O)CCC2(C)CC3CCC4(C)C5(C)CC6OCC(C)CC6OC5CC4C3C=C21",
+  "measured_logS": -7.32,
+  "published_esol_logS": -5.681
+ },
+ {
+  "name": "o-Aminophenol",
+  "smiles": "Nc1ccccc1O",
+  "measured_logS": -0.72,
+  "published_esol_logS": -1.465
+ },
+ {
+  "name": "Ethyl nonanoate",
+  "smiles": "CCCCCCCCC(=O)OCC",
+  "measured_logS": -3.8,
+  "published_esol_logS": -3.3160000000000003
+ },
+ {
+  "name": "metalaxyl",
+  "smiles": "COCC(=O)N(C(C)C(=O)OC)c1c(C)cccc1C",
+  "measured_logS": -1.601,
+  "published_esol_logS": -2.87
+ },
+ {
+  "name": "Propoxur",
+  "smiles": "CNC(=O)Oc1ccccc1OC(C)C",
+  "measured_logS": -2.05,
+  "published_esol_logS": -2.4090000000000003
+ },
+ {
+  "name": "2-Chlorobutane",
+  "smiles": "CCC(C)Cl",
+  "measured_logS": -1.96,
+  "published_esol_logS": -1.94
+ },
+ {
+  "name": "2-Napthol",
+  "smiles": "Oc1ccc2ccccc2c1",
+  "measured_logS": -2.28,
+  "published_esol_logS": -3.08
+ },
+ {
+  "name": "Oxadiazon",
+  "smiles": "CC(C)Oc1cc(c(Cl)cc1Cl)n2nc(oc2=O)C(C)(C)C",
+  "measured_logS": -5.696000000000001,
+  "published_esol_logS": -5.265
+ },
+ {
+  "name": "1-Hexyne",
+  "smiles": "CCCCC#C",
+  "measured_logS": -2.36,
+  "published_esol_logS": -1.801
+ },
+ {
+  "name": "1-Nonyne",
+  "smiles": "CCCCCCCC#C",
+  "measured_logS": -4.24,
+  "published_esol_logS": -2.864
+ },
+ {
+  "name": "2-Chlorotoluene",
+  "smiles": "Cc1ccccc1Cl",
+  "measured_logS": -3.52,
+  "published_esol_logS": -3.2969999999999997
+ },
+ {
+  "name": "Diisopropyl ether",
+  "smiles": "CC(C)OC(C)C",
+  "measured_logS": -1.1,
+  "published_esol_logS": -1.281
+ },
+ {
+  "name": "Dapsone",
+  "smiles": "Nc1ccc(cc1)S(=O)(=O)c2ccc(N)cc2",
+  "measured_logS": -3.094,
+  "published_esol_logS": -2.464
+ },
+ {
+  "name": "Methyl hydrazine",
+  "smiles": "CNN",
+  "measured_logS": 1.34,
+  "published_esol_logS": 0.5429999999999999
+ },
+ {
+  "name": "Propyne",
+  "smiles": "CC#C",
+  "measured_logS": -0.41,
+  "published_esol_logS": -0.672
+ },
+ {
+  "name": "Phoxim",
+  "smiles": "CCOP(=S)(OCC)ON=C(C#N)c1ccccc1",
+  "measured_logS": -4.862,
+  "published_esol_logS": -4.5569999999999995
+ },
+ {
+  "name": "Propetamphos",
+  "smiles": "CCNP(=S)(OC)OC(=CC(=O)OC(C)C)C",
+  "measured_logS": -3.408,
+  "published_esol_logS": -2.826
+ },
+ {
+  "name": "Acrolein",
+  "smiles": "C=CC=O",
+  "measured_logS": 0.57,
+  "published_esol_logS": -0.184
+ },
+ {
+  "name": "Hypoxanthine",
+  "smiles": "O=c1[nH]cnc2nc[nH]c12",
+  "measured_logS": -2.296,
+  "published_esol_logS": -0.6559999999999999
+ },
+ {
+  "name": "6-hydroxyquinoline",
+  "smiles": "Oc2ccc1ncccc1c2",
+  "measured_logS": -2.16,
+  "published_esol_logS": -2.725
+ },
+ {
+  "name": "Fluorobenzene",
+  "smiles": "Fc1ccccc1",
+  "measured_logS": -1.8,
+  "published_esol_logS": -2.5140000000000002
+ },
+ {
+  "name": "1-Chloropropane",
+  "smiles": "CCCCl",
+  "measured_logS": -1.47,
+  "published_esol_logS": -1.585
+ },
+ {
+  "name": "Ethyl acetate",
+  "smiles": "CCOC(=O)C",
+  "measured_logS": -0.04,
+  "published_esol_logS": -0.77
+ },
+ {
+  "name": "2,2-Dimethylpentane",
+  "smiles": "CCCC(C)(C)C",
+  "measured_logS": -4.36,
+  "published_esol_logS": -2.938
+ },
+ {
+  "name": "Pentamethylbenzene",
+  "smiles": "Cc1cc(C)c(C)c(C)c1C",
+  "measured_logS": -4.0,
+  "published_esol_logS": -3.9930000000000003
+ },
+ {
+  "name": "eucalyptol",
+  "smiles": "CC12CCC(CC1)C(C)(C)O2",
+  "measured_logS": -1.64,
+  "published_esol_logS": -2.5789999999999997
+ },
+ {
+  "name": "dibutyl sebacate",
+  "smiles": "CCCCOC(=O)CCCCCCCCC(=O)OCCCC",
+  "measured_logS": -3.8960000000000004,
+  "published_esol_logS": -4.726
+ },
+ {
+  "name": "4,4'-PCB",
+  "smiles": "Clc1ccc(cc1)c2ccc(Cl)cc2",
+  "measured_logS": -6.56,
+  "published_esol_logS": -5.2989999999999995
+ },
+ {
+  "name": "2,3-Dimethylpyridine",
+  "smiles": "Cc1cccnc1C",
+  "measured_logS": 0.38,
+  "published_esol_logS": -2.0669999999999997
+ },
+ {
+  "name": "Carvone",
+  "smiles": "CC(=C)C1CC=C(C)C(=O)C1",
+  "measured_logS": -2.06,
+  "published_esol_logS": -2.042
+ },
+ {
+  "name": "Carbophenthion",
+  "smiles": "CCOP(=S)(OCC)SCSc1ccc(Cl)cc1",
+  "measured_logS": -5.736000000000001,
+  "published_esol_logS": -5.827999999999999
+ },
+ {
+  "name": "Etoposide (148-167,25mg/ml)",
+  "smiles": "COc1cc(cc(OC)c1O)C6C2C(COC2=O)C(OC4OC3COC(C)OC3C(O)C4O)c7cc5OCOc5cc67",
+  "measured_logS": -3.571,
+  "published_esol_logS": -3.292
+ },
+ {
+  "name": "Perylene",
+  "smiles": "c1cc2cccc3c4cccc5cccc(c(c1)c23)c54",
+  "measured_logS": -8.804,
+  "published_esol_logS": -6.007000000000001
+ },
+ {
+  "name": "2,4-Dinitrotoluene",
+  "smiles": "Cc1ccc(cc1N(=O)=O)N(=O)=O",
+  "measured_logS": -2.82,
+  "published_esol_logS": -2.6039999999999996
+ },
+ {
+  "name": "2-bromonaphthalene",
+  "smiles": "c1c(Br)ccc2ccccc12",
+  "measured_logS": -4.4,
+  "published_esol_logS": -4.434
+ },
+ {
+  "name": "Formetanate",
+  "smiles": "CNC(=O)Oc1cccc(N=CN(C)C)c1",
+  "measured_logS": -2.34,
+  "published_esol_logS": -1.8459999999999999
+ },
+ {
+  "name": "6-methoxypteridine",
+  "smiles": "COc2cnc1ncncc1n2",
+  "measured_logS": -1.139,
+  "published_esol_logS": -1.589
+ },
+ {
+  "name": "nevirapine",
+  "smiles": "Cc3ccnc4N(C1CC1)c2ncccc2C(=O)Nc34",
+  "measured_logS": -3.19,
+  "published_esol_logS": -3.397
+ },
+ {
+  "name": "Isazofos",
+  "smiles": "CCOP(=S)(OCC)Oc1nc(Cl)n(n1)C(C)C",
+  "measured_logS": -3.658,
+  "published_esol_logS": -3.76
+ },
+ {
+  "name": "2-Methyl-1,3-Butadiene",
+  "smiles": "CC(=C)C=C",
+  "measured_logS": -2.03,
+  "published_esol_logS": -1.714
+ },
+ {
+  "name": "linalool",
+  "smiles": "CC(C)=CCCC(O)(C)C=C",
+  "measured_logS": -1.99,
+  "published_esol_logS": -2.399
+ },
+ {
+  "name": "Fenthion",
+  "smiles": "COP(=S)(OC)Oc1ccc(SC)c(C)c1",
+  "measured_logS": -4.57,
+  "published_esol_logS": -4.265
+ },
+ {
+  "name": "Cyclohexanol",
+  "smiles": "OC1CCCCC1",
+  "measured_logS": -0.44,
+  "published_esol_logS": -1.261
+ },
+ {
+  "name": "5-Allyl-5-methylbarbital",
+  "smiles": "O=C1NC(=O)NC(=O)C1(C)CC=C",
+  "measured_logS": -1.16,
+  "published_esol_logS": -1.013
+ },
+ {
+  "name": "Epiandrosterone",
+  "smiles": "CC34CCC1C(CCC2CC(O)CCC12C)C3CCC4=O",
+  "measured_logS": -4.16,
+  "published_esol_logS": -3.8819999999999997
+ },
+ {
+  "name": "mannitol",
+  "smiles": "OCC(O)C(O)C(O)C(O)CO",
+  "measured_logS": 0.06,
+  "published_esol_logS": 0.647
+ },
+ {
+  "name": "4-Methylbiphenyl",
+  "smiles": "Cc1ccc(cc1)c2ccccc2",
+  "measured_logS": -4.62,
+  "published_esol_logS": -4.4239999999999995
+ },
+ {
+  "name": "Atrazine",
+  "smiles": "CCNc1nc(Cl)nc(NC(C)C)n1",
+  "measured_logS": -3.85,
+  "published_esol_logS": -3.069
+ },
+ {
+  "name": "Phenylthiourea",
+  "smiles": "NC(=S)Nc1ccccc1",
+  "measured_logS": -1.77,
+  "published_esol_logS": -1.7009999999999998
+ },
+ {
+  "name": "4-Heptanone",
+  "smiles": "CCCC(=O)CCC",
+  "measured_logS": -1.3,
+  "published_esol_logS": -1.62
+ },
+ {
+  "name": "3,3-Dimethyl-2-butanone",
+  "smiles": "CC(=O)C(C)(C)C",
+  "measured_logS": -0.72,
+  "published_esol_logS": -1.25
+ },
+ {
+  "name": "4-Chlorophenol",
+  "smiles": "Oc1ccc(Cl)cc1",
+  "measured_logS": -0.7,
+  "published_esol_logS": -2.761
+ },
+ {
+  "name": "Cyclohexanone",
+  "smiles": "O=C1CCCCC1",
+  "measured_logS": -0.6,
+  "published_esol_logS": -0.996
+ },
+ {
+  "name": "m-Methylaniline",
+  "smiles": "Cc1cccc(N)c1",
+  "measured_logS": -0.85,
+  "published_esol_logS": -1.954
+ },
+ {
+  "name": "Trichloroacetonitrile",
+  "smiles": "ClC(Cl)(Cl)C#N",
+  "measured_logS": -2.168,
+  "published_esol_logS": -2.019
+ },
+ {
+  "name": "norflurazon",
+  "smiles": "CNc2cnn(c1cccc(c1)C(F)(F)F)c(=O)c2Cl",
+  "measured_logS": -4.046,
+  "published_esol_logS": -4.029
+ },
+ {
+  "name": "2-Decanone",
+  "smiles": "CCCCCCCCC(=O)C",
+  "measured_logS": -3.3,
+  "published_esol_logS": -2.617
+ },
+ {
+  "name": "Ipazine",
+  "smiles": "CCN(CC)c1nc(Cl)nc(NC(C)C)n1",
+  "measured_logS": -3.785,
+  "published_esol_logS": -3.497
+ },
+ {
+  "name": "Benzocaine",
+  "smiles": "CCOC(=O)c1ccc(N)cc1",
+  "measured_logS": -2.616,
+  "published_esol_logS": -2.383
+ },
+ {
+  "name": "1,2,4-Trichlorobenzene",
+  "smiles": "Clc1ccc(Cl)c(Cl)c1",
+  "measured_logS": -3.59,
+  "published_esol_logS": -4.083
+ },
+ {
+  "name": "Triazolam",
+  "smiles": "Cc3nnc4CN=C(c1ccccc1Cl)c2cc(Cl)ccc2n34",
+  "measured_logS": -4.09,
+  "published_esol_logS": -3.948
+ },
+ {
+  "name": "1,2-Benzenediol",
+  "smiles": "Oc1ccccc1O",
+  "measured_logS": 0.62,
+  "published_esol_logS": -1.635
+ },
+ {
+  "name": "Reverse Transcriptase inhibitor 1",
+  "smiles": "CCN2c1ncccc1N(C)C(=O)c3cccnc23",
+  "measured_logS": -2.62,
+  "published_esol_logS": -2.7939999999999996
+ },
+ {
+  "name": "Dimethyl sulfide",
+  "smiles": "CSC",
+  "measured_logS": -0.45,
+  "published_esol_logS": -0.758
+ },
+ {
+  "name": "2-Bromotoluene",
+  "smiles": "Cc1ccccc1Br",
+  "measured_logS": -2.23,
+  "published_esol_logS": -3.667
+ },
+ {
+  "name": "O-Ethyl carbamate",
+  "smiles": "CCOC(=O)N",
+  "measured_logS": 0.85,
+  "published_esol_logS": -0.218
+ },
+ {
+  "name": "megestrol acetate",
+  "smiles": "CC(=O)OC3(CCC4C2C=C(C)C1=CC(=O)CCC1(C)C2CCC34C)C(C)=O",
+  "measured_logS": -5.35,
+  "published_esol_logS": -4.417
+ },
+ {
+  "name": "2,4-Dimethyl-3-pentanol",
+  "smiles": "CC(C)C(O)C(C)C",
+  "measured_logS": -1.22,
+  "published_esol_logS": -1.6469999999999998
+ },
+ {
+  "name": "Napthalene",
+  "smiles": "c1ccc2ccccc2c1",
+  "measured_logS": -3.6,
+  "published_esol_logS": -3.468
+ },
+ {
+  "name": "N-Ethylaniline",
+  "smiles": "CCNc1ccccc1",
+  "measured_logS": -1.7,
+  "published_esol_logS": -2.3890000000000002
+ },
+ {
+  "name": "Phenytoin",
+  "smiles": "O=C1NC(=O)C(N1)(c2ccccc2)c3ccccc3",
+  "measured_logS": -4.0969999999999995,
+  "published_esol_logS": -3.057
+ },
+ {
+  "name": "7,12-Dimethylbenz(a)anthracene",
+  "smiles": "Cc1c2ccccc2c(C)c3ccc4ccccc4c13",
+  "measured_logS": -7.02,
+  "published_esol_logS": -6.297000000000001
+ },
+ {
+  "name": "Dialifor",
+  "smiles": "CCOP(=S)(OCC)SC(CCl)N1C(=O)c2ccccc2C1=O",
+  "measured_logS": -6.34,
+  "published_esol_logS": -5.026
+ },
+ {
+  "name": "Methoxychlor",
+  "smiles": "COc1ccc(cc1)C(c2ccc(OC)cc2)C(Cl)(Cl)Cl",
+  "measured_logS": -6.89,
+  "published_esol_logS": -5.537999999999999
+ },
+ {
+  "name": "TEFLUBENZURON",
+  "smiles": "Fc1cccc(F)c1C(=O)NC(=O)Nc2cc(Cl)c(F)c(Cl)c2F",
+  "measured_logS": -7.28,
+  "published_esol_logS": -5.462000000000001
+ },
+ {
+  "name": "3-Pentanoyloxymethylphenytoin",
+  "smiles": "O=C1N(COC(=O)CCCC)C(=O)C(N1)(c2ccccc2)c3ccccc3",
+  "measured_logS": -4.678,
+  "published_esol_logS": -3.81
+ },
+ {
+  "name": "Monuron",
+  "smiles": "CN(C)C(=O)Nc1ccc(Cl)cc1",
+  "measured_logS": -2.89,
+  "published_esol_logS": -2.6710000000000003
+ },
+ {
+  "name": "Flutriafol",
+  "smiles": "OC(Cn1cncn1)(c2ccc(F)cc2)c3ccccc3F",
+  "measured_logS": -3.37,
+  "published_esol_logS": -3.569
+ },
+ {
+  "name": "triamcinolone diacetate",
+  "smiles": "CC(=O)OCC(=O)C3(O)C(CC4C2CCC1=CC(=O)C=CC1(C)C2(F)C(O)CC34C)OC(C)=O",
+  "measured_logS": -4.13,
+  "published_esol_logS": -3.8760000000000003
+ },
+ {
+  "name": "1-Bromobutane",
+  "smiles": "CCCCBr",
+  "measured_logS": -2.37,
+  "published_esol_logS": -2.303
+ },
+ {
+  "name": "1,2,4,5-Tetrabromobenzene",
+  "smiles": "Brc1cc(Br)c(Br)cc1Br",
+  "measured_logS": -6.98,
+  "published_esol_logS": -6.001
+ },
+ {
+  "name": "4-Methyl-2-pentanone",
+  "smiles": "CC(C)CC(=O)C",
+  "measured_logS": -0.74,
+  "published_esol_logS": -1.1840000000000002
+ },
+ {
+  "name": "cycloate",
+  "smiles": "CCSC(=O)N(CC)C1CCCCC1",
+  "measured_logS": -3.4,
+  "published_esol_logS": -3.35
+ },
+ {
+  "name": "4-Chloroanisole",
+  "smiles": "COc1ccc(Cl)cc1",
+  "measured_logS": -2.78,
+  "published_esol_logS": -3.057
+ },
+ {
+  "name": "Deltamethrin",
+  "smiles": "CC1(C)C(C=C(Br)Br)C1C(=O)OC(C#N)c2cccc(Oc3ccccc3)c2",
+  "measured_logS": -8.402000000000001,
+  "published_esol_logS": -7.44
+ },
+ {
+  "name": "Talbutal",
+  "smiles": "CCC(C)C1(CC=C)C(=O)NC(=O)NC1=O",
+  "measured_logS": -2.016,
+  "published_esol_logS": -2.06
+ },
+ {
+  "name": "Fenitrothion",
+  "smiles": "COP(=S)(OC)Oc1ccc(N(=O)=O)c(C)c1",
+  "measured_logS": -4.04,
+  "published_esol_logS": -3.845
+ },
+ {
+  "name": "1-Iodonapthalene",
+  "smiles": "Ic1cccc2ccccc12",
+  "measured_logS": -4.55,
+  "published_esol_logS": -4.888999999999999
+ },
+ {
+  "name": "Sorbitol",
+  "smiles": "OCC(O)C(O)C(O)C(O)CO",
+  "measured_logS": 1.09,
+  "published_esol_logS": 0.647
+ },
+ {
+  "name": "Ethanethiol",
+  "smiles": "CCS",
+  "measured_logS": -0.6,
+  "published_esol_logS": -0.968
+ },
+ {
+  "name": "1,1,2-Trichloroethane",
+  "smiles": "ClCC(Cl)Cl",
+  "measured_logS": -1.48,
+  "published_esol_logS": -1.9609999999999999
+ },
+ {
+  "name": "Pyrolan",
+  "smiles": "CN(C)C(=O)Oc1cc(C)nn1c2ccccc2",
+  "measured_logS": -2.09,
+  "published_esol_logS": -3.141
+ },
+ {
+  "name": "o-Hydroxybenzamide",
+  "smiles": "NC(=O)c1ccccc1O",
+  "measured_logS": -1.82,
+  "published_esol_logS": -1.942
+ },
+ {
+  "name": "o-Nitrotoluene",
+  "smiles": "Cc1ccccc1N(=O)=O",
+  "measured_logS": -2.33,
+  "published_esol_logS": -2.589
+ },
+ {
+  "name": "5,5-Diisopropylbarbital",
+  "smiles": "O=C1NC(=O)NC(=O)C1(C(C)C)C(C)C",
+  "measured_logS": -2.766,
+  "published_esol_logS": -1.942
+ },
+ {
+  "name": "2-Ethyltoluene",
+  "smiles": "CCc1ccccc1C",
+  "measured_logS": -3.21,
+  "published_esol_logS": -3.2960000000000003
+ },
+ {
+  "name": "1-Chloroheptane",
+  "smiles": "CCCCCCCCl",
+  "measured_logS": -4.0,
+  "published_esol_logS": -3.003
+ },
+ {
+  "name": "Barbital",
+  "smiles": "O=C1NC(=O)NC(=O)C1(CC)CC",
+  "measured_logS": -2.4,
+  "published_esol_logS": -1.265
+ },
+ {
+  "name": "Bibenzyl",
+  "smiles": "C(Cc1ccccc1)c2ccccc2",
+  "measured_logS": -4.62,
+  "published_esol_logS": -4.301
+ },
+ {
+  "name": "1,1,2,2-Tetrachloroethane",
+  "smiles": "ClC(Cl)C(Cl)Cl",
+  "measured_logS": -1.74,
+  "published_esol_logS": -2.549
+ },
+ {
+  "name": "RTI 23",
+  "smiles": "CCN2c1cc(OC)cc(C)c1NC(=O)c3cccnc23",
+  "measured_logS": -5.153,
+  "published_esol_logS": -4.228
+ },
+ {
+  "name": "2-Methylphenanthrene",
+  "smiles": "Cc1ccc2c(ccc3ccccc32)c1",
+  "measured_logS": -5.84,
+  "published_esol_logS": -4.87
+ },
+ {
+  "name": "dibutylphthalate",
+  "smiles": "CCCCOC(=O)c1ccccc1C(=O)OCCCC",
+  "measured_logS": -4.4,
+  "published_esol_logS": -4.378
+ },
+ {
+  "name": "tetrachloroguaiacol",
+  "smiles": "COc1c(O)c(Cl)c(Cl)c(Cl)c1Cl",
+  "measured_logS": -4.02,
+  "published_esol_logS": -4.2989999999999995
+ },
+ {
+  "name": "Dimecron",
+  "smiles": "CCN(CC)C(=O)C(=CCOP(=O)(OC)OC)Cl",
+  "measured_logS": 0.523,
+  "published_esol_logS": -2.426
+ },
+ {
+  "name": "Equilin",
+  "smiles": "CC34CCC1C(=CCc2cc(O)ccc12)C3CCC4=O",
+  "measured_logS": -5.282,
+  "published_esol_logS": -3.555
+ },
+ {
+  "name": "Chlorimuron-ethyl (ph 7)",
+  "smiles": "CCOC(=O)c1ccccc1S(=O)(=O)NN(C=O)c2nc(Cl)cc(OC)n2",
+  "measured_logS": -4.5760000000000005,
+  "published_esol_logS": -3.719
+ },
+ {
+  "name": "p-Nitroanisole",
+  "smiles": "COc1ccc(cc1)N(=O)=O",
+  "measured_logS": -2.41,
+  "published_esol_logS": -2.522
+ },
+ {
+  "name": "1-Chlorohexane",
+  "smiles": "CCCCCCCl",
+  "measured_logS": -3.12,
+  "published_esol_logS": -2.648
+ },
+ {
+  "name": "2,2',3,3',4,4',5,5'-PCB",
+  "smiles": "Clc1cc(c(Cl)c(Cl)c1Cl)c2cc(Cl)c(Cl)c(Cl)c2Cl",
+  "measured_logS": -9.16,
+  "published_esol_logS": -8.468
+ },
+ {
+  "name": "Raffinose",
+  "smiles": "OCC1OC(CO)(OC2OC(COC3OC(CO)C(O)C(O)C3O)C(O)C(O)C2O)C(O)C1O",
+  "measured_logS": -0.41,
+  "published_esol_logS": 0.496
+ },
+ {
+  "name": "hexacosane",
+  "smiles": "CCCCCCCCCCCCCCCCCCCCCCCCCC",
+  "measured_logS": -8.334,
+  "published_esol_logS": -9.702
+ },
+ {
+  "name": "RTI 5",
+  "smiles": "CCN2c1ccccc1N(C)C(=O)c3cccnc23",
+  "measured_logS": -3.324,
+  "published_esol_logS": -3.471
+ },
+ {
+  "name": "1,1-Dichloroethane",
+  "smiles": "CC(Cl)Cl",
+  "measured_logS": -1.29,
+  "published_esol_logS": -1.5759999999999998
+ },
+ {
+  "name": "Sulfanilamide",
+  "smiles": "Nc1ccc(cc1)S(N)(=O)=O",
+  "measured_logS": -1.34,
+  "published_esol_logS": -0.9540000000000001
+ },
+ {
+  "name": "Isopropalin",
+  "smiles": "CCCN(CCC)c1c(cc(cc1N(=O)=O)C(C)C)N(=O)=O",
+  "measured_logS": -6.49,
+  "published_esol_logS": -5.306
+ },
+ {
+  "name": "Lindane",
+  "smiles": "ClC1C(Cl)C(Cl)C(Cl)C(Cl)C1Cl",
+  "measured_logS": -4.64,
+  "published_esol_logS": -4.0089999999999995
+ },
+ {
+  "name": "Isofenphos",
+  "smiles": "CCOP(=S)(NC(C)C)Oc1ccccc1C(=O)OC(C)C",
+  "measured_logS": -4.194,
+  "published_esol_logS": -4.538
+ },
+ {
+  "name": "1,2,3-Trichlorobenzene",
+  "smiles": "Clc1cccc(Cl)c1Cl",
+  "measured_logS": -4.0,
+  "published_esol_logS": -4.008
+ },
+ {
+  "name": "Tetrachloromethane",
+  "smiles": "ClC(Cl)(Cl)Cl",
+  "measured_logS": -2.31,
+  "published_esol_logS": -2.6069999999999998
+ },
+ {
+  "name": "3,4-Dichloronitrobenzene",
+  "smiles": "O=N(=O)c1cc(Cl)c(Cl)cc1",
+  "measured_logS": -3.2,
+  "published_esol_logS": -3.448
+ },
+ {
+  "name": "Cyclooctanol",
+  "smiles": "OC1CCCCCCC1",
+  "measured_logS": -1.29,
+  "published_esol_logS": -2.14
+ },
+ {
+  "name": "17a-Methyltestosterone",
+  "smiles": "CC1(O)CCC2C3CCC4=CC(=O)CCC4(C)C3CCC21C",
+  "measured_logS": -3.9989999999999997,
+  "published_esol_logS": -4.073
+ },
+ {
+  "name": "Dulcin",
+  "smiles": "CCOc1ccc(NC(N)=O)cc1",
+  "measured_logS": -2.17,
+  "published_esol_logS": -2.167
+ },
+ {
+  "name": "trans-1,4-Dimethylcyclohexane",
+  "smiles": "C/C1CCC(\\C)CC1",
+  "measured_logS": -4.47,
+  "published_esol_logS": -3.305
+ },
+ {
+  "name": "1,7-phenantroline",
+  "smiles": "c1cnc2c(c1)ccc3ncccc23",
+  "measured_logS": -2.68,
+  "published_esol_logS": -2.9939999999999998
+ },
+ {
+  "name": "Methyl t-butyl ether",
+  "smiles": "COC(C)(C)C",
+  "measured_logS": -0.24,
+  "published_esol_logS": -0.9840000000000001
+ },
+ {
+  "name": "Anethole",
+  "smiles": "COc1ccc(C=CC)cc1",
+  "measured_logS": -3.13,
+  "published_esol_logS": -3.2539999999999996
+ },
+ {
+  "name": "1-Hexadecanol",
+  "smiles": "CCCCCCCCCCCCCCCCO",
+  "measured_logS": -7.0,
+  "published_esol_logS": -4.94
+ },
+ {
+  "name": "uracil",
+  "smiles": "O=c1cc[nH]c(=O)[nH]1",
+  "measured_logS": -1.4880000000000002,
+  "published_esol_logS": -0.441
+ },
+ {
+  "name": "adenine",
+  "smiles": "Nc1ncnc2nc[nH]c12",
+  "measured_logS": -2.12,
+  "published_esol_logS": -1.255
+ },
+ {
+  "name": "2,2',3,4,5-PCB",
+  "smiles": "Clc1cc(Cl)c(cc1Cl)c2cccc(Cl)c2Cl",
+  "measured_logS": -7.21,
+  "published_esol_logS": -6.709
+ },
+ {
+  "name": "Ancymidol",
+  "smiles": "COc1ccc(cc1)C(O)(C2CC2)c3cncnc3",
+  "measured_logS": -2.596,
+  "published_esol_logS": -2.181
+ },
+ {
+  "name": "Benzo(b)fluoranthene",
+  "smiles": "c1ccc2c(c1)c3cccc4c3c2cc5ccccc54",
+  "measured_logS": -8.23,
+  "published_esol_logS": -6.007000000000001
+ },
+ {
+  "name": "Carbanilide",
+  "smiles": "O=C(Nc1ccccc1)Nc2ccccc2",
+  "measured_logS": -3.15,
+  "published_esol_logS": -3.611
+ },
+ {
+  "name": "phenobarbital",
+  "smiles": "CCC1(C(=O)NC(=O)NC1=O)c2ccccc2",
+  "measured_logS": -2.322,
+  "published_esol_logS": -2.272
+ },
+ {
+  "name": "2',3,4-PCB",
+  "smiles": "Clc1ccc(cc1)c2cccc(Cl)c2Cl",
+  "measured_logS": -6.29,
+  "published_esol_logS": -5.686
+ },
+ {
+  "name": "Isoproturon",
+  "smiles": "CC(C)c1ccc(NC(=O)N(C)C)cc1",
+  "measured_logS": -3.536,
+  "published_esol_logS": -2.867
+ },
+ {
+  "name": "Azintamide",
+  "smiles": "CCN(CC)C(=O)CSc1ccc(Cl)nn1",
+  "measured_logS": -1.716,
+  "published_esol_logS": -2.231
+ },
+ {
+  "name": "2,2-Dimethyl-1-butanol",
+  "smiles": "CCC(C)(C)CO",
+  "measured_logS": -1.04,
+  "published_esol_logS": -1.365
+ },
+ {
+  "name": "Ethyl pentanoate",
+  "smiles": "CCCOC(=O)CCC",
+  "measured_logS": -1.75,
+  "published_esol_logS": -1.899
+ },
+ {
+  "name": "2,4,6-Trinitrotoluene",
+  "smiles": "Cc1c(cc(cc1N(=O)=O)N(=O)=O)N(=O)=O",
+  "measured_logS": -3.22,
+  "published_esol_logS": -2.6060000000000003
+ },
+ {
+  "name": "Bensulide",
+  "smiles": "CC(C)OP(=S)(OC(C)C)SCCNS(=O)(=O)c1ccccc1",
+  "measured_logS": -4.2,
+  "published_esol_logS": -4.99
+ },
+ {
+  "name": "Cycloheptane",
+  "smiles": "C1CCCCCC1",
+  "measured_logS": -3.51,
+  "published_esol_logS": -2.9160000000000004
+ },
+ {
+  "name": "Propyl formate",
+  "smiles": "CCCOC=O",
+  "measured_logS": -0.49,
+  "published_esol_logS": -0.757
+ },
+ {
+  "name": "2-Isopropyltoluene",
+  "smiles": "CC(C)c1ccccc1C",
+  "measured_logS": -3.76,
+  "published_esol_logS": -3.585
+ },
+ {
+  "name": "m-Chloroaniline",
+  "smiles": "Nc1cccc(Cl)c1",
+  "measured_logS": -1.37,
+  "published_esol_logS": -2.392
+ },
+ {
+  "name": "2,4-Dimethylpentane",
+  "smiles": "CC(C)CC(C)C",
+  "measured_logS": -4.26,
+  "published_esol_logS": -2.938
+ },
+ {
+  "name": "Dibenzofurane",
+  "smiles": "o1c2ccccc2c3ccccc13",
+  "measured_logS": -4.6,
+  "published_esol_logS": -4.2010000000000005
+ },
+ {
+  "name": "ethofumesate",
+  "smiles": "CCOC2Oc1ccc(OS(C)(=O)=O)cc1C2(C)C",
+  "measured_logS": -3.42,
+  "published_esol_logS": -3.1839999999999997
+ },
+ {
+  "name": "Fluometuron",
+  "smiles": "CN(C)C(=O)Nc1cccc(c1)C(F)(F)F",
+  "measured_logS": -3.43,
+  "published_esol_logS": -3.065
+ },
+ {
+  "name": "Acridine",
+  "smiles": "c3ccc2nc1ccccc1cc2c3",
+  "measured_logS": -3.67,
+  "published_esol_logS": -3.846
+ },
+ {
+  "name": "Cortisone",
+  "smiles": "CC12CC(=O)C3C(CCC4=CC(=O)CCC34C)C2CCC1(O)C(=O)CO",
+  "measured_logS": -3.11,
+  "published_esol_logS": -2.8930000000000002
+ },
+ {
+  "name": "glucose",
+  "smiles": "OCC1OC(O)C(O)C(O)C1O",
+  "measured_logS": 0.74,
+  "published_esol_logS": 0.501
+ },
+ {
+  "name": "3-Methylphenol",
+  "smiles": "Cc1cccc(O)c1",
+  "measured_logS": -0.68,
+  "published_esol_logS": -2.313
+ },
+ {
+  "name": "Indapamide",
+  "smiles": "CC2Cc1ccccc1N2NC(=O)c3ccc(Cl)c(c3)S(N)(=O)=O",
+  "measured_logS": -3.5860000000000003,
+  "published_esol_logS": -4.345
+ },
+ {
+  "name": "Lovastatin",
+  "smiles": "CCC(C)C(=O)OC2CC(C)C=C3C=CC(C)C(CCC1CC(O)CC(=O)O1)C23",
+  "measured_logS": -6.005,
+  "published_esol_logS": -4.731
+ },
+ {
+  "name": "1,4-Dinitrobenzene",
+  "smiles": "O=N(=O)c1ccc(cc1)N(=O)=O",
+  "measured_logS": -3.39,
+  "published_esol_logS": -2.281
+ },
+ {
+  "name": "Reposal",
+  "smiles": "CCC1(C(=O)NC(=O)NC1=O)C2=CCC3CCC2C3",
+  "measured_logS": -2.696,
+  "published_esol_logS": -2.781
+ },
+ {
+  "name": "Ethyl decanoate",
+  "smiles": "CCCCCCCCCC(=O)OCC",
+  "measured_logS": -4.1,
+  "published_esol_logS": -3.6710000000000003
+ },
+ {
+  "name": "Fenuron",
+  "smiles": "CN(C)C(=O)Nc1ccccc1",
+  "measured_logS": -1.6,
+  "published_esol_logS": -1.847
+ },
+ {
+  "name": "Ethyl propyl ether",
+  "smiles": "CCCOCC",
+  "measured_logS": -0.66,
+  "published_esol_logS": -1.072
+ },
+ {
+  "name": "2-Propanol",
+  "smiles": "CC(C)O",
+  "measured_logS": 0.43,
+  "published_esol_logS": -0.261
+ },
+ {
+  "name": "2-Methylnapthalene",
+  "smiles": "Cc1ccc2ccccc2c1",
+  "measured_logS": -3.77,
+  "published_esol_logS": -3.802
+ },
+ {
+  "name": "Chlorodibromethane",
+  "smiles": "ClC(Br)Br",
+  "measured_logS": -1.9,
+  "published_esol_logS": -2.54
+ },
+ {
+  "name": "Hexestrol",
+  "smiles": "CCC(C(CC)c1ccc(O)cc1)c2ccc(O)cc2",
+  "measured_logS": -4.43,
+  "published_esol_logS": -4.854
+ },
+ {
+  "name": "Malathion",
+  "smiles": "CCOC(=O)CC(SP(=S)(OC)OC)C(=O)OCC",
+  "measured_logS": -3.37,
+  "published_esol_logS": -3.391
+ },
+ {
+  "name": "Benzylchloride",
+  "smiles": "ClCc1ccccc1",
+  "measured_logS": -2.39,
+  "published_esol_logS": -2.887
+ },
+ {
+  "name": "t-Crotonaldehyde",
+  "smiles": "C/C=C/C=O",
+  "measured_logS": 0.32,
+  "published_esol_logS": -0.604
+ },
+ {
+  "name": "Chlorbromuron",
+  "smiles": "CON(C)C(=O)Nc1ccc(Br)c(Cl)c1",
+  "measured_logS": -3.924,
+  "published_esol_logS": -3.938
+ },
+ {
+  "name": "9,10-Dimethylanthracene",
+  "smiles": "Cc1c2ccccc2c(C)c3ccccc13",
+  "measured_logS": -6.57,
+  "published_esol_logS": -5.228
+ },
+ {
+  "name": "Methyl hexanoate",
+  "smiles": "CCCCCC(=O)OC",
+  "measured_logS": -1.87,
+  "published_esol_logS": -1.899
+ },
+ {
+  "name": "Dimefuron",
+  "smiles": "CN(C)C(=O)Nc1ccc(c(Cl)c1)n2nc(oc2=O)C(C)(C)C",
+  "measured_logS": -4.328,
+  "published_esol_logS": -3.8310000000000004
+ },
+ {
+  "name": "p-Fluoroacetanilide",
+  "smiles": "CC(=O)Nc1ccc(F)cc1",
+  "measured_logS": -1.78,
+  "published_esol_logS": -2.181
+ },
+ {
+  "name": "alachlor",
+  "smiles": "CCc1cccc(CC)c1N(COC)C(=O)CCl",
+  "measured_logS": -3.26,
+  "published_esol_logS": -3.319
+ },
+ {
+  "name": "Cyclohexene",
+  "smiles": "C1CCC=CC1",
+  "measured_logS": -2.59,
+  "published_esol_logS": -2.16
+ },
+ {
+  "name": "Hydrocortisone",
+  "smiles": "CC12CC(O)C3C(CCC4=CC(=O)CCC34C)C2CCC1(O)C(=O)CO",
+  "measured_logS": -3.09,
+  "published_esol_logS": -3.159
+ },
+ {
+  "name": "Pyrimidine",
+  "smiles": "c1cncnc1",
+  "measured_logS": 1.1,
+  "published_esol_logS": -0.884
+ },
+ {
+  "name": "p-Chloronitrobenzene",
+  "smiles": "Clc1ccc(cc1)N(=O)=O",
+  "measured_logS": -2.92,
+  "published_esol_logS": -2.9010000000000002
+ },
+ {
+  "name": "Methyl propionate",
+  "smiles": "CCC(=O)OC",
+  "measured_logS": -0.14,
+  "published_esol_logS": -0.836
+ },
+ {
+  "name": "o-Chloronitrobenzene",
+  "smiles": "Clc1ccccc1N(=O)=O",
+  "measured_logS": -2.55,
+  "published_esol_logS": -2.775
+ },
+ {
+  "name": "Neburon",
+  "smiles": "CCCCN(C)C(=O)Nc1ccc(Cl)c(Cl)c1",
+  "measured_logS": -4.77,
+  "published_esol_logS": -4.157
+ },
+ {
+  "name": "Buthidazole",
+  "smiles": "CN1CC(O)N(C1=O)c2nnc(s2)C(C)(C)C",
+  "measured_logS": -1.8769999999999998,
+  "published_esol_logS": -2.398
+ },
+ {
+  "name": "Nitrobenzene",
+  "smiles": "O=N(=O)c1ccccc1",
+  "measured_logS": -1.8,
+  "published_esol_logS": -2.2880000000000003
+ },
+ {
+  "name": "Iodobenzene",
+  "smiles": "Ic1ccccc1",
+  "measured_logS": -3.01,
+  "published_esol_logS": -3.8
+ },
+ {
+  "name": "Metolazone",
+  "smiles": "CC2Nc1cc(Cl)c(cc1C(=O)N2c3ccccc3C)S(N)(=O)=O",
+  "measured_logS": -3.78,
+  "published_esol_logS": -3.7769999999999997
+ },
+ {
+  "name": "Methocarbamol",
+  "smiles": "COc1ccccc1OCC(O)COC(N)=O",
+  "measured_logS": -0.985,
+  "published_esol_logS": -1.4280000000000002
+ },
+ {
+  "name": "butachlor",
+  "smiles": "CCCCOCN(C(=O)CCl)c1c(CC)cccc1CC",
+  "measured_logS": -4.19,
+  "published_esol_logS": -4.3469999999999995
+ },
+ {
+  "name": "2,3-Dichlorophenol",
+  "smiles": "Oc1cccc(Cl)c1Cl",
+  "measured_logS": -1.3,
+  "published_esol_logS": -3.1439999999999997
+ },
+ {
+  "name": "Propyl butyrate",
+  "smiles": "CCCC(=O)OC",
+  "measured_logS": -1.92,
+  "published_esol_logS": -1.1909999999999998
+ },
+ {
+  "name": "Propanil",
+  "smiles": "CCC(=O)Nc1ccc(Cl)c(Cl)c1",
+  "measured_logS": -3.0,
+  "published_esol_logS": -3.6439999999999997
+ },
+ {
+  "name": "Triamterene",
+  "smiles": "Nc3nc(N)c2nc(c1ccccc1)c(N)nc2n3",
+  "measured_logS": -2.404,
+  "published_esol_logS": -3.051
+ },
+ {
+  "name": "Ethyl hexanoate",
+  "smiles": "CCCCCC(=O)OCC",
+  "measured_logS": -2.35,
+  "published_esol_logS": -2.254
+ },
+ {
+  "name": "chloralose",
+  "smiles": "OCC(O)C2OC1OC(OC1C2O)C(Cl)(Cl)Cl",
+  "measured_logS": -1.84,
+  "published_esol_logS": -1.8869999999999998
+ },
+ {
+  "name": "Amitraz",
+  "smiles": "CN(C=Nc1ccc(C)cc1C)C=Nc2ccc(C)cc2C",
+  "measured_logS": -5.47,
+  "published_esol_logS": -5.5329999999999995
+ },
+ {
+  "name": "Prometon",
+  "smiles": "COc1nc(NC(C)C)nc(NC(C)C)n1",
+  "measured_logS": -2.478,
+  "published_esol_logS": -3.448
+ },
+ {
+  "name": "1-Octene",
+  "smiles": "CCCCCCC=C",
+  "measured_logS": -4.44,
+  "published_esol_logS": -3.073
+ },
+ {
+  "name": "p-Methylaniline",
+  "smiles": "Cc1ccc(N)cc1",
+  "measured_logS": -1.21,
+  "published_esol_logS": -1.954
+ },
+ {
+  "name": "aminothiazole",
+  "smiles": "Nc1nccs1",
+  "measured_logS": -0.36,
+  "published_esol_logS": -1.226
+ },
+ {
+  "name": "Metolcarb",
+  "smiles": "c1ccccc1(OC(=O)NC)",
+  "measured_logS": -1.8030000000000002,
+  "published_esol_logS": -1.9469999999999998
+ },
+ {
+  "name": "3-Hexanol",
+  "smiles": "CCCC(O)CC",
+  "measured_logS": -0.8,
+  "published_esol_logS": -1.324
+ },
+ {
+  "name": "9-anthrol",
+  "smiles": "c3ccc2c(O)c1ccccc1cc2c3",
+  "measured_logS": -4.73,
+  "published_esol_logS": -4.148
+ },
+ {
+  "name": "2-Methylanthracene",
+  "smiles": "Cc1ccc2cc3ccccc3cc2c1",
+  "measured_logS": -6.96,
+  "published_esol_logS": -4.87
+ },
+ {
+  "name": "1,2,3-Trimethylbenzene",
+  "smiles": "Cc1cccc(C)c1C",
+  "measured_logS": -3.2,
+  "published_esol_logS": -3.312
+ },
+ {
+  "name": "Aminocarb",
+  "smiles": "CNC(=O)Oc1ccc(N(C)C)c(C)c1",
+  "measured_logS": -2.36,
+  "published_esol_logS": -2.677
+ },
+ {
+  "name": "2-Nonanol",
+  "smiles": "CCCCCCCC(C)O",
+  "measured_logS": -2.74,
+  "published_esol_logS": -2.387
+ },
+ {
+  "name": "Methyldymron",
+  "smiles": "CN(C(=O)NC(C)(C)c1ccccc1)c2ccccc2",
+  "measured_logS": -3.35,
+  "published_esol_logS": -3.863
+ },
+ {
+  "name": "3-Hexanone",
+  "smiles": "CCCC(=O)CC",
+  "measured_logS": -0.83,
+  "published_esol_logS": -1.266
+ },
+ {
+  "name": "bromoxynil",
+  "smiles": "Oc1c(Br)cc(C#N)cc1Br",
+  "measured_logS": -3.33,
+  "published_esol_logS": -3.793
+ },
+ {
+  "name": "3,4-PCB",
+  "smiles": "Clc1ccc(cc1Cl)c2ccccc2",
+  "measured_logS": -6.39,
+  "published_esol_logS": -5.223
+ },
+ {
+  "name": "Mefenacet",
+  "smiles": "CN(C(=O)COc1nc2ccccc2s1)c3ccccc3",
+  "measured_logS": -4.873,
+  "published_esol_logS": -4.504
+ },
+ {
+  "name": "5-hydroxyquinoline",
+  "smiles": "Oc1cccc2ncccc12",
+  "measured_logS": -2.54,
+  "published_esol_logS": -2.725
+ },
+ {
+  "name": "Carboxin",
+  "smiles": "CC1=C(SCCO1)C(=O)Nc2ccccc2",
+  "measured_logS": -3.14,
+  "published_esol_logS": -2.927
+ },
+ {
+  "name": "Ethoxyzolamide",
+  "smiles": "CCOc2ccc1nc(sc1c2)S(N)(=O)=O",
+  "measured_logS": -3.81,
+  "published_esol_logS": -3.085
+ },
+ {
+  "name": "Pentachlorophenol",
+  "smiles": "Oc1c(Cl)c(Cl)c(Cl)c(Cl)c1Cl",
+  "measured_logS": -4.28,
+  "published_esol_logS": -4.835
+ },
+ {
+  "name": "Bromochloromethane",
+  "smiles": "ClCBr",
+  "measured_logS": -0.89,
+  "published_esol_logS": -1.5190000000000001
+ },
+ {
+  "name": "metharbital",
+  "smiles": "CCC1(CC)C(=O)NC(=O)N(C)C1=O",
+  "measured_logS": -2.23,
+  "published_esol_logS": -1.6580000000000001
+ },
+ {
+  "name": "deoxycorticosterone acetate",
+  "smiles": "CC(=O)OCC(=O)C3CCC4C2CCC1=CC(=O)CCC1(C)C2CCC34C",
+  "measured_logS": -4.63,
+  "published_esol_logS": -4.4719999999999995
+ },
+ {
+  "name": "benzylurea",
+  "smiles": "NC(=O)NCc1ccccc1",
+  "measured_logS": -0.95,
+  "published_esol_logS": -1.5090000000000001
+ },
+ {
+  "name": "Chlortoluron",
+  "smiles": "CN(C)C(=O)Nc1ccc(C)c(Cl)c1",
+  "measured_logS": -3.483,
+  "published_esol_logS": -3.048
+ },
+ {
+  "name": "Linuron",
+  "smiles": "CON(C)C(=O)Nc1ccc(Cl)c(Cl)c1",
+  "measured_logS": -3.592,
+  "published_esol_logS": -3.5810000000000004
+ },
+ {
+  "name": "Cycloheptanol",
+  "smiles": "OC1CCCCCC1",
+  "measured_logS": -0.88,
+  "published_esol_logS": -1.7
+ },
+ {
+  "name": "Thiamphenicol",
+  "smiles": "CS(=O)(=O)c1ccc(cc1)C(O)C(CO)NC(=O)C(Cl)Cl",
+  "measured_logS": -2.154,
+  "published_esol_logS": -1.936
+ },
+ {
+  "name": "thiopental",
+  "smiles": "CCCC(C)C1(CC)C(=O)NC(=S)NC1=O",
+  "measured_logS": -3.36,
+  "published_esol_logS": -2.96
+ },
+ {
+  "name": "acetazolamide",
+  "smiles": "CC(=O)Nc1nnc(s1)S(N)(=O)=O",
+  "measured_logS": -2.36,
+  "published_esol_logS": -0.7929999999999999
+ },
+ {
+  "name": "p-Nitrophenol",
+  "smiles": "Oc1ccc(cc1)N(=O)=O",
+  "measured_logS": -0.74,
+  "published_esol_logS": -2.318
+ },
+ {
+  "name": "Aldrin",
+  "smiles": "ClC1=C(Cl)C2(Cl)C3C4CC(C=C4)C3C1(Cl)C2(Cl)Cl",
+  "measured_logS": -6.307,
+  "published_esol_logS": -5.511
+ },
+ {
+  "name": "Tetrahydrofurane",
+  "smiles": "C1CCOC1",
+  "measured_logS": 0.49,
+  "published_esol_logS": -0.62
+ },
+ {
+  "name": "o-Nitroaniline",
+  "smiles": "Nc1ccccc1N(=O)=O",
+  "measured_logS": -1.96,
+  "published_esol_logS": -2.2769999999999997
+ },
+ {
+  "name": "2,2',3,3'-PCB",
+  "smiles": "Clc1cccc(c1Cl)c2cccc(Cl)c2Cl",
+  "measured_logS": -7.28,
+  "published_esol_logS": -6.079
+ },
+ {
+  "name": "phenylbutazone",
+  "smiles": "CCCCC1C(=O)N(N(C1=O)c2ccccc2)c3ccccc3",
+  "measured_logS": -3.81,
+  "published_esol_logS": -4.0760000000000005
+ },
+ {
+  "name": "2,6-Dinitrotoluene",
+  "smiles": "Cc1c(cccc1N(=O)=O)N(=O)=O",
+  "measured_logS": -3.0,
+  "published_esol_logS": -2.553
+ },
+ {
+  "name": "Progesterone",
+  "smiles": "CC(=O)C1CCC2C3CCC4=CC(=O)CCC4(C)C3CCC12C",
+  "measured_logS": -4.42,
+  "published_esol_logS": -4.17
+ },
+ {
+  "name": "Chlorazine",
+  "smiles": "CCN(CC)c1nc(Cl)nc(n1)N(CC)CC",
+  "measured_logS": -4.4110000000000005,
+  "published_esol_logS": -3.6630000000000003
+ },
+ {
+  "name": "captafol",
+  "smiles": "ClC(Cl)C(Cl)(Cl)SN2C(=O)C1CC=CCC1C2=O",
+  "measured_logS": -5.4,
+  "published_esol_logS": -4.365
+ },
+ {
+  "name": "1,2,4-tribromobenzene",
+  "smiles": "c1(Br)c(Br)cc(Br)cc1",
+  "measured_logS": -4.5,
+  "published_esol_logS": -5.144
+ },
+ {
+  "name": "Oxazepam",
+  "smiles": "OC3N=C(c1ccccc1)c2cc(Cl)ccc2NC3=O",
+  "measured_logS": -3.952,
+  "published_esol_logS": -3.517
+ },
+ {
+  "name": "Secobarbital",
+  "smiles": "O=C1NC(=O)NC(=O)C1(C(C)CCC)CC=C",
+  "measured_logS": -2.356,
+  "published_esol_logS": -2.415
+ },
+ {
+  "name": "Carvacrol",
+  "smiles": "c1(O)c(C)ccc(C(C)C)c1",
+  "measured_logS": -2.08,
+  "published_esol_logS": -3.2239999999999998
+ },
+ {
+  "name": "rhodanine",
+  "smiles": "C1SC(=S)NC1(=O)",
+  "measured_logS": -1.77,
+  "published_esol_logS": -0.396
+ },
+ {
+  "name": "Morin",
+  "smiles": "Oc1ccc(c(O)c1)c3oc2cc(O)cc(O)c2c(=O)c3O",
+  "measured_logS": -3.083,
+  "published_esol_logS": -2.7310000000000003
+ },
+ {
+  "name": "Kepone",
+  "smiles": "ClC1(C(=O)C2(Cl)C3(Cl)C14Cl)C5(Cl)C2(Cl)C3(Cl)C(Cl)(Cl)C45Cl",
+  "measured_logS": -5.2589999999999995,
+  "published_esol_logS": -5.112
+ },
+ {
+  "name": "Disulfiram",
+  "smiles": "CCN(CC)C(=S)SSC(=S)N(CC)CC",
+  "measured_logS": -4.86,
+  "published_esol_logS": -3.862
+ },
+ {
+  "name": "Cyclohexane",
+  "smiles": "C1CCCCC1",
+  "measured_logS": -3.1,
+  "published_esol_logS": -2.477
+ },
+ {
+  "name": "Dienochlor",
+  "smiles": "ClC1=C(Cl)C(Cl)(C(=C1Cl)Cl)C2(Cl)C(=C(Cl)C(=C2Cl)Cl)Cl",
+  "measured_logS": -7.278,
+  "published_esol_logS": -7.848
+ },
+ {
+  "name": "chlordimeform",
+  "smiles": "CN(C)C=Nc1ccc(Cl)cc1C",
+  "measured_logS": -2.86,
+  "published_esol_logS": -3.1639999999999997
+ },
+ {
+  "name": "Equilenin",
+  "smiles": "CC34CCc1c(ccc2cc(O)ccc12)C3CCC4=O",
+  "measured_logS": -5.24,
+  "published_esol_logS": -3.927
+ },
+ {
+  "name": "1-Octanol",
+  "smiles": "CCCCCCCCO",
+  "measured_logS": -2.39,
+  "published_esol_logS": -2.105
+ },
+ {
+  "name": "Diethyl sulfide",
+  "smiles": "CCSCC",
+  "measured_logS": -1.34,
+  "published_esol_logS": -1.598
+ },
+ {
+  "name": "1,2-Dichloroethane",
+  "smiles": "ClCCCl",
+  "measured_logS": -1.06,
+  "published_esol_logS": -1.374
+ },
+ {
+  "name": "2-Chloro-2-methylbutane",
+  "smiles": "CCC(C)(C)Cl",
+  "measured_logS": -2.51,
+  "published_esol_logS": -2.278
+ },
+ {
+  "name": "1-Chloro-2-bromoethane",
+  "smiles": "ClCCBr",
+  "measured_logS": -1.32,
+  "published_esol_logS": -1.7380000000000002
+ },
+ {
+  "name": "p-Nitroaniline",
+  "smiles": "Nc1ccc(cc1)N(=O)=O",
+  "measured_logS": -2.37,
+  "published_esol_logS": -1.936
+ },
+ {
+  "name": "Lactose",
+  "smiles": "OCC1OC(OC2C(O)C(O)C(O)OC2CO)C(O)C(O)C1O",
+  "measured_logS": -0.244,
+  "published_esol_logS": 1.071
+ },
+ {
+  "name": "RTI 2",
+  "smiles": "CCN2c1ncccc1N(CC)C(=O)c3cccnc23",
+  "measured_logS": -2.86,
+  "published_esol_logS": -3.125
+ },
+ {
+  "name": "Chlorobenzene",
+  "smiles": "Clc1ccccc1",
+  "measured_logS": -2.38,
+  "published_esol_logS": -2.975
+ },
+ {
+  "name": "1-Nonene",
+  "smiles": "CCCCCCCC=C",
+  "measured_logS": -5.05,
+  "published_esol_logS": -3.427
+ },
+ {
+  "name": "p-Bromoiodobenzene",
+  "smiles": "Brc1ccc(I)cc1",
+  "measured_logS": -4.56,
+  "published_esol_logS": -4.754
+ },
+ {
+  "name": "3-Methyl-3-pentanol",
+  "smiles": "CCC(C)(O)CC",
+  "measured_logS": -0.36,
+  "published_esol_logS": -1.308
+ },
+ {
+  "name": "Pentylbenzene",
+  "smiles": "CCCCCc1ccccc1",
+  "measured_logS": -4.64,
+  "published_esol_logS": -3.8989999999999996
+ },
+ {
+  "name": "allantoin",
+  "smiles": "NC(=O)NC1NC(=O)NC1=O",
+  "measured_logS": -1.6,
+  "published_esol_logS": 0.652
+ },
+ {
+  "name": "Glafenine",
+  "smiles": "OCC(O)COC(=O)c1ccccc1Nc2ccnc3cc(Cl)ccc23",
+  "measured_logS": -4.571000000000001,
+  "published_esol_logS": -5.052
+ },
+ {
+  "name": "DDD",
+  "smiles": "ClC(Cl)C(c1ccc(Cl)cc1)c2ccc(Cl)cc2",
+  "measured_logS": -7.2,
+  "published_esol_logS": -6.007999999999999
+ },
+ {
+  "name": "testosterone acetate",
+  "smiles": "CC(=O)OC3CCC4C2CCC1=CC(=O)CCC1(C)C2CCC34C",
+  "measured_logS": -5.184,
+  "published_esol_logS": -4.449
+ },
+ {
+  "name": "1-Chloronapthalene",
+  "smiles": "Clc1cccc2ccccc12",
+  "measured_logS": -3.93,
+  "published_esol_logS": -4.063
+ },
+ {
+  "name": "RTI 19",
+  "smiles": "CCN2c1ccccc1N(C)C(=O)c3ccccc23",
+  "measured_logS": -4.749,
+  "published_esol_logS": -4.007
+ },
+ {
+  "name": "2-Hexanol",
+  "smiles": "CCCCC(C)O",
+  "measured_logS": -0.89,
+  "published_esol_logS": -1.324
+ },
+ {
+  "name": "Propylcyclopentane",
+  "smiles": "CCCC1CCCC1",
+  "measured_logS": -4.74,
+  "published_esol_logS": -3.16
+ },
+ {
+  "name": "Etomidate",
+  "smiles": "CCOC(=O)c1cncn1C(C)c2ccccc2",
+  "measured_logS": -4.735,
+  "published_esol_logS": -3.359
+ },
+ {
+  "name": "3,4-Dichlorophenol",
+  "smiles": "Oc1ccc(Cl)c(Cl)c1",
+  "measured_logS": -1.25,
+  "published_esol_logS": -3.352
+ },
+ {
+  "name": "Cypermethrin",
+  "smiles": "CC1(C)C(C=C(Cl)Cl)C1C(=O)OC(C#N)c2cccc(Oc3ccccc3)c2",
+  "measured_logS": -8.017000000000001,
+  "published_esol_logS": -6.775
+ },
+ {
+  "name": "Benzoxazole",
+  "smiles": "c2ccc1ocnc1c2",
+  "measured_logS": -1.16,
+  "published_esol_logS": -2.214
+ },
+ {
+  "name": "1-Pentanol",
+  "smiles": "CCCCCO",
+  "measured_logS": -0.6,
+  "published_esol_logS": -1.042
+ },
+ {
+  "name": "N,N-Diethylaniline",
+  "smiles": "CCN(CC)c1ccccc1",
+  "measured_logS": -3.03,
+  "published_esol_logS": -3.16
+ },
+ {
+  "name": "1,3-Difluorobenzene",
+  "smiles": "Fc1cccc(F)c1",
+  "measured_logS": -2.0,
+  "published_esol_logS": -2.636
+ },
+ {
+  "name": "3-chloropropionitrile",
+  "smiles": "ClCCC#N",
+  "measured_logS": -0.29,
+  "published_esol_logS": -0.522
+ },
+ {
+  "name": "t-Pentylbenzene",
+  "smiles": "CC(C)(C)Cc1ccccc1",
+  "measured_logS": -4.15,
+  "published_esol_logS": -3.867
+ },
+ {
+  "name": "5-Ethyl-5-phenylbarbital",
+  "smiles": "O=C1NC(=O)NC(=O)C1(CC)c1ccccc1",
+  "measured_logS": -2.322,
+  "published_esol_logS": -2.272
+ },
+ {
+  "name": "o-Chloroiodobenzene",
+  "smiles": "Clc1ccccc1I",
+  "measured_logS": -3.54,
+  "published_esol_logS": -4.3839999999999995
+ },
+ {
+  "name": "Benzotriazole",
+  "smiles": "c2ccc1[nH]nnc1c2",
+  "measured_logS": -0.78,
+  "published_esol_logS": -2.21
+ },
+ {
+  "name": "Carbofuran",
+  "smiles": "CNC(=O)Oc1cccc2CC(C)(C)Oc12",
+  "measured_logS": -2.8,
+  "published_esol_logS": -3.05
+ },
+ {
+  "name": "2,6-Dimethylphenol",
+  "smiles": "Cc1cccc(C)c1O",
+  "measured_logS": -1.29,
+  "published_esol_logS": -2.589
+ },
+ {
+  "name": "3-Methyl-2-butanol",
+  "smiles": "CC(C)C(C)O",
+  "measured_logS": -0.18,
+  "published_esol_logS": -0.9540000000000001
+ },
+ {
+  "name": "benzhydrol",
+  "smiles": "c1ccccc1C(O)c2ccccc2",
+  "measured_logS": -2.55,
+  "published_esol_logS": -3.033
+ },
+ {
+  "name": "Methyl decanoate",
+  "smiles": "CCCCCCCCCC(=O)OC",
+  "measured_logS": -4.69,
+  "published_esol_logS": -3.3160000000000003
+ },
+ {
+  "name": "Dicapthon",
+  "smiles": "COP(=S)(OC)Oc1ccc(cc1Cl)N(=O)=O",
+  "measured_logS": -4.31,
+  "published_esol_logS": -4.188
+ },
+ {
+  "name": "1-Bromo-2-methylpropane",
+  "smiles": "CC(C)CBr",
+  "measured_logS": -2.43,
+  "published_esol_logS": -2.2880000000000003
+ },
+ {
+  "name": "Iodoethane",
+  "smiles": "CCI",
+  "measured_logS": -1.6,
+  "published_esol_logS": -2.066
+ },
+ {
+  "name": "Pirimicarb",
+  "smiles": "CN(C)C(=O)Oc1nc(nc(C)c1C)N(C)C",
+  "measured_logS": -1.95,
+  "published_esol_logS": -2.34
+ },
+ {
+  "name": "1-Bromohexane",
+  "smiles": "CCCCCCBr",
+  "measured_logS": -3.81,
+  "published_esol_logS": -3.012
+ },
+ {
+  "name": "2-Methylpentane",
+  "smiles": "CCCC(C)C",
+  "measured_logS": -3.74,
+  "published_esol_logS": -2.6
+ },
+ {
+  "name": "Tetrafluthrin",
+  "smiles": "Cc1c(F)c(F)c(COC(=O)C2C(C=C(Cl)C(F)(F)F)C2(C)C)c(F)c1F",
+  "measured_logS": -7.321000000000001,
+  "published_esol_logS": -6.3389999999999995
+ },
+ {
+  "name": "Metolachlor",
+  "smiles": "CCc1cccc(C)c1N(C(C)COC)C(=O)CCl",
+  "measured_logS": -2.73,
+  "published_esol_logS": -3.431
+ },
+ {
+  "name": "nifuroxime",
+  "smiles": "ON=Cc1ccc(o1)N(=O)=O",
+  "measured_logS": -2.19,
+  "published_esol_logS": -1.8430000000000002
+ },
+ {
+  "name": "Fluvalinate",
+  "smiles": "CC(C)C(Nc1ccc(cc1Cl)C(F)(F)F)C(=O)OC(C#N)c2cccc(Oc3ccccc3)c2",
+  "measured_logS": -8.003,
+  "published_esol_logS": -8.057
+ },
+ {
+  "name": "Amitrole",
+  "smiles": "Nc1nc[nH]n1",
+  "measured_logS": 0.522,
+  "published_esol_logS": -0.674
+ },
+ {
+  "name": "Tribromomethane",
+  "smiles": "BrC(Br)Br",
+  "measured_logS": -1.91,
+  "published_esol_logS": -2.904
+ },
+ {
+  "name": "Trichlorfon",
+  "smiles": "COP(=O)(OC)C(O)C(Cl)(Cl)Cl",
+  "measured_logS": -0.22,
+  "published_esol_logS": -1.8659999999999999
+ },
+ {
+  "name": "Phosalone",
+  "smiles": "CCOP(=S)(OCC)SCn1c(=O)oc2cc(Cl)ccc12",
+  "measured_logS": -5.233,
+  "published_esol_logS": -5.024
+ },
+ {
+  "name": "Phenylmethanol",
+  "smiles": "OCc1ccccc1",
+  "measured_logS": -0.4,
+  "published_esol_logS": -1.699
+ },
+ {
+  "name": "Coumatetralyl",
+  "smiles": "O=c2c(C3CCCc4ccccc43)c(O)c1ccccc1o2",
+  "measured_logS": -2.84,
+  "published_esol_logS": -5.194
+ },
+ {
+  "name": "4-Bromophenol",
+  "smiles": "Oc1ccc(Br)cc1",
+  "measured_logS": -1.09,
+  "published_esol_logS": -3.1319999999999997
+ },
+ {
+  "name": "2-Bromopropane",
+  "smiles": "CC(C)Br",
+  "measured_logS": -1.59,
+  "published_esol_logS": -1.949
+ },
+ {
+  "name": "2,2,4-Trimethylpentane",
+  "smiles": "CC(C)CC(C)(C)C",
+  "measured_logS": -4.74,
+  "published_esol_logS": -3.2760000000000002
+ },
+ {
+  "name": "1,3,5-Trinitrobenzene",
+  "smiles": "O=N(=O)c1cc(cc(c1)N(=O)=O)N(=O)=O",
+  "measured_logS": -2.89,
+  "published_esol_logS": -2.324
+ },
+ {
+  "name": "Nimetazepam",
+  "smiles": "CN2C(=O)CN=C(c1ccccc1)c3cc(ccc23)N(=O)=O",
+  "measured_logS": -3.7960000000000003,
+  "published_esol_logS": -3.557
+ },
+ {
+  "name": "Propane",
+  "smiles": "CCC",
+  "measured_logS": -1.94,
+  "published_esol_logS": -1.5530000000000002
+ },
+ {
+  "name": "Minoxidil",
+  "smiles": "Nc1cc(nc(N)n1=O)N2CCCCC2",
+  "measured_logS": -1.989,
+  "published_esol_logS": -1.8090000000000002
+ },
+ {
+  "name": "1-aminoacridine",
+  "smiles": "Nc2cccc3nc1ccccc1cc23",
+  "measured_logS": -4.22,
+  "published_esol_logS": -3.542
+ },
+ {
+  "name": "Benzo(k)fluoranthene",
+  "smiles": "c1ccc2cc3c4cccc5cccc(c3cc2c1)c45",
+  "measured_logS": -8.49,
+  "published_esol_logS": -6.007000000000001
+ },
+ {
+  "name": "Dicofol",
+  "smiles": "OC(c1ccc(Cl)cc1)(c2ccc(Cl)cc2)C(Cl)(Cl)Cl",
+  "measured_logS": -5.666,
+  "published_esol_logS": -6.268
+ },
+ {
+  "name": "Acenapthene",
+  "smiles": "C1Cc2cccc3cccc1c23",
+  "measured_logS": -4.63,
+  "published_esol_logS": -3.792
+ },
+ {
+  "name": "Dialifos",
+  "smiles": "CCOP(=S)(OCC)SC(CCl)N2C(=O)c1ccccc1C2=O",
+  "measured_logS": -6.34,
+  "published_esol_logS": -5.026
+ },
+ {
+  "name": "1,4-Dibromobenzene",
+  "smiles": "Brc1ccc(Br)cc1",
+  "measured_logS": -4.07,
+  "published_esol_logS": -4.298
+ },
+ {
+  "name": "Methazole",
+  "smiles": "Cn2c(=O)on(c1ccc(Cl)c(Cl)c1)c2=O",
+  "measured_logS": -2.82,
+  "published_esol_logS": -3.6010000000000004
+ },
+ {
+  "name": "p-Phenylphenol",
+  "smiles": "Oc1ccc(cc1)c2ccccc2",
+  "measured_logS": -3.48,
+  "published_esol_logS": -3.701
+ },
+ {
+  "name": "pyracarbolid",
+  "smiles": "CC1=C(CCCO1)C(=O)Nc2ccccc2",
+  "measured_logS": -2.56,
+  "published_esol_logS": -2.83
+ },
+ {
+  "name": "Ethyl vinyl ether",
+  "smiles": "CCOC=C",
+  "measured_logS": -0.85,
+  "published_esol_logS": -0.857
+ },
+ {
+  "name": "1-Butyne",
+  "smiles": "CCC#C",
+  "measured_logS": -1.24,
+  "published_esol_logS": -1.092
+ },
+ {
+  "name": "4-methoxypteridine",
+  "smiles": "COc1ncnc2nccnc12",
+  "measured_logS": -1.11,
+  "published_esol_logS": -1.589
+ },
+ {
+  "name": "3-Methyl-3-heptanol",
+  "smiles": "CCCCC(C)(O)CC",
+  "measured_logS": -1.6,
+  "published_esol_logS": -2.017
+ },
+ {
+  "name": "1,4-Dichlorobenzene",
+  "smiles": "Clc1ccc(Cl)cc1",
+  "measured_logS": -3.27,
+  "published_esol_logS": -3.5580000000000003
+ },
+ {
+  "name": "3-Ethanoyloxymethylphenytoin",
+  "smiles": "O=C1N(COC(=O)C)C(=O)C(N1)(c2ccccc2)c3ccccc3",
+  "measured_logS": -4.47,
+  "published_esol_logS": -2.7230000000000003
+ },
+ {
+  "name": "Sparsomycin (3,8mg/ml)",
+  "smiles": "CSCS(=O)CC(CO)NC(=O)C=Cc1c(C)[nH]c(=O)[nH]c1=O",
+  "measured_logS": -1.9809999999999999,
+  "published_esol_logS": -1.57
+ },
+ {
+  "name": "3-methylindole",
+  "smiles": "Cc1c[nH]c2ccccc12",
+  "measured_logS": -2.42,
+  "published_esol_logS": -2.9810000000000003
+ },
+ {
+  "name": "2-methoxypteridine",
+  "smiles": "COc2ncc1nccnc1n2",
+  "measured_logS": -1.11,
+  "published_esol_logS": -1.589
+ },
+ {
+  "name": "Dioxacarb",
+  "smiles": "CNC(=O)Oc1ccccc1C2OCCO2",
+  "measured_logS": -1.57,
+  "published_esol_logS": -1.614
+ },
+ {
+  "name": "isocarbamid",
+  "smiles": "C1N(C(=O)NCC(C)C)C(=O)NC1",
+  "measured_logS": -2.15,
+  "published_esol_logS": -1.508
+ },
+ {
+  "name": "Acetonitrile",
+  "smiles": "CC#N",
+  "measured_logS": 0.26,
+  "published_esol_logS": 0.152
+ },
+ {
+  "name": "Fenoxycarb",
+  "smiles": "CCOC(=O)NCCOc2ccc(Oc1ccccc1)cc2",
+  "measured_logS": -4.7,
+  "published_esol_logS": -4.662
+ },
+ {
+  "name": "acetyl sulfisoxazole",
+  "smiles": "CC(=O)N(S(=O)c1ccc(N)cc1)c2onc(C)c2C",
+  "measured_logS": -3.59,
+  "published_esol_logS": -2.024
+ },
+ {
+  "name": "1,1,1,2-Tetrachloroethane",
+  "smiles": "ClCC(Cl)(Cl)Cl",
+  "measured_logS": -2.18,
+  "published_esol_logS": -2.7939999999999996
+ },
+ {
+  "name": "1-Butanol",
+  "smiles": "CCCCO",
+  "measured_logS": 0.0,
+  "published_esol_logS": -0.688
+ },
+ {
+  "name": "Siduron",
+  "smiles": "CC1CCCCC1NC(=O)Nc2ccccc2",
+  "measured_logS": -4.11,
+  "published_esol_logS": -3.779
+ },
+ {
+  "name": "1,3,5-Trichlorobenzene",
+  "smiles": "Clc1cc(Cl)cc(Cl)c1",
+  "measured_logS": -4.48,
+  "published_esol_logS": -4.159
+ },
+ {
+  "name": "Furfural",
+  "smiles": "O=Cc1ccco1",
+  "measured_logS": -0.1,
+  "published_esol_logS": -1.391
+ },
+ {
+  "name": "3-Methylbutan-1-ol",
+  "smiles": "CC(C)CCO",
+  "measured_logS": -0.51,
+  "published_esol_logS": -1.0270000000000001
+ },
+ {
+  "name": "piperonal",
+  "smiles": "O=Cc2ccc1OCOc1c2",
+  "measured_logS": -1.63,
+  "published_esol_logS": -2.033
+ },
+ {
+  "name": "2-Methylpropene",
+  "smiles": "CC(=C)C",
+  "measured_logS": -2.33,
+  "published_esol_logS": -1.5730000000000002
+ },
+ {
+  "name": "Benzaldehyde",
+  "smiles": "O=Cc1ccccc1",
+  "measured_logS": -1.19,
+  "published_esol_logS": -1.999
+ },
+ {
+  "name": "2,3-Dimethyl-1,3-Butadiene",
+  "smiles": "CC(=C)C(=C)C",
+  "measured_logS": -2.4,
+  "published_esol_logS": -2.052
+ },
+ {
+  "name": "Benfuracarb",
+  "smiles": "CCOC(=O)CCN(SN(C)C(=O)Oc1cccc2CC(C)(C)Oc21)C(C)C",
+  "measured_logS": -4.71,
+  "published_esol_logS": -5.132999999999999
+ },
+ {
+  "name": "RTI 10",
+  "smiles": "O2c1ccccc1N(C)C(=O)c3cccnc23",
+  "measured_logS": -3.6719999999999997,
+  "published_esol_logS": -2.7710000000000004
+ },
+ {
+  "name": "Fluorene",
+  "smiles": "C1c2ccccc2c3ccccc13",
+  "measured_logS": -5.0,
+  "published_esol_logS": -4.125
+ },
+ {
+  "name": "Methylcyclohexane",
+  "smiles": "CC1CCCCC1",
+  "measured_logS": -3.85,
+  "published_esol_logS": -2.891
+ },
+ {
+  "name": "sulfaguanidine",
+  "smiles": "NC(=N)NS(=O)(=O)c1ccc(N)cc1",
+  "measured_logS": -1.99,
+  "published_esol_logS": -0.706
+ },
+ {
+  "name": "Methylparaben",
+  "smiles": "COC(=O)c1ccc(O)cc1",
+  "measured_logS": -1.827,
+  "published_esol_logS": -2.441
+ },
+ {
+  "name": "2-Methyltetrahydrofurane",
+  "smiles": "CC1CCCO1",
+  "measured_logS": 0.11,
+  "published_esol_logS": -1.034
+ },
+ {
+  "name": "Santonin",
+  "smiles": "CC3C2CCC1(C)C=CC(=O)C(=C1C2OC3=O)C",
+  "measured_logS": -3.09,
+  "published_esol_logS": -2.43
+ },
+ {
+  "name": "Salicin",
+  "smiles": "OCC2OC(Oc1ccccc1CO)C(O)C(O)C2O",
+  "measured_logS": -0.85,
+  "published_esol_logS": -0.975
+ },
+ {
+  "name": "1-Iodopropane",
+  "smiles": "CCCI",
+  "measured_logS": -2.29,
+  "published_esol_logS": -2.4859999999999998
+ },
+ {
+  "name": "Ametryn",
+  "smiles": "CCNc1nc(NC(C)C)nc(SC)n1",
+  "measured_logS": -3.04,
+  "published_esol_logS": -3.43
+ },
+ {
+  "name": "1-Propanol",
+  "smiles": "CCCO",
+  "measured_logS": 0.62,
+  "published_esol_logS": -0.33399999999999996
+ },
+ {
+  "name": "Hydroxyprogesterone-17a",
+  "smiles": "CC(=O)C1(O)CCC2C3CCC4=CC(=O)CCC4(C)C3CCC21C",
+  "measured_logS": -3.8169999999999997,
+  "published_esol_logS": -3.8760000000000003
+ },
+ {
+  "name": "2-Pentanol",
+  "smiles": "CCCC(C)O",
+  "measured_logS": -0.29,
+  "published_esol_logS": -0.97
+ },
+ {
+  "name": "benzoin",
+  "smiles": "OC(C(=O)c1ccccc1)c2ccccc2",
+  "measured_logS": -2.85,
+  "published_esol_logS": -3.148
+ },
+ {
+  "name": "2,4-Dimethylphenol",
+  "smiles": "Cc1ccc(O)c(C)c1",
+  "measured_logS": -1.19,
+  "published_esol_logS": -2.6210000000000004
+ },
+ {
+  "name": "m-Chloronitrobenzene",
+  "smiles": "Clc1cccc(c1)N(=O)=O",
+  "measured_logS": -2.77,
+  "published_esol_logS": -2.9010000000000002
+ },
+ {
+  "name": "ampyrone",
+  "smiles": "Cc2c(N)c(=O)n(c1ccccc1)n2C",
+  "measured_logS": -0.624,
+  "published_esol_logS": -1.192
+ },
+ {
+  "name": "2,2',4,5'-PCB",
+  "smiles": "Clc1ccc(c(Cl)c1)c2cc(Cl)ccc2Cl",
+  "measured_logS": -6.57,
+  "published_esol_logS": -6.23
+ },
+ {
+  "name": "Hexachloro-1,3-butadiene",
+  "smiles": "ClC(=C(Cl)C(=C(Cl)Cl)Cl)Cl",
+  "measured_logS": -4.92,
+  "published_esol_logS": -4.546
+ },
+ {
+  "name": "Terbutryn",
+  "smiles": "CCNc1nc(NC(C)(C)C)nc(SC)n1",
+  "measured_logS": -4.0,
+  "published_esol_logS": -3.75
+ },
+ {
+  "name": "3-Methyl-2-pentanol",
+  "smiles": "CCC(C)CCO",
+  "measured_logS": -0.71,
+  "published_esol_logS": -1.308
+ },
+ {
+  "name": "2-methylpteridine",
+  "smiles": "Cc2ncc1nccnc1n2",
+  "measured_logS": -0.12,
+  "published_esol_logS": -1.24
+ },
+ {
+  "name": "Danazol",
+  "smiles": "CC23Cc1cnoc1C=C2CCC4C3CCC5(C)C4CCC5(O)C#C",
+  "measured_logS": -5.507000000000001,
+  "published_esol_logS": -4.5569999999999995
+ },
+ {
+  "name": "1-Iodobutane",
+  "smiles": "CCCCI",
+  "measured_logS": -2.96,
+  "published_esol_logS": -2.841
+ },
+ {
+  "name": "2-Bromonapthalene",
+  "smiles": "Brc1ccc2ccccc2c1",
+  "measured_logS": -4.4,
+  "published_esol_logS": -4.434
+ },
+ {
+  "name": "Digoxin (L1=41,8mg/mL, L2=68,2mg/mL, Z=40,1mg/mL)",
+  "smiles": "CC1OC(CC(O)C1O)OC2C(O)CC(OC2C)OC8C(O)CC(OC7CCC3(C)C(CCC4C3CC(O)C5(C)C(CCC45O)C6=CC(=O)OC6)C7)OC8C",
+  "measured_logS": -4.081,
+  "published_esol_logS": -5.312
+ },
+ {
+  "name": "Benzyltrifluoride",
+  "smiles": "FC(F)(F)c1ccccc1",
+  "measured_logS": -2.51,
+  "published_esol_logS": -3.0989999999999998
+ },
+ {
+  "name": "Dihexyl phthalate",
+  "smiles": "CCCCCCOC(=O)c1ccccc1C(=O)OCCCCCC",
+  "measured_logS": -6.144,
+  "published_esol_logS": -5.757999999999999
+ },
+ {
+  "name": "Dibenzothiophene",
+  "smiles": "c1ccc2c(c1)sc3ccccc23",
+  "measured_logS": -4.38,
+  "published_esol_logS": -4.5969999999999995
+ },
+ {
+  "name": "2,3',4,4'-PCB",
+  "smiles": "Clc1ccc(c(Cl)c1)c2ccc(Cl)c(Cl)c2Cl",
+  "measured_logS": -7.8,
+  "published_esol_logS": -6.709
+ },
+ {
+  "name": "2,2',3,3',4,4'-PCB",
+  "smiles": "Clc1ccc(c(Cl)c1Cl)c2ccc(Cl)c(Cl)c2Cl",
+  "measured_logS": -8.01,
+  "published_esol_logS": -7.192
+ },
+ {
+  "name": "Warfarin",
+  "smiles": "CC(=O)CC(c1ccccc1)c3c(O)c2ccccc2oc3=O",
+  "measured_logS": -3.8930000000000002,
+  "published_esol_logS": -3.9130000000000003
+ },
+ {
+  "name": "hydrobenzoin",
+  "smiles": "c1ccccc1C(O)C(O)c2ccccc2",
+  "measured_logS": -1.93,
+  "published_esol_logS": -2.645
+ },
+ {
+  "name": "Dimethyl phthalate",
+  "smiles": "COC(=O)c1ccccc1C(=O)OC",
+  "measured_logS": -1.66,
+  "published_esol_logS": -2.347
+ },
+ {
+  "name": "Ethyl octanoate",
+  "smiles": "CCCCCCCC(=O)OCC",
+  "measured_logS": -3.39,
+  "published_esol_logS": -2.9619999999999997
+ },
+ {
+  "name": "Diethyldisulfide",
+  "smiles": "CCSSCC",
+  "measured_logS": -2.42,
+  "published_esol_logS": -2.364
+ },
+ {
+  "name": "1,2-Diethoxyethane",
+  "smiles": "CCOCCOCC",
+  "measured_logS": -0.77,
+  "published_esol_logS": -0.833
+ },
+ {
+  "name": "1,2,4,5-Tetrachlorobenzene",
+  "smiles": "Clc1cc(Cl)c(Cl)cc1Cl",
+  "measured_logS": -5.56,
+  "published_esol_logS": -4.621
+ },
+ {
+  "name": "p-benzidine",
+  "smiles": "Nc1ccc(cc1)c2ccc(N)cc2",
+  "measured_logS": -2.7,
+  "published_esol_logS": -2.613
+ },
+ {
+  "name": "1-Heptene",
+  "smiles": "CCCCCC=C",
+  "measured_logS": -3.73,
+  "published_esol_logS": -2.718
+ },
+ {
+  "name": "Ethirimol",
+  "smiles": "CCCCc1c(C)nc(NCC)[nH]c1=O",
+  "measured_logS": -3.028,
+  "published_esol_logS": -2.7319999999999998
+ },
+ {
+  "name": "Pentobarbital",
+  "smiles": "O=C1NC(=O)NC(=O)C1(CC)C(C)CCC",
+  "measured_logS": -2.39,
+  "published_esol_logS": -2.312
+ },
+ {
+  "name": "o-Chloroaniline",
+  "smiles": "Nc1ccccc1Cl",
+  "measured_logS": -1.52,
+  "published_esol_logS": -2.392
+ },
+ {
+  "name": "3-Chloroanisole",
+  "smiles": "COc1cccc(Cl)c1",
+  "measured_logS": -2.78,
+  "published_esol_logS": -3.057
+ },
+ {
+  "name": "Pebulate",
+  "smiles": "CCCCN(CC)C(=O)SCCC",
+  "measured_logS": -3.53,
+  "published_esol_logS": -3.1310000000000002
+ },
+ {
+  "name": "Butyl acetate",
+  "smiles": "CCCCOC=O",
+  "measured_logS": -1.37,
+  "published_esol_logS": -1.111
+ },
+ {
+  "name": "Prednisolone",
+  "smiles": "CC12CC(O)C3C(CCC4=CC(=O)C=CC34C)C2CCC1(O)C(=O)CO",
+  "measured_logS": -3.18,
+  "published_esol_logS": -2.9739999999999998
+ },
+ {
+  "name": "Bromodichloromethane",
+  "smiles": "BrC(Cl)Cl",
+  "measured_logS": -1.54,
+  "published_esol_logS": -2.176
+ },
+ {
+  "name": "adrenosterone",
+  "smiles": "CC34CC(=O)C1C(CCC2=CC(=O)CCC12C)C3CCC4(=O)",
+  "measured_logS": -3.48,
+  "published_esol_logS": -2.99
+ },
+ {
+  "name": "p-terphenyl",
+  "smiles": "c1ccc(cc1)c2ccc(cc2)c3ccccc3",
+  "measured_logS": -7.11,
+  "published_esol_logS": -5.7410000000000005
+ },
+ {
+  "name": "p-Hydroxybenzaldehyde",
+  "smiles": "Oc1ccc(C=O)cc1",
+  "measured_logS": -0.96,
+  "published_esol_logS": -2.003
+ },
+ {
+  "name": "Bromomethane",
+  "smiles": "CBr",
+  "measured_logS": -0.79,
+  "published_esol_logS": -1.109
+ },
+ {
+  "name": "Perfluidone",
+  "smiles": "Cc1cc(ccc1NS(=O)(=O)C(F)(F)F)S(=O)(=O)c2ccccc2",
+  "measured_logS": -3.8,
+  "published_esol_logS": -4.945
+ },
+ {
+  "name": "Coumachlor",
+  "smiles": "CC(=O)CC(c1ccc(Cl)cc1)c2c(O)c3ccccc3oc2=O",
+  "measured_logS": -5.8389999999999995,
+  "published_esol_logS": -4.553999999999999
+ },
+ {
+  "name": "2-Ethylnaphthalene",
+  "smiles": "CCc1ccc2ccccc2c1",
+  "measured_logS": -4.29,
+  "published_esol_logS": -4.1
+ },
+ {
+  "name": "5-methylcytosine",
+  "smiles": "Nc1c(C)c[nH]c(=O)n1",
+  "measured_logS": -1.4580000000000002,
+  "published_esol_logS": -0.257
+ },
+ {
+  "name": "2,3,4,5,6-PCB",
+  "smiles": "Clc2c(Cl)c(Cl)c(c1ccccc1)c(Cl)c2Cl",
+  "measured_logS": -7.92,
+  "published_esol_logS": -6.785
+ },
+ {
+  "name": "benodanil",
+  "smiles": "c1c(NC(=O)c2ccccc2(I))cccc1",
+  "measured_logS": -4.21,
+  "published_esol_logS": -4.245
+ },
+ {
+  "name": "Riboflavin",
+  "smiles": "Cc3cc2nc1c(=O)[nH]c(=O)nc1n(CC(O)C(O)C(O)CO)c2cc3C",
+  "measured_logS": -3.685,
+  "published_esol_logS": -1.865
+ },
+ {
+  "name": "o-Fluorobromobenzene",
+  "smiles": "Fc1ccccc1Br",
+  "measured_logS": -2.7,
+  "published_esol_logS": -3.467
+ },
+ {
+  "name": "2,4-Dichlorophenol",
+  "smiles": "Oc1ccc(Cl)cc1Cl",
+  "measured_logS": -1.55,
+  "published_esol_logS": -3.22
+ },
+ {
+  "name": "Permethrin",
+  "smiles": "CC1(C)C(C=C(Cl)Cl)C1C(=O)OCc2cccc(Oc3ccccc3)c2",
+  "measured_logS": -6.291,
+  "published_esol_logS": -7.129
+ },
+ {
+  "name": "piroxicam",
+  "smiles": "CN2C(=C(O)c1ccccc1S2(=O)=O)C(=O)Nc3ccccn3",
+  "measured_logS": -4.16,
+  "published_esol_logS": -3.4730000000000003
+ },
+ {
+  "name": "3-Propanoyloxymethylphenytoin",
+  "smiles": "O=C1N(COC(=O)CC)C(=O)C(N1)(c2ccccc2)c3ccccc3",
+  "measured_logS": -4.907,
+  "published_esol_logS": -3.128
+ },
+ {
+  "name": "Cyclopentane",
+  "smiles": "C1CCCC1",
+  "measured_logS": -2.64,
+  "published_esol_logS": -2.0380000000000003
+ },
+ {
+  "name": "o-Toluidine",
+  "smiles": "Cc1ccccc1N",
+  "measured_logS": -2.21,
+  "published_esol_logS": -1.922
+ },
+ {
+  "name": "Estragole",
+  "smiles": "c1(OC)ccc(CC=C)cc1",
+  "measured_logS": -2.92,
+  "published_esol_logS": -3.074
+ },
+ {
+  "name": "karbutilate",
+  "smiles": "CN(C)C(=O)Nc1cccc(OC(=O)NC(C)(C)C)c1",
+  "measured_logS": -2.93,
+  "published_esol_logS": -2.655
+ },
+ {
+  "name": "3-Methyl-1-Butene",
+  "smiles": "CC(C)C=C",
+  "measured_logS": -2.73,
+  "published_esol_logS": -1.994
+ },
+ {
+  "name": "2-Hydroxypyridine",
+  "smiles": "Oc1ccccn1",
+  "measured_logS": 1.02,
+  "published_esol_logS": -1.655
+ },
+ {
+  "name": "Ethane",
+  "smiles": "CC",
+  "measured_logS": -1.36,
+  "published_esol_logS": -1.1320000000000001
+ },
+ {
+  "name": "1,2-Dichlorobenzene",
+  "smiles": "Clc1ccccc1Cl",
+  "measured_logS": -3.05,
+  "published_esol_logS": -3.4819999999999998
+ },
+ {
+  "name": "mercaptobenzothiazole",
+  "smiles": "Sc2nc1ccccc1s2",
+  "measured_logS": -3.18,
+  "published_esol_logS": -3.411
+ },
+ {
+  "name": "2,2',3,3',4,4',5,5',6,6'-PCB",
+  "smiles": "Clc1c(Cl)c(Cl)c(c(Cl)c1Cl)c2c(Cl)c(Cl)c(Cl)c(Cl)c2Cl",
+  "measured_logS": -11.6,
+  "published_esol_logS": -9.589
+ },
+ {
+  "name": "Methoxsalen",
+  "smiles": "COc2c1occc1cc3ccc(=O)oc23",
+  "measured_logS": -3.6639999999999997,
+  "published_esol_logS": -3.25
+ },
+ {
+  "name": "Acetamide",
+  "smiles": "CC(=O)N",
+  "measured_logS": 1.58,
+  "published_esol_logS": 0.494
+ },
+ {
+  "name": "1-Methylnaphthalene",
+  "smiles": "Cc1cccc2ccccc12",
+  "measured_logS": -3.7,
+  "published_esol_logS": -3.802
+ },
+ {
+  "name": "Napropamide",
+  "smiles": "CCN(CC)C(=O)C(C)Oc1cccc2ccccc12",
+  "measured_logS": -3.57,
+  "published_esol_logS": -4.088
+ },
+ {
+  "name": "3,3-Dimethyl-2-butanol",
+  "smiles": "CC(O)C(C)(C)C",
+  "measured_logS": -0.62,
+  "published_esol_logS": -1.2919999999999998
+ },
+ {
+  "name": "Methyl pentanoate",
+  "smiles": "CCCC(=O)OCC",
+  "measured_logS": -1.36,
+  "published_esol_logS": -1.545
+ },
+ {
+  "name": "Menadione",
+  "smiles": "CC2=CC(=O)c1ccccc1C2=O",
+  "measured_logS": -3.03,
+  "published_esol_logS": -2.667
+ },
+ {
+  "name": "Phenanthrene",
+  "smiles": "c1ccc2c(c1)ccc3ccccc32",
+  "measured_logS": -5.26,
+  "published_esol_logS": -4.518
+ },
+ {
+  "name": "2,4-Dimethylpyridine",
+  "smiles": "Cc1ccnc(C)c1",
+  "measured_logS": 0.38,
+  "published_esol_logS": -2.0980000000000003
+ },
+ {
+  "name": "1-Nonanol",
+  "smiles": "CCCCCCCCCO",
+  "measured_logS": -3.01,
+  "published_esol_logS": -2.46
+ },
+ {
+  "name": "Dibromomethane",
+  "smiles": "BrCBr",
+  "measured_logS": -1.17,
+  "published_esol_logS": -1.883
+ },
+ {
+  "name": "Dexamethasone",
+  "smiles": "CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(F)C(O)CC2(C)C1(O)C(=O)CO",
+  "measured_logS": -3.59,
+  "published_esol_logS": -3.4
+ },
+ {
+  "name": "2,6-Dimethylnaphthalene",
+  "smiles": "Cc1ccc2cc(C)ccc2c1",
+  "measured_logS": -4.89,
+  "published_esol_logS": -4.147
+ },
+ {
+  "name": "Butylate",
+  "smiles": "CCSC(=O)N(CC(C)C)CC(C)C",
+  "measured_logS": -3.68,
+  "published_esol_logS": -3.4530000000000003
+ },
+ {
+  "name": "nitroglycerin",
+  "smiles": "O=N(=O)OCC(CON(=O)=O)ON(=O)=O",
+  "measured_logS": -2.22,
+  "published_esol_logS": -2.029
+ },
+ {
+  "name": "m-Nitroaniline",
+  "smiles": "Nc1cccc(c1)N(=O)=O",
+  "measured_logS": -2.19,
+  "published_esol_logS": -1.936
+ },
+ {
+  "name": "1-Chlorobutane",
+  "smiles": "CCCCCl",
+  "measured_logS": -2.03,
+  "published_esol_logS": -1.94
+ },
+ {
+  "name": "triforine",
+  "smiles": "ClC(Cl)(Cl)C(NC=O)N1C=CN(C=C1)C(NC=O)C(Cl)(Cl)Cl",
+  "measured_logS": -4.19,
+  "published_esol_logS": -3.715
+ },
+ {
+  "name": "Fluridone",
+  "smiles": "Cn2cc(c1ccccc1)c(=O)c(c2)c3cccc(c3)C(F)(F)F",
+  "measured_logS": -4.445,
+  "published_esol_logS": -4.249
+ },
+ {
+  "name": "6-aminochrysene",
+  "smiles": "Nc3cc2c1ccccc1ccc2c4ccccc34",
+  "measured_logS": -6.2,
+  "published_esol_logS": -4.849
+ },
+ {
+  "name": "Estrone",
+  "smiles": "CC12CCC3C(CCc4cc(O)ccc34)C2CCC1=O",
+  "measured_logS": -3.955,
+  "published_esol_logS": -3.872
+ },
+ {
+  "name": "RTI 17",
+  "smiles": "CCN2c1ccccc1N(C)C(=S)c3cccnc23",
+  "measured_logS": -4.706,
+  "published_esol_logS": -4.227
+ },
+ {
+  "name": "1,2-Propylene oxide",
+  "smiles": "CC1CO1",
+  "measured_logS": -0.59,
+  "published_esol_logS": -0.358
+ },
+ {
+  "name": "Nitrazepam",
+  "smiles": "O=C3CN=C(c1ccccc1)c2cc(ccc2N3)N(=O)=O",
+  "measured_logS": -3.7960000000000003,
+  "published_esol_logS": -3.4730000000000003
+ },
+ {
+  "name": "1,3-diethylthiourea",
+  "smiles": "CCNC(=S)NCC",
+  "measured_logS": -1.46,
+  "published_esol_logS": -1.028
+ },
+ {
+  "name": "2,3,5-Trichlorophenol",
+  "smiles": "Oc1cc(Cl)cc(Cl)c1Cl",
+  "measured_logS": -2.67,
+  "published_esol_logS": -3.78
+ },
+ {
+  "name": "Propyl propanoate",
+  "smiles": "CCCCC(=O)OC",
+  "measured_logS": -1.34,
+  "published_esol_logS": -1.545
+ },
+ {
+  "name": "Aniline",
+  "smiles": "Nc1ccccc1",
+  "measured_logS": -0.41,
+  "published_esol_logS": -1.632
+ },
+ {
+  "name": "1,5-Dimethlnapthalene",
+  "smiles": "Cc1cccc2c(C)cccc12",
+  "measured_logS": -4.678999999999999,
+  "published_esol_logS": -4.147
+ },
+ {
+  "name": "hydrochlorothiazide",
+  "smiles": "NS(=O)(=O)c2cc1c(NCNS1(=O)=O)cc2Cl",
+  "measured_logS": -2.63,
+  "published_esol_logS": -1.72
+ },
+ {
+  "name": "Acenapthylene",
+  "smiles": "C1=Cc2cccc3cccc1c23",
+  "measured_logS": -3.96,
+  "published_esol_logS": -3.682
+ },
+ {
+  "name": "Ethyl butyrate",
+  "smiles": "CCCCCOC(=O)CC",
+  "measured_logS": -1.28,
+  "published_esol_logS": -2.254
+ },
+ {
+  "name": "Atratone",
+  "smiles": "CCNc1nc(NC(C)C)nc(OC)n1",
+  "measured_logS": -2.084,
+  "published_esol_logS": -3.185
+ },
+ {
+  "name": "Benzo(a)pyrene",
+  "smiles": "c1ccc2c(c1)cc3ccc4cccc5ccc2c3c45",
+  "measured_logS": -8.699,
+  "published_esol_logS": -6.007000000000001
+ },
+ {
+  "name": "Bromoethane",
+  "smiles": "CCBr",
+  "measured_logS": -1.09,
+  "published_esol_logS": -1.5290000000000001
+ },
+ {
+  "name": "3-Hexyne",
+  "smiles": "CCC#CCC",
+  "measured_logS": -1.99,
+  "published_esol_logS": -1.933
+ },
+ {
+  "name": "Digitoxin",
+  "smiles": "CC1OC(CC(O)C1O)OC2C(O)CC(OC2C)OC8C(O)CC(OC7CCC3(C)C(CCC4C3CCC5(C)C(CCC45O)C6=CC(=O)OC6)C7)OC8C",
+  "measured_logS": -5.292999999999999,
+  "published_esol_logS": -6.114
+ },
+ {
+  "name": "2-Methyl-1-Butene",
+  "smiles": "CCC(=C)C",
+  "measured_logS": -2.73,
+  "published_esol_logS": -1.994
+ },
+ {
+  "name": "8-quinolinol",
+  "smiles": "Oc1cccc2cccnc12",
+  "measured_logS": -2.42,
+  "published_esol_logS": -2.725
+ },
+ {
+  "name": "1,2,3,4-Tetrahydronapthalene",
+  "smiles": "C1CCc2ccccc2C1",
+  "measured_logS": -4.37,
+  "published_esol_logS": -3.447
+ },
+ {
+  "name": "phenolphthalein",
+  "smiles": "Oc1ccc(cc1)C2(OC(=O)c3ccccc23)c4ccc(O)cc4",
+  "measured_logS": -2.9,
+  "published_esol_logS": -4.59
+ },
+ {
+  "name": "1,3,5-Tribromobenzene",
+  "smiles": "Brc1cc(Br)cc(Br)c1",
+  "measured_logS": -5.6,
+  "published_esol_logS": -5.27
+ },
+ {
+  "name": "Ronnel",
+  "smiles": "COP(=S)(OC)Oc1cc(Cl)c(Cl)cc1Cl",
+  "measured_logS": -5.72,
+  "published_esol_logS": -5.247000000000001
+ },
+ {
+  "name": "methylthiouracil",
+  "smiles": "Cc1cc(=O)[nH]c(=S)[nH]1",
+  "measured_logS": -2.436,
+  "published_esol_logS": -0.547
+ },
+ {
+  "name": "Eugenol",
+  "smiles": "COc1cc(CC=C)ccc1O",
+  "measured_logS": -1.56,
+  "published_esol_logS": -2.675
+ },
+ {
+  "name": "5-Allyl-5-isopropylbarbital",
+  "smiles": "O=C1NC(=O)NC(=O)C1(C(C)C)CC=C",
+  "measured_logS": -1.7080000000000002,
+  "published_esol_logS": -1.706
+ },
+ {
+  "name": "Pyrene",
+  "smiles": "c1cc2ccc3cccc4ccc(c1)c2c34",
+  "measured_logS": -6.176,
+  "published_esol_logS": -4.957
+ },
+ {
+  "name": "1,1-Diethoxyethane",
+  "smiles": "CCOC(C)OCC",
+  "measured_logS": -0.43,
+  "published_esol_logS": -0.899
+ },
+ {
+  "name": "Clomazone",
+  "smiles": "CC1(C)CON(Cc2ccccc2Cl)C1=O",
+  "measured_logS": -2.338,
+  "published_esol_logS": -3.077
+ },
+ {
+  "name": "2-Butoxyethanol",
+  "smiles": "CCCCOCCO",
+  "measured_logS": -0.42,
+  "published_esol_logS": -0.775
+ },
+ {
+  "name": "Quintozene",
+  "smiles": "Clc1c(Cl)c(Cl)c(N(=O)=O)c(Cl)c1Cl",
+  "measured_logS": -5.82,
+  "published_esol_logS": -5.098
+ },
+ {
+  "name": "Androsterone",
+  "smiles": "CC12CCC(O)CC1CCC3C2CCC4(C)C3CCC4=O",
+  "measured_logS": -4.402,
+  "published_esol_logS": -3.8819999999999997
+ },
+ {
+  "name": "Flurochloridone",
+  "smiles": "FC(F)(F)c1cccc(c1)N2CC(CCl)C(Cl)C2=O",
+  "measured_logS": -4.047,
+  "published_esol_logS": -4.749
+ },
+ {
+  "name": "Quinoline",
+  "smiles": "c1ccc2ncccc2c1",
+  "measured_logS": -1.3,
+  "published_esol_logS": -2.6630000000000003
+ },
+ {
+  "name": "methyl gallate",
+  "smiles": "COC(=O)c1cc(O)c(O)c(O)c1",
+  "measured_logS": -1.24,
+  "published_esol_logS": -1.913
+ },
+ {
+  "name": "fluconazole",
+  "smiles": "OC(Cn1cncn1)(Cn2cncn2)c3ccc(F)cc3F",
+  "measured_logS": -1.8,
+  "published_esol_logS": -2.418
+ },
+ {
+  "name": "Chlorzoxazone",
+  "smiles": "Clc2ccc1oc(=O)[nH]c1c2",
+  "measured_logS": -2.8310000000000004,
+  "published_esol_logS": -2.679
+ },
+ {
+  "name": "2,2',3,4,4',5',6-PCB",
+  "smiles": "Clc1ccc(c(Cl)c1)c2c(Cl)c(Cl)c(Cl)c(Cl)c2Cl",
+  "measured_logS": -7.92,
+  "published_esol_logS": -7.898
+ },
+ {
+  "name": "alloxan",
+  "smiles": "O=C1NC(=O)C(=O)C(=O)N1",
+  "measured_logS": -1.25,
+  "published_esol_logS": 0.436
+ },
+ {
+  "name": "1,3-Dichloropropane",
+  "smiles": "ClCCCCl",
+  "measured_logS": -1.62,
+  "published_esol_logS": -1.618
+ },
+ {
+  "name": "m-Fluorobromobenzene",
+  "smiles": "Fc1cccc(Br)c1",
+  "measured_logS": -2.67,
+  "published_esol_logS": -3.467
+ },
+ {
+  "name": "p-Chlorobromobenzene",
+  "smiles": "Clc1ccc(Br)cc1",
+  "measured_logS": -3.63,
+  "published_esol_logS": -3.928
+ },
+ {
+  "name": "2,3-Dimethylbutane",
+  "smiles": "CC(C)C(C)C",
+  "measured_logS": -3.65,
+  "published_esol_logS": -2.5839999999999996
+ },
+ {
+  "name": "1-Butene",
+  "smiles": "CCC=C",
+  "measured_logS": -1.94,
+  "published_esol_logS": -1.655
+ },
+ {
+  "name": "2,2',3,4,5,5'-PCB",
+  "smiles": "Clc1ccc(Cl)c(c1)c2cc(Cl)c(Cl)c(Cl)c2Cl",
+  "measured_logS": -7.68,
+  "published_esol_logS": -7.343
+ },
+ {
+  "name": "cytosine",
+  "smiles": "Nc1cc[nH]c(=O)n1",
+  "measured_logS": -1.155,
+  "published_esol_logS": 0.051
+ },
+ {
+  "name": "1,1,2-Trichlorotrifluoroethane",
+  "smiles": "FC(F)(Cl)C(F)(Cl)Cl",
+  "measured_logS": -3.04,
+  "published_esol_logS": -3.077
+ },
+ {
+  "name": "Propionitrile",
+  "smiles": "CCC#N",
+  "measured_logS": 0.28,
+  "published_esol_logS": -0.26899999999999996
+ },
+ {
+  "name": "O,P'-DDD",
+  "smiles": "ClC(Cl)C(c1ccc(Cl)cc1)c2ccccc2Cl",
+  "measured_logS": -6.51,
+  "published_esol_logS": -6.007999999999999
+ },
+ {
+  "name": "o-Nitroanisole",
+  "smiles": "COc1ccccc1N(=O)=O",
+  "measured_logS": -1.96,
+  "published_esol_logS": -2.346
+ },
+ {
+  "name": "Prasterone",
+  "smiles": "CC34CCC1C(CC=C2CC(O)CCC12C)C3CCC4=O",
+  "measured_logS": -4.12,
+  "published_esol_logS": -3.5639999999999996
+ },
+ {
+  "name": "Procymidone",
+  "smiles": "CC12CC2(C)C(=O)N(C1=O)c3cc(Cl)cc(Cl)c3",
+  "measured_logS": -4.8,
+  "published_esol_logS": -3.464
+ },
+ {
+  "name": "Benzo[ghi]perylene",
+  "smiles": "c1cc2ccc3ccc4ccc5cccc6c(c1)c2c3c4c56",
+  "measured_logS": -9.017999999999999,
+  "published_esol_logS": -6.446000000000001
+ },
+ {
+  "name": "Dinoseb",
+  "smiles": "CCC(C)c1cc(cc(N(=O)=O)c1O)N(=O)=O",
+  "measured_logS": -3.38,
+  "published_esol_logS": -3.715
+ },
+ {
+  "name": "meconin",
+  "smiles": "c1c(OC)c(OC)C2C(=O)OCC2c1",
+  "measured_logS": -1.899,
+  "published_esol_logS": -0.825
+ },
+ {
+  "name": "Glycerol",
+  "smiles": "OCC(O)CO",
+  "measured_logS": 1.12,
+  "published_esol_logS": 0.688
+ },
+ {
+  "name": "Guaiacol",
+  "smiles": "COc1ccccc1O",
+  "measured_logS": -1.96,
+  "published_esol_logS": -1.9409999999999998
+ },
+ {
+  "name": "chlorpyrifos",
+  "smiles": "CCOP(=S)(OCC)Oc1nc(Cl)c(Cl)cc1Cl",
+  "measured_logS": -5.67,
+  "published_esol_logS": -4.9719999999999995
+ },
+ {
+  "name": "9-Methylanthracene",
+  "smiles": "Cc1c2ccccc2cc3ccccc13",
+  "measured_logS": -5.89,
+  "published_esol_logS": -4.87
+ },
+ {
+  "name": "Antipyrene",
+  "smiles": "Cc1cc(=O)n(c2ccccc2)n1C",
+  "measured_logS": 0.715,
+  "published_esol_logS": -1.733
+ },
+ {
+  "name": "Methyl butyl ether",
+  "smiles": "CCCCOC",
+  "measured_logS": -0.99,
+  "published_esol_logS": -1.072
+ },
+ {
+  "name": "7-methylpteridine",
+  "smiles": "Cc2cnc1cncnc1n2",
+  "measured_logS": -0.8540000000000001,
+  "published_esol_logS": -1.24
+ },
+ {
+  "name": "simazine",
+  "smiles": "CCNc1nc(Cl)nc(NCC)n1",
+  "measured_logS": -4.55,
+  "published_esol_logS": -2.8110000000000004
+ },
+ {
+  "name": "N,N-Dimethylacetamide",
+  "smiles": "CN(C)C(=O)C",
+  "measured_logS": 1.11,
+  "published_esol_logS": 0.12300000000000001
+ },
+ {
+  "name": "Simetryn",
+  "smiles": "CSc1nc(nc(n1)N(C)C)N(C)C",
+  "measured_logS": -2.676,
+  "published_esol_logS": -2.6889999999999996
+ },
+ {
+  "name": "Ethylene",
+  "smiles": "C=C",
+  "measured_logS": -0.4,
+  "published_esol_logS": -0.815
+ },
+ {
+  "name": "3,3-Dimethyl-1-butanol",
+  "smiles": "CC(C)(C)CCO",
+  "measured_logS": -0.5,
+  "published_esol_logS": -1.365
+ },
+ {
+  "name": "5-Allyl-5-ethylbarbital",
+  "smiles": "O=C1NC(=O)NC(=O)C1(CC)CC=C",
+  "measured_logS": -1.614,
+  "published_esol_logS": -1.368
+ },
+ {
+  "name": "2,3,4-Trichlorophenol",
+  "smiles": "Oc1ccc(Cl)c(Cl)c1Cl",
+  "measured_logS": -2.67,
+  "published_esol_logS": -3.705
+ },
+ {
+  "name": "Anisole",
+  "smiles": "COc1ccccc1",
+  "measured_logS": -1.85,
+  "published_esol_logS": -2.3680000000000003
+ },
+ {
+  "name": "chloropropylate",
+  "smiles": "c1ccc(Cl)cc1C(c2ccc(Cl)cc2)(O)C(=O)OC(C)C",
+  "measured_logS": -4.53,
+  "published_esol_logS": -5.093
+ },
+ {
+  "name": "aldosterone",
+  "smiles": "CC13CCC(=O)C=C1CCC4C2CCC(C(=O)CO)C2(CC(O)C34)C=O",
+  "measured_logS": -3.85,
+  "published_esol_logS": -3.0660000000000003
+ },
+ {
+  "name": "Difenoxuron",
+  "smiles": "COc2ccc(Oc1ccc(NC(=O)N(C)C)cc1)cc2",
+  "measured_logS": -4.16,
+  "published_esol_logS": -3.928
+ },
+ {
+  "name": "4-Ethyltoluene",
+  "smiles": "CCc1ccc(C)cc1",
+  "measured_logS": -3.11,
+  "published_esol_logS": -3.3280000000000003
+ },
+ {
+  "name": "Diisopropylsulfide",
+  "smiles": "CC(C)SC(C)C",
+  "measured_logS": -2.24,
+  "published_esol_logS": -2.162
+ },
+ {
+  "name": "1,3-Dinitrobenzene",
+  "smiles": "O=N(=O)c1cccc(c1)N(=O)=O",
+  "measured_logS": -2.29,
+  "published_esol_logS": -2.281
+ },
+ {
+  "name": "Ethion",
+  "smiles": "CCOP(=S)(OCC)SCSP(=S)(OCC)OCC",
+  "measured_logS": -5.54,
+  "published_esol_logS": -5.471
+ },
+ {
+  "name": "probarbital",
+  "smiles": "CCC1(C(C)C)C(=O)NC(=O)NC1=O",
+  "measured_logS": -2.21,
+  "published_esol_logS": -1.6030000000000002
+ },
+ {
+  "name": "cortisone acetate",
+  "smiles": "CC(=O)OCC(=O)C3(O)CCC4C2CCC1=CC(=O)CCC1(C)C2C(=O)CC34C",
+  "measured_logS": -4.21,
+  "published_esol_logS": -3.426
+ },
+ {
+  "name": "Metronidazole",
+  "smiles": "Cc1ncc(N(=O)=O)n1CCO",
+  "measured_logS": -1.22,
+  "published_esol_logS": -0.8590000000000001
+ },
+ {
+  "name": "p-Chloroaniline",
+  "smiles": "Nc1ccc(Cl)cc1",
+  "measured_logS": -1.66,
+  "published_esol_logS": -2.392
+ },
+ {
+  "name": "2,2-Dimethylpentanol",
+  "smiles": "CCCC(C)(C)CO",
+  "measured_logS": -1.52,
+  "published_esol_logS": -1.719
+ },
+ {
+  "name": "Furane",
+  "smiles": "c1ccoc1",
+  "measured_logS": -0.82,
+  "published_esol_logS": -1.837
+ },
+ {
+  "name": "Methoproptryne",
+  "smiles": "COCCCNc1nc(NC(C)C)nc(SC)n1",
+  "measured_logS": -2.928,
+  "published_esol_logS": -3.259
+ },
+ {
+  "name": "Norea",
+  "smiles": "CN(C)C(=O)NC1CC2CC1C3CCCC23",
+  "measured_logS": -3.1710000000000003,
+  "published_esol_logS": -2.47
+ },
+ {
+  "name": "t-Butylbenzene",
+  "smiles": "CC(C)(C)c1ccccc1",
+  "measured_logS": -3.66,
+  "published_esol_logS": -3.554
+ },
+ {
+  "name": "kebuzone",
+  "smiles": "CC(=O)CCC1C(=O)N(N(C1=O)c2ccccc2)c3ccccc3",
+  "measured_logS": -3.27,
+  "published_esol_logS": -2.645
+ },
+ {
+  "name": "prednisolone acetate",
+  "smiles": "CC(=O)OCC(=O)C3(O)CCC4C2CCC1=CC(=O)C=CC1(C)C2C(O)CC34C",
+  "measured_logS": -4.37,
+  "published_esol_logS": -3.5069999999999997
+ },
+ {
+  "name": "Methyl propyl ether",
+  "smiles": "CCCOC",
+  "measured_logS": -0.39,
+  "published_esol_logS": -0.718
+ },
+ {
+  "name": "Isopropyl acetate",
+  "smiles": "CC(C)OC(=O)C",
+  "measured_logS": -0.55,
+  "published_esol_logS": -1.1909999999999998
+ },
+ {
+  "name": "Bromobenzene",
+  "smiles": "Brc1ccccc1",
+  "measured_logS": -2.55,
+  "published_esol_logS": -3.345
+ },
+ {
+  "name": "Ethyl-p-hydroxybenzoate",
+  "smiles": "CCOC(=O)c1ccc(O)cc1",
+  "measured_logS": -2.35,
+  "published_esol_logS": -2.761
+ },
+ {
+  "name": "3-Butanoyloxymethylphenytoin",
+  "smiles": "O=C1N(COC(=O)CCC)C(=O)C(N1)(c2ccccc2)c3ccccc3",
+  "measured_logS": -5.071000000000001,
+  "published_esol_logS": -3.469
+ },
+ {
+  "name": "testosterone propionate",
+  "smiles": "CCC(=O)OC3CCC4C2CCC1=CC(=O)CCC1(C)C2CCC34C",
+  "measured_logS": -5.37,
+  "published_esol_logS": -4.87
+ },
+ {
+  "name": "Coronene",
+  "smiles": "c1cc2ccc3ccc4ccc5ccc6ccc1c7c2c3c4c5c67",
+  "measured_logS": -9.332,
+  "published_esol_logS": -6.885
+ },
+ {
+  "name": "allopurinol",
+  "smiles": "O=c1[nH]cnc2[nH]ncc12",
+  "measured_logS": -2.266,
+  "published_esol_logS": -0.84
+ },
+ {
+  "name": "Chloroethylene",
+  "smiles": "ClC=C",
+  "measured_logS": -1.75,
+  "published_esol_logS": -1.188
+ },
+ {
+  "name": "diphenamid",
+  "smiles": "CN(C)C(=O)C(c1ccccc1)c2ccccc2",
+  "measured_logS": -2.98,
+  "published_esol_logS": -3.147
+ },
+ {
+  "name": "Tetrabromomethane",
+  "smiles": "BrC(Br)(Br)Br",
+  "measured_logS": -3.14,
+  "published_esol_logS": -4.063
+ },
+ {
+  "name": "RTI 22",
+  "smiles": "CCN2c1cc(N(C)C)cc(C)c1NC(=O)c3cccnc23",
+  "measured_logS": -4.871,
+  "published_esol_logS": -4.408
+ },
+ {
+  "name": "phthalimide",
+  "smiles": "O=C1NC(=O)c2ccccc12",
+  "measured_logS": -2.61,
+  "published_esol_logS": -1.882
+ },
+ {
+  "name": "Fenarimol",
+  "smiles": "OC(c1ccc(Cl)cc1)(c2cncnc2)c3ccccc3Cl",
+  "measured_logS": -4.38,
+  "published_esol_logS": -4.1080000000000005
+ },
+ {
+  "name": "Methyl benzoate",
+  "smiles": "COC(=O)c1ccccc1",
+  "measured_logS": -1.85,
+  "published_esol_logS": -2.4619999999999997
+ },
+ {
+  "name": "1-methyluracil",
+  "smiles": "Cn1ccc(=O)[nH]c1=O",
+  "measured_logS": -0.807,
+  "published_esol_logS": -0.375
+ },
+ {
+  "name": "oxyphenbutazone",
+  "smiles": "CCCCC1C(=O)N(N(C1=O)c2ccc(O)cc2)c3ccccc3",
+  "measured_logS": -3.73,
+  "published_esol_logS": -3.739
+ },
+ {
+  "name": "2,2',3,5'-PCB",
+  "smiles": "Clc1ccc(Cl)c(c1)c2cccc(Cl)c2Cl",
+  "measured_logS": -6.47,
+  "published_esol_logS": -6.155
+ },
+ {
+  "name": "Quinethazone",
+  "smiles": "CCC2NC(=O)c1cc(c(Cl)cc1N2)S(N)(=O)=O",
+  "measured_logS": -3.29,
+  "published_esol_logS": -2.184
+ },
+ {
+  "name": "Diuron",
+  "smiles": "CN(C)C(=O)Nc1ccc(Cl)c(Cl)c1",
+  "measured_logS": -3.8,
+  "published_esol_logS": -3.301
+ },
+ {
+  "name": "Cyclopentene",
+  "smiles": "C1CC=CC1",
+  "measured_logS": -2.1,
+  "published_esol_logS": -1.72
+ },
+ {
+  "name": "alloxantin",
+  "smiles": "C1(=O)NC(=O)NC(=O)C1(O)C2(O)C(=O)NC(=O)NC2(=O)",
+  "measured_logS": -1.99,
+  "published_esol_logS": 0.919
+ },
+ {
+  "name": "Nonane",
+  "smiles": "CCCCCCCCC",
+  "measured_logS": -5.88,
+  "published_esol_logS": -3.678
+ },
+ {
+  "name": "2-Chlorophenol",
+  "smiles": "Oc1ccccc1Cl",
+  "measured_logS": -1.06,
+  "published_esol_logS": -2.553
+ },
+ {
+  "name": "5-Methylchrysene",
+  "smiles": "c1cccc2c3c(C)cc4ccccc4c3ccc12",
+  "measured_logS": -6.59,
+  "published_esol_logS": -5.931
+ },
+ {
+  "name": "Phenetole",
+  "smiles": "CCOc1ccccc1",
+  "measured_logS": -2.33,
+  "published_esol_logS": -2.66
+ },
+ {
+  "name": "ethyl cinnamate",
+  "smiles": "CCOC(=O)C=Cc1ccccc1",
+  "measured_logS": -3.0,
+  "published_esol_logS": -3.0980000000000003
+ },
+ {
+  "name": "Terbacil",
+  "smiles": "Cc1[nH]c(=O)n(c(=O)c1Cl)C(C)(C)C",
+  "measured_logS": -2.484,
+  "published_esol_logS": -3.033
+ },
+ {
+  "name": "Clonazepam",
+  "smiles": "Clc1ccccc1C2=NCC(=O)Nc3ccc(cc23)N(=O)=O",
+  "measured_logS": -3.4989999999999997,
+  "published_esol_logS": -3.707
+ },
+ {
+  "name": "p-Toluenesulfonamide",
+  "smiles": "Cc1ccc(cc1)S(=O)(=O)N",
+  "measured_logS": -1.74,
+  "published_esol_logS": -1.815
+ },
+ {
+  "name": "Chlorbufam",
+  "smiles": "CC(OC(=O)Nc1cccc(Cl)c1)C#C",
+  "measured_logS": -2.617,
+  "published_esol_logS": -3.6289999999999996
+ },
+ {
+  "name": "2-Methylheptane",
+  "smiles": "CCCCCC(C)C",
+  "measured_logS": -5.08,
+  "published_esol_logS": -3.3080000000000003
+ },
+ {
+  "name": "Cyhalothrin",
+  "smiles": "CC1(C)C(C=C(Cl)C(F)(F)F)C1C(=O)OC(C#N)c2cccc(Oc3ccccc3)c2",
+  "measured_logS": -8.176,
+  "published_esol_logS": -6.905
+ },
+ {
+  "name": "Apazone",
+  "smiles": "CCCC1C(=O)N3N(C1=O)c2cc(C)ccc2N=C3N(C)C",
+  "measured_logS": -3.5380000000000003,
+  "published_esol_logS": -2.9
+ },
+ {
+  "name": "Diazepam",
+  "smiles": "CN2C(=O)CN=C(c1ccccc1)c3cc(Cl)ccc23",
+  "measured_logS": -3.7539999999999996,
+  "published_esol_logS": -4.05
+ },
+ {
+  "name": "2-Methyl-3-pentanol",
+  "smiles": "CCC(O)C(C)C",
+  "measured_logS": -0.7,
+  "published_esol_logS": -1.308
+ },
+ {
+  "name": "fensulfothion",
+  "smiles": "CCOP(=S)(OCC)Oc1ccc(cc1)S(C)=O",
+  "measured_logS": -2.3,
+  "published_esol_logS": -3.283
+ },
+ {
+  "name": "borneol",
+  "smiles": "CC1(C)C2CCC1(C)C(O)C2",
+  "measured_logS": -2.32,
+  "published_esol_logS": -2.423
+ },
+ {
+  "name": "Testosterone",
+  "smiles": "CC12CCC3C(CCC4=CC(=O)CCC34C)C2CCC1O",
+  "measured_logS": -4.02,
+  "published_esol_logS": -3.659
+ },
+ {
+  "name": "Heptane",
+  "smiles": "CCCCCCC",
+  "measured_logS": -4.53,
+  "published_esol_logS": -2.97
+ },
+ {
+  "name": "1-Napthol",
+  "smiles": "Oc1cccc2ccccc12",
+  "measured_logS": -2.22,
+  "published_esol_logS": -3.08
+ },
+ {
+  "name": "cis-1,2-Dimethylcyclohexane",
+  "smiles": "C/C1CCCCC1\\C",
+  "measured_logS": -4.3,
+  "published_esol_logS": -3.305
+ },
+ {
+  "name": "Trimazosin",
+  "smiles": "COc2cc1c(N)nc(nc1c(OC)c2OC)N3CCN(CC3)C(=O)OCC(C)(C)O",
+  "measured_logS": -3.638,
+  "published_esol_logS": -3.958
+ },
+ {
+  "name": "Cholanthrene",
+  "smiles": "C1Cc2c3c1cccc3cc4c2ccc5ccccc54",
+  "measured_logS": -7.85,
+  "published_esol_logS": -5.942
+ },
+ {
+  "name": "Medrogestone",
+  "smiles": "CC(=O)C3(C)CCC4C2C=C(C)C1=CC(=O)CCC1(C)C2CCC34C",
+  "measured_logS": -5.27,
+  "published_esol_logS": -4.593
+ },
+ {
+  "name": "2-Heptanone",
+  "smiles": "CCCCCC(=O)C",
+  "measured_logS": -1.45,
+  "published_esol_logS": -1.554
+ },
+ {
+  "name": "Acephate",
+  "smiles": "COP(=O)(NC(C)=O)SC",
+  "measured_logS": 0.54,
+  "published_esol_logS": -0.41600000000000004
+ },
+ {
+  "name": "DEF",
+  "smiles": "CCCCSP(=O)(SCCCC)SCCCC",
+  "measured_logS": -5.14,
+  "published_esol_logS": -4.074
+ },
+ {
+  "name": "phthalamide",
+  "smiles": "c1cC2C(=O)NC(=O)C2cc1",
+  "measured_logS": -2.932,
+  "published_esol_logS": -0.636
+ },
+ {
+  "name": "Trichlomethiazide",
+  "smiles": "NS(=O)(=O)c2cc1c(NC(NS1(=O)=O)C(Cl)Cl)cc2Cl",
+  "measured_logS": -2.68,
+  "published_esol_logS": -2.98
+ },
+ {
+  "name": "2-Methy-2-Butene",
+  "smiles": "CC=C(C)C",
+  "measured_logS": -2.56,
+  "published_esol_logS": -1.994
+ },
+ {
+  "name": "1,2,4-Trimethylbenzene",
+  "smiles": "Cc1ccc(C)c(C)c1",
+  "measured_logS": -3.31,
+  "published_esol_logS": -3.343
+ },
+ {
+  "name": "2,4,5-Trichlorophenol",
+  "smiles": "Oc1cc(Cl)c(Cl)cc1Cl",
+  "measured_logS": -2.21,
+  "published_esol_logS": -3.78
+ },
+ {
+  "name": "phenanthridine",
+  "smiles": "c1ccc2c(c1)cnc3ccccc23",
+  "measured_logS": -2.78,
+  "published_esol_logS": -3.713
+ },
+ {
+  "name": "3-Methyl-3-hexanol",
+  "smiles": "CCCC(C)(O)CC",
+  "measured_logS": -0.98,
+  "published_esol_logS": -1.663
+ },
+ {
+  "name": "Octane",
+  "smiles": "CCCCCCCC",
+  "measured_logS": -5.24,
+  "published_esol_logS": -3.324
+ },
+ {
+  "name": "Anthracene",
+  "smiles": "c1ccc2cc3ccccc3cc2c1",
+  "measured_logS": -6.35,
+  "published_esol_logS": -4.518
+ },
+ {
+  "name": "Phenylhydrazine",
+  "smiles": "NNc1ccccc1",
+  "measured_logS": 0.07,
+  "published_esol_logS": -1.8659999999999999
+ },
+ {
+  "name": "Propionaldehyde",
+  "smiles": "CCC=O",
+  "measured_logS": 0.58,
+  "published_esol_logS": -0.39399999999999996
+ },
+ {
+  "name": "Cyclooctane",
+  "smiles": "C1CCCCCCC1",
+  "measured_logS": -4.15,
+  "published_esol_logS": -3.355
+ },
+ {
+  "name": "5,5-Diallylbarbital",
+  "smiles": "O=C1NC(=O)NC(=O)C1(CC=C)CC=C",
+  "measured_logS": -2.077,
+  "published_esol_logS": -1.4709999999999999
+ },
+ {
+  "name": "Trichloromethane",
+  "smiles": "ClC(Cl)Cl",
+  "measured_logS": -1.17,
+  "published_esol_logS": -1.8119999999999998
+ },
+ {
+  "name": "thiouracil",
+  "smiles": "Sc1nccc(=O)[nH]1",
+  "measured_logS": -2.273,
+  "published_esol_logS": -0.992
+ },
+ {
+  "name": "Pencycuron",
+  "smiles": "Clc1ccc(CN(C2CCCC2)C(=O)Nc3ccccc3)cc1",
+  "measured_logS": -5.915,
+  "published_esol_logS": -5.126
+ },
+ {
+  "name": "1-Methylcyclohexene",
+  "smiles": "CC1=CCCCC1",
+  "measured_logS": -3.27,
+  "published_esol_logS": -2.574
+ },
+ {
+  "name": "2-Ethylhexanal",
+  "smiles": "CCCCC(CC)C=O",
+  "measured_logS": -2.13,
+  "published_esol_logS": -2.2319999999999998
+ },
+ {
+  "name": "Khellin",
+  "smiles": "COc2c1occc1c(OC)c3c(=O)cc(C)oc23",
+  "measured_logS": -3.0210000000000004,
+  "published_esol_logS": -3.603
+ },
+ {
+  "name": "5-Ethyl-5-(3-methylbutyl)barbital",
+  "smiles": "O=C1NC(=O)NC(=O)C1(CC)CCC(C)C",
+  "measured_logS": -2.658,
+  "published_esol_logS": -2.312
+ },
+ {
+  "name": "Benzo(j)fluoranthene",
+  "smiles": "c1ccc2c3c(ccc2c1)c4cccc5cccc3c45",
+  "measured_logS": -8.0,
+  "published_esol_logS": -6.007000000000001
+ },
+ {
+  "name": "2-Ethylbutanal",
+  "smiles": "CCC(CC)C=O",
+  "measured_logS": -1.52,
+  "published_esol_logS": -1.5230000000000001
+ },
+ {
+  "name": "Dipropyl ether",
+  "smiles": "CCCOCCC",
+  "measured_logS": -1.62,
+  "published_esol_logS": -1.426
+ },
+ {
+  "name": "1-Tetradecanol",
+  "smiles": "CCCCCCCCCCCCCCO",
+  "measured_logS": -5.84,
+  "published_esol_logS": -4.231
+ },
+ {
+  "name": "2,3,6-Trichlorophenol",
+  "smiles": "Oc1c(Cl)ccc(Cl)c1Cl",
+  "measured_logS": -2.64,
+  "published_esol_logS": -3.572
+ },
+ {
+  "name": "Urea",
+  "smiles": "NC(=O)N",
+  "measured_logS": 0.96,
+  "published_esol_logS": 0.8320000000000001
+ },
+ {
+  "name": "1-Pentyne",
+  "smiles": "CCCC#C",
+  "measured_logS": -1.64,
+  "published_esol_logS": -1.446
+ },
+ {
+  "name": "1,3-Dibromobenzene",
+  "smiles": "Brc1cccc(Br)c1",
+  "measured_logS": -3.54,
+  "published_esol_logS": -4.298
+ },
+ {
+  "name": "1-Octadecanol",
+  "smiles": "CCCCCCCCCCCCCCCCCCO",
+  "measured_logS": -8.4,
+  "published_esol_logS": -5.649
+ },
+ {
+  "name": "Acetanilide",
+  "smiles": "CC(=O)Nc1ccccc1",
+  "measured_logS": -1.33,
+  "published_esol_logS": -1.857
+ },
+ {
+  "name": "hematein",
+  "smiles": "c1cc(O)c(O)c2OCC3(O)CC4=CC(=O)C(O)=CC4=C3c21",
+  "measured_logS": -2.7,
+  "published_esol_logS": -1.795
+ },
+ {
+  "name": "Isonazid",
+  "smiles": "c1nccc(C(=O)NN)c1",
+  "measured_logS": 0.009000000000000001,
+  "published_esol_logS": -0.7170000000000001
+ },
+ {
+  "name": "hydroxychlordene",
+  "smiles": "OC1C=CC2C1C3(Cl)C(=C(Cl)C2(Cl)C3(Cl)Cl)Cl",
+  "measured_logS": -5.46,
+  "published_esol_logS": -4.156000000000001
+ },
+ {
+  "name": "Isopentyl formate",
+  "smiles": "CC(C)CCOC=O",
+  "measured_logS": -1.52,
+  "published_esol_logS": -1.449
+ },
+ {
+  "name": "Acetophenone",
+  "smiles": "CC(=O)c1ccccc1",
+  "measured_logS": -1.28,
+  "published_esol_logS": -2.0780000000000003
+ },
+ {
+  "name": "biquinoline",
+  "smiles": "c2ccc1nc(ccc1c2)c4ccc3ccccc3n4",
+  "measured_logS": -5.4,
+  "published_esol_logS": -4.9030000000000005
+ },
+ {
+  "name": "Triethyl phosphate",
+  "smiles": "CCOP(=O)(OCC)OCC",
+  "measured_logS": 0.43,
+  "published_esol_logS": -0.953
+ },
+ {
+  "name": "D-fenchone",
+  "smiles": "CC2(C)C1CCC(C)(C1)C2=O",
+  "measured_logS": -1.85,
+  "published_esol_logS": -2.158
+ },
+ {
+  "name": "7-methoxypteridine",
+  "smiles": "COc2cnc1cncnc1n2",
+  "measured_logS": -0.91,
+  "published_esol_logS": -1.589
+ },
+ {
+  "name": "Chlordene",
+  "smiles": "ClC2=C(Cl)C3(Cl)C1C=CCC1C2(Cl)C3(Cl)Cl",
+  "measured_logS": -5.64,
+  "published_esol_logS": -5.152
+ },
+ {
+  "name": "2-Nitropropane",
+  "smiles": "CC(C)N(=O)=O",
+  "measured_logS": -0.62,
+  "published_esol_logS": -0.743
+ },
+ {
+  "name": "Carbazole",
+  "smiles": "c1ccc2c(c1)[nH]c3ccccc32",
+  "measured_logS": -5.27,
+  "published_esol_logS": -3.8360000000000003
+ },
+ {
+  "name": "Erythritol",
+  "smiles": "OCC(O)C(O)CO",
+  "measured_logS": 0.7,
+  "published_esol_logS": 0.675
+ },
+ {
+  "name": "Risocaine",
+  "smiles": "CCCOC(=O)c1ccc(N)cc1",
+  "measured_logS": -2.452,
+  "published_esol_logS": -2.7089999999999996
+ },
+ {
+  "name": "Azodrin",
+  "smiles": "CNC(=O)C=C(C)OP(=O)(OC)OC",
+  "measured_logS": 0.6509999999999999,
+  "published_esol_logS": -0.9490000000000001
+ },
+ {
+  "name": "Succinimide",
+  "smiles": "O=C1CCC(=O)N1",
+  "measured_logS": 0.3,
+  "published_esol_logS": 0.282
+ },
+ {
+  "name": "2,3-Dimethylpentane",
+  "smiles": "CCC(C)C(C)C",
+  "measured_logS": -4.28,
+  "published_esol_logS": -2.938
+ },
+ {
+  "name": "bupirimate",
+  "smiles": "CCCCc1c(C)nc(NCC)nc1OS(=O)(=O)N(C)C",
+  "measured_logS": -4.16,
+  "published_esol_logS": -3.4930000000000003
+ },
+ {
+  "name": "RTI 16",
+  "smiles": "CCN2c1ncccc1N(C)C(=S)c3cccnc23",
+  "measured_logS": -4.6339999999999995,
+  "published_esol_logS": -3.411
+ },
+ {
+  "name": "RTI 9",
+  "smiles": "O2c1ccccc1N(CC)C(=O)c3ccccc23",
+  "measured_logS": -3.68,
+  "published_esol_logS": -3.784
+ },
+ {
+  "name": "Tetrahydropyran",
+  "smiles": "C1CCOCC1",
+  "measured_logS": -0.03,
+  "published_esol_logS": -0.978
+ },
+ {
+  "name": "1-Heptyne",
+  "smiles": "CCCCCC#C",
+  "measured_logS": -3.01,
+  "published_esol_logS": -2.155
+ },
+ {
+  "name": "osthole",
+  "smiles": "c1cc2ccc(OC)c(CC=C(C)(C))c2oc1=O",
+  "measured_logS": -4.314,
+  "published_esol_logS": -4.0760000000000005
+ },
+ {
+  "name": "3-Methylcholanthrene",
+  "smiles": "c1cc(C)cc2c1c3cc4cccc5CCc(c45)c3cc2",
+  "measured_logS": -7.92,
+  "published_esol_logS": -6.311
+ },
+ {
+  "name": "Ethyl benzoate",
+  "smiles": "CCOC(=O)c1ccccc1",
+  "measured_logS": -2.32,
+  "published_esol_logS": -2.775
+ },
+ {
+  "name": "1-Chloro-2-methylpropane",
+  "smiles": "ClCC(C)C",
+  "measured_logS": -2.0,
+  "published_esol_logS": -1.9240000000000002
+ },
+ {
+  "name": "Ethinyl estradiol",
+  "smiles": "CC34CCC1C(CCc2cc(O)ccc12)C3CCC4(O)C#C",
+  "measured_logS": -4.3,
+  "published_esol_logS": -4.317
+ },
+ {
+  "name": "methyl laurate",
+  "smiles": "CCCCCCCCCCCC(=O)OC",
+  "measured_logS": -4.69,
+  "published_esol_logS": -4.025
+ },
+ {
+  "name": "Di-n-propylsulfide",
+  "smiles": "CCCSCCC",
+  "measured_logS": -2.58,
+  "published_esol_logS": -2.307
+ },
+ {
+  "name": "Napthacene",
+  "smiles": "c1ccc2cc3cc4ccccc4cc3cc2c1",
+  "measured_logS": -8.6,
+  "published_esol_logS": -5.568
+ },
+ {
+  "name": "1-Bromopentane",
+  "smiles": "CCCCCBr",
+  "measured_logS": -3.08,
+  "published_esol_logS": -2.658
+ },
+ {
+  "name": "trans-2-Heptene",
+  "smiles": "CCCC/C=C/C",
+  "measured_logS": -3.82,
+  "published_esol_logS": -2.784
+ },
+ {
+  "name": "Metranidazole",
+  "smiles": "Cc1ncc(N(=O)=O)n1CCO",
+  "measured_logS": -1.26,
+  "published_esol_logS": -0.8590000000000001
+ },
+ {
+  "name": "Pentylcyclopentane",
+  "smiles": "CCCCCC1CCCC1",
+  "measured_logS": -6.08,
+  "published_esol_logS": -3.8689999999999998
+ },
+ {
+  "name": "2,2',3,5,5',6-PCB",
+  "smiles": "Clc1ccc(Cl)c(c1)c2c(Cl)c(Cl)cc(Cl)c2Cl",
+  "measured_logS": -7.42,
+  "published_esol_logS": -7.261
+ },
+ {
+  "name": "5-Ethyl-5-isopropylbarbituric acid",
+  "smiles": "O=C1NC(=O)NC(=O)C1(CC)C(C)C",
+  "measured_logS": -2.148,
+  "published_esol_logS": -1.6030000000000002
+ },
+ {
+  "name": "1,1,1-Trichloroethane",
+  "smiles": "CC(Cl)(Cl)Cl",
+  "measured_logS": -2.0,
+  "published_esol_logS": -2.2319999999999998
+ },
+ {
+  "name": "Monolinuron",
+  "smiles": "CON(C)C(=O)Nc1ccc(Cl)cc1",
+  "measured_logS": -2.57,
+  "published_esol_logS": -2.948
+ },
+ {
+  "name": "Cyclohexyl-5-spirobarbituric acid",
+  "smiles": "O=C2NC(=O)C1(CCCCC1)C(=O)N2",
+  "measured_logS": -3.06,
+  "published_esol_logS": -1.405
+ },
+ {
+  "name": "dimetan",
+  "smiles": "CN(C)C(=O)OC1=CC(=O)CC(C)(C)C1",
+  "measured_logS": -0.85,
+  "published_esol_logS": -2.3040000000000003
+ },
+ {
+  "name": "4-Bromotoluene",
+  "smiles": "Cc1ccc(Br)cc1",
+  "measured_logS": -3.19,
+  "published_esol_logS": -3.667
+ },
+ {
+  "name": "Diethyl ether",
+  "smiles": "CCOCC",
+  "measured_logS": -0.09,
+  "published_esol_logS": -0.718
+ },
+ {
+  "name": "Rovral",
+  "smiles": "CC(C)NC(=O)N1CC(=O)N(C1=O)c2cc(Cl)cc(Cl)c2",
+  "measured_logS": -4.376,
+  "published_esol_logS": -4.004
+ },
+ {
+  "name": "Benfluralin",
+  "smiles": "CCCCN(CC)c1c(cc(cc1N(=O)=O)C(F)(F)F)N(=O)=O",
+  "measured_logS": -5.53,
+  "published_esol_logS": -5.205
+ },
+ {
+  "name": "2,4,6-Trimethylphenol",
+  "smiles": "Cc1cc(C)c(O)c(C)c1",
+  "measured_logS": -2.05,
+  "published_esol_logS": -2.9410000000000003
+ },
+ {
+  "name": "Benzene",
+  "smiles": "c1ccccc1",
+  "measured_logS": -1.64,
+  "published_esol_logS": -2.418
+ },
+ {
+  "name": "p-Chloroiodobenzene",
+  "smiles": "Clc1ccc(I)cc1",
+  "measured_logS": -4.03,
+  "published_esol_logS": -4.3839999999999995
+ },
+ {
+  "name": "Metoxuron",
+  "smiles": "COc1ccc(NC(=O)N(C)C)cc1Cl",
+  "measured_logS": -2.5639999999999996,
+  "published_esol_logS": -2.6830000000000003
+ },
+ {
+  "name": "propachlor",
+  "smiles": "CC(C)N(C(=O)CCl)c1ccccc1",
+  "measured_logS": -2.48,
+  "published_esol_logS": -3.0180000000000002
+ },
+ {
+  "name": "Styrene",
+  "smiles": "C=Cc1ccccc1",
+  "measured_logS": -2.82,
+  "published_esol_logS": -2.85
+ },
+ {
+  "name": "Dimethoxymethane",
+  "smiles": "COCOC",
+  "measured_logS": 0.48,
+  "published_esol_logS": 0.092
+ },
+ {
+  "name": "o-Xylene",
+  "smiles": "Cc1ccccc1C",
+  "measured_logS": -2.8,
+  "published_esol_logS": -3.0039999999999996
+ },
+ {
+  "name": "Butan-2-ol",
+  "smiles": "CCC(C)O",
+  "measured_logS": 0.47,
+  "published_esol_logS": -0.616
+ },
+ {
+  "name": "1,4-Benzenediol",
+  "smiles": "Oc1ccc(O)cc1",
+  "measured_logS": -0.17,
+  "published_esol_logS": -1.59
+ },
+ {
+  "name": "estriol",
+  "smiles": "CC34CCC1C(CCc2cc(O)ccc12)C3CC(O)C4O",
+  "measured_logS": -4.955,
+  "published_esol_logS": -3.858
+ },
+ {
+  "name": "Benzo(b)fluorene",
+  "smiles": "C1c2ccccc2c3cc4ccccc4cc13",
+  "measured_logS": -8.04,
+  "published_esol_logS": -5.189
+ },
+ {
+  "name": "hydantoin",
+  "smiles": "O=C1CNC(=O)N1",
+  "measured_logS": -0.4,
+  "published_esol_logS": 0.603
+ },
+ {
+  "name": "4-hexylresorcinol",
+  "smiles": "c1(O)cc(O)ccc1CCCCCC",
+  "measured_logS": -2.59,
+  "published_esol_logS": -3.4930000000000003
+ },
+ {
+  "name": "allicin",
+  "smiles": "C=CCS(=O)SCC=C",
+  "measured_logS": -0.83,
+  "published_esol_logS": -2.045
+ },
+ {
+  "name": "Coumaphos",
+  "smiles": "CCOP(=S)(OCC)Oc2ccc1oc(=O)c(Cl)c(C)c1c2",
+  "measured_logS": -5.382000000000001,
+  "published_esol_logS": -5.04
+ },
+ {
+  "name": "5,6-Dimethylchrysene",
+  "smiles": "Cc1c(C)c2c3ccccc3ccc2c4ccccc14",
+  "measured_logS": -7.01,
+  "published_esol_logS": -6.265
+ },
+ {
+  "name": "Betamethasone-17-valerate",
+  "smiles": "CCCCC(=O)OC3(C(C)CC4C2CCC1=CC(=O)C=CC1(C)C2(F)C(O)CC34C)C(=O)CO",
+  "measured_logS": -4.71,
+  "published_esol_logS": -5.062
+ },
+ {
+  "name": "uric acid",
+  "smiles": "O=c2[nH]c(=O)c1[nH]c(=O)[nH]c1[nH]2",
+  "measured_logS": -3.93,
+  "published_esol_logS": -0.541
+ },
+ {
+  "name": "2,3,4,6-Tetrachlorophenol",
+  "smiles": "Oc1c(Cl)cc(Cl)c(Cl)c1Cl",
+  "measured_logS": -3.1,
+  "published_esol_logS": -4.203
+ },
+ {
+  "name": "1,3-Dichlorobenzene",
+  "smiles": "Clc1cccc(Cl)c1",
+  "measured_logS": -3.04,
+  "published_esol_logS": -3.5580000000000003
+ },
+ {
+  "name": "DDT",
+  "smiles": "Clc1ccc(cc1)C(c2ccc(Cl)cc2)C(Cl)(Cl)Cl",
+  "measured_logS": -7.15,
+  "published_esol_logS": -6.638
+ },
+ {
+  "name": "Isobutyl formate",
+  "smiles": "CC(C)COC=O",
+  "measured_logS": -1.01,
+  "published_esol_logS": -1.095
+ },
+ {
+  "name": "thioanisole",
+  "smiles": "c1ccccc1SC",
+  "measured_logS": -2.39,
+  "published_esol_logS": -2.87
+ },
+ {
+  "name": "RTI 13",
+  "smiles": "CCN2c1nc(C)cc(C(F)(F)F)c1NC(=O)c3cccnc23",
+  "measured_logS": -4.207,
+  "published_esol_logS": -4.45
+ },
+ {
+  "name": "Hexane",
+  "smiles": "CCCCCC",
+  "measured_logS": -3.84,
+  "published_esol_logS": -2.615
+ },
+ {
+  "name": "methyl nicotinate",
+  "smiles": "COC(=O)c1cccnc1",
+  "measured_logS": -0.46,
+  "published_esol_logS": -1.621
+ },
+ {
+  "name": "Bendroflumethiazide",
+  "smiles": "NS(=O)(=O)c3cc2c(NC(Cc1ccccc1)NS2(=O)=O)cc3C(F)(F)F",
+  "measured_logS": -3.59,
+  "published_esol_logS": -3.741
+ },
+ {
+  "name": "2,3,3',4,4',5-PCB",
+  "smiles": "Clc1ccc(cc1Cl)c2cc(Cl)c(Cl)c(Cl)c2Cl",
+  "measured_logS": -7.82,
+  "published_esol_logS": -7.425
+ },
+ {
+  "name": "Vinclozolin",
+  "smiles": "CC1(OC(=O)N(C1=O)c2cc(Cl)cc(Cl)c2)C=C",
+  "measured_logS": -4.925,
+  "published_esol_logS": -4.377
+ },
+ {
+  "name": "Cyanazine",
+  "smiles": "CCNc1nc(Cl)nc(NC(C)(C)C#N)n1",
+  "measured_logS": -3.15,
+  "published_esol_logS": -2.49
+ },
+ {
+  "name": "Triphenylene",
+  "smiles": "c1ccc2c(c1)c3ccccc3c4ccccc24",
+  "measured_logS": -6.726,
+  "published_esol_logS": -5.568
+ },
+ {
+  "name": "Dienestrol",
+  "smiles": "CC=C(C(=CC)c1ccc(O)cc1)c2ccc(O)cc2",
+  "measured_logS": -4.95,
+  "published_esol_logS": -4.775
+ },
+ {
+  "name": "Di(2-ethylhexyl)-phthalate",
+  "smiles": "CCCCC(CC)COC(=O)c1ccccc1C(=O)OCC(CC)CCCC",
+  "measured_logS": -6.96,
+  "published_esol_logS": -7.117000000000001
+ },
+ {
+  "name": "2-Ethyl pyridine",
+  "smiles": "CCc1ccccn1",
+  "measured_logS": 0.51,
+  "published_esol_logS": -2.051
+ },
+ {
+  "name": "Naled",
+  "smiles": "COP(=O)(OC)OC(Br)C(Cl)(Cl)Br",
+  "measured_logS": -2.28,
+  "published_esol_logS": -3.548
+ },
+ {
+  "name": "Biphenyl",
+  "smiles": "c1ccc(cc1)c2ccccc2",
+  "measured_logS": -4.345,
+  "published_esol_logS": -4.079
+ },
+ {
+  "name": "2,2',4,4',6,6'-PCB",
+  "smiles": "Clc1cc(Cl)c(c(Cl)c1)c2c(Cl)cc(Cl)cc2Cl",
+  "measured_logS": -8.71,
+  "published_esol_logS": -7.178999999999999
+ },
+ {
+  "name": "Altretamine",
+  "smiles": "CN(C)c1nc(nc(n1)N(C)C)N(C)C",
+  "measured_logS": -3.364,
+  "published_esol_logS": -2.492
+ },
+ {
+  "name": "2,4-Dimethyl-2-pentanol",
+  "smiles": "CC(C)CC(C)(C)O",
+  "measured_logS": -0.92,
+  "published_esol_logS": -1.6469999999999998
+ },
+ {
+  "name": "Cycloheptyl-5-spirobarbituric acid",
+  "smiles": "O=C2NC(=O)C1(CCCCCC1)C(=O)N2",
+  "measured_logS": -3.168,
+  "published_esol_logS": -1.844
+ },
+ {
+  "name": "Fructose",
+  "smiles": "OCC1OC(O)(CO)C(O)C1O",
+  "measured_logS": 0.64,
+  "published_esol_logS": 0.47100000000000003
+ },
+ {
+  "name": "3,5-Dimethylphenol",
+  "smiles": "Cc1cc(C)cc(O)c1",
+  "measured_logS": -1.4,
+  "published_esol_logS": -2.6519999999999997
+ },
+ {
+  "name": "Barban",
+  "smiles": "ClCC#CCOC(=O)Nc1cccc(Cl)c1",
+  "measured_logS": -4.37,
+  "published_esol_logS": -4.16
+ },
+ {
+  "name": "p-Chloroacetanilide",
+  "smiles": "CC(=O)Nc1ccc(Cl)cc1",
+  "measured_logS": -2.843,
+  "published_esol_logS": -2.642
+ },
+ {
+  "name": "2,2',3,4,5,5',6-PCB",
+  "smiles": "Clc1ccc(Cl)c(c1)c2c(Cl)c(Cl)c(Cl)c(Cl)c2Cl",
+  "measured_logS": -8.94,
+  "published_esol_logS": -7.898
+ },
+ {
+  "name": "2,2-Dimethylbutane",
+  "smiles": "CCC(C)(C)C",
+  "measured_logS": -3.55,
+  "published_esol_logS": -2.5839999999999996
+ },
+ {
+  "name": "N-Methylaniline",
+  "smiles": "CNc1ccccc1",
+  "measured_logS": -1.28,
+  "published_esol_logS": -2.097
+ },
+ {
+  "name": "1,4-Pentadiene",
+  "smiles": "C=CCC=C",
+  "measured_logS": -2.09,
+  "published_esol_logS": -1.758
+ },
+ {
+  "name": "Hydrocortisone 21-acetate",
+  "smiles": "CC(=O)OCC(=O)C1(O)CCC2C3CCC4=CC(=O)CCC4(C)C3C(O)CC21C",
+  "measured_logS": -4.88,
+  "published_esol_logS": -3.6919999999999997
+ },
+ {
+  "name": "DNOC",
+  "smiles": "Cc1cc(cc(N(=O)=O)c1O)N(=O)=O",
+  "measured_logS": -1.456,
+  "published_esol_logS": -2.818
+ },
+ {
+  "name": "Lorazepam",
+  "smiles": "OC3N=C(c1ccccc1Cl)c2cc(Cl)ccc2NC3=O",
+  "measured_logS": -3.6039999999999996,
+  "published_esol_logS": -3.75
+ },
+ {
+  "name": "3-Chlorophenol",
+  "smiles": "Oc1cccc(Cl)c1",
+  "measured_logS": -0.7,
+  "published_esol_logS": -2.761
+ },
+ {
+  "name": "m-Chlorobromobenzene",
+  "smiles": "Clc1cccc(Br)c1",
+  "measured_logS": -3.21,
+  "published_esol_logS": -3.928
+ },
+ {
+  "name": "chlorothiazide",
+  "smiles": "NS(=O)(=O)c2cc1c(N=CNS1(=O)=O)cc2Cl",
+  "measured_logS": -3.05,
+  "published_esol_logS": -1.7519999999999998
+ },
+ {
+  "name": "5-Methyl-5-ethylbarbituric acid",
+  "smiles": "O=C1NC(=O)NC(=O)C1(C)CC",
+  "measured_logS": -1.228,
+  "published_esol_logS": -0.9109999999999999
+ },
+ {
+  "name": "2-Phenoxyethanol",
+  "smiles": "OCCOc1ccccc1",
+  "measured_logS": -0.7,
+  "published_esol_logS": -1.761
+ },
+ {
+  "name": "Diphenylmethane",
+  "smiles": "C(c1ccccc1)c2ccccc2",
+  "measured_logS": -4.08,
+  "published_esol_logS": -4.09
+ },
+ {
+  "name": "3-Octanol",
+  "smiles": "CCCCCC(O)CC",
+  "measured_logS": -1.98,
+  "published_esol_logS": -2.033
+ },
+ {
+  "name": "Flumetralin",
+  "smiles": "CCN(Cc1c(F)cccc1Cl)c2c(cc(cc2N(=O)=O)C(F)(F)F)N(=O)=O",
+  "measured_logS": -6.78,
+  "published_esol_logS": -6.584
+ },
+ {
+  "name": "Propazine",
+  "smiles": "CC(C)Nc1nc(Cl)nc(NC(C)C)n1",
+  "measured_logS": -4.43,
+  "published_esol_logS": -3.3289999999999997
+ },
+ {
+  "name": "2-Methylpentanol",
+  "smiles": "CCCC(C)CO",
+  "measured_logS": -1.11,
+  "published_esol_logS": -1.381
+ },
+ {
+  "name": "2-Methyl-2-hexanol",
+  "smiles": "CCCCC(C)(C)O",
+  "measured_logS": -1.08,
+  "published_esol_logS": -1.663
+ },
+ {
+  "name": "Ethylbenzene",
+  "smiles": "CCc1ccccc1",
+  "measured_logS": -2.77,
+  "published_esol_logS": -2.988
+ },
+ {
+  "name": "5-(3-Methyl-2-butenyl)-5-ethylbarbital",
+  "smiles": "O=C1NC(=O)NC(=O)C1(CC)CC=C(C)C",
+  "measured_logS": -2.253,
+  "published_esol_logS": -2.126
+ },
+ {
+  "name": "Heptachlor",
+  "smiles": "ClC1C=CC2C1C3(Cl)C(=C(Cl)C2(Cl)C3(Cl)Cl)Cl",
+  "measured_logS": -6.317,
+  "published_esol_logS": -5.26
+ },
+ {
+  "name": "butallylonal",
+  "smiles": "CCC(C)C1(CC(Br)=C)C(=O)NC(=O)NC1=O",
+  "measured_logS": -2.647,
+  "published_esol_logS": -2.766
+ },
+ {
+  "name": "Fenpropathrin",
+  "smiles": "CC1(C)C(C(=O)OC(C#N)c2cccc(Oc3ccccc3)c2)C1(C)C",
+  "measured_logS": -6.025,
+  "published_esol_logS": -6.15
+ },
+ {
+  "name": "Methoprene",
+  "smiles": "COC(C)(C)CCCC(C)CC=CC(C)=CC(=O)OC(C)C",
+  "measured_logS": -5.19,
+  "published_esol_logS": -4.795
+ },
+ {
+  "name": "Ethyl propionate",
+  "smiles": "CCOC(=O)CC",
+  "measured_logS": -0.66,
+  "published_esol_logS": -1.1909999999999998
+ },
+ {
+  "name": "Prometryn",
+  "smiles": "CSc1nc(NC(C)C)nc(NC(C)C)n1",
+  "measured_logS": -4.1,
+  "published_esol_logS": -3.693
+ },
+ {
+  "name": "Buturon",
+  "smiles": "CC(C#C)N(C)C(=O)Nc1ccc(Cl)cc1",
+  "measured_logS": -3.9,
+  "published_esol_logS": -3.199
+ },
+ {
+  "name": "2,3-Dimethylnaphthalene",
+  "smiles": "Cc1cc2ccccc2cc1C",
+  "measured_logS": -4.72,
+  "published_esol_logS": -4.1160000000000005
+ },
+ {
+  "name": "2,4',5-PCB",
+  "smiles": "Clc1ccc(cc1)c2cc(Cl)ccc2Cl",
+  "measured_logS": -6.25,
+  "published_esol_logS": -5.7620000000000005
+ },
+ {
+  "name": "2,3',4,4',5-PCB",
+  "smiles": "Clc1ccc(c(Cl)c1)c2cc(Cl)c(Cl)c(Cl)c2Cl",
+  "measured_logS": -7.39,
+  "published_esol_logS": -7.343
+ },
+ {
+  "name": "2-cyanoguanidine",
+  "smiles": "NC(N)=NC#N",
+  "measured_logS": -0.31,
+  "published_esol_logS": 0.361
+ },
+ {
+  "name": "Chloropicrin",
+  "smiles": "ClC(Cl)(Cl)N(=O)=O",
+  "measured_logS": -2.0,
+  "published_esol_logS": -1.8659999999999999
+ },
+ {
+  "name": "2,6-PCB",
+  "smiles": "Clc1cccc(Cl)c1c2ccccc2",
+  "measured_logS": -5.21,
+  "published_esol_logS": -4.984
+ },
+ {
+  "name": "p-Methoxybenzaldehyde",
+  "smiles": "COc1ccc(C=O)cc1",
+  "measured_logS": -1.49,
+  "published_esol_logS": -2.252
+ },
+ {
+  "name": "4-Nitroacetanilide",
+  "smiles": "CC(=O)Nc1ccc(cc1)N(=O)=O",
+  "measured_logS": -2.6919999999999997,
+  "published_esol_logS": -2.219
+ },
+ {
+  "name": "Ethyl heptanoate",
+  "smiles": "CCCCCCC(=O)OCC",
+  "measured_logS": -2.74,
+  "published_esol_logS": -2.608
+ },
+ {
+  "name": "p-Hydroxyacetanilide",
+  "smiles": "CC(=O)Nc1ccc(O)cc1",
+  "measured_logS": -1.03,
+  "published_esol_logS": -1.495
+ },
+ {
+  "name": "indazole",
+  "smiles": "c2ccc1[nH]ncc1c2",
+  "measured_logS": -2.16,
+  "published_esol_logS": -2.34
+ },
+ {
+  "name": "triamcinolone acetonide",
+  "smiles": "CC5(C)OC4CC3C2CCC1=CC(=O)C=CC1(C)C2(F)C(O)CC3(C)C4(O5)C(=O)CO",
+  "measured_logS": -4.31,
+  "published_esol_logS": -3.928
+ },
+ {
+  "name": "guanine",
+  "smiles": "Nc2nc1[nH]cnc1c(=O)[nH]2",
+  "measured_logS": -3.583,
+  "published_esol_logS": -0.67
+ },
+ {
+  "name": "Methyl acetate",
+  "smiles": "COC(=O)C",
+  "measured_logS": 0.46,
+  "published_esol_logS": -0.41600000000000004
+ },
+ {
+  "name": "Stanolone",
+  "smiles": "CC34CCC1C(CCC2CC(=O)CCC12C)C3CCC4O",
+  "measured_logS": -4.743,
+  "published_esol_logS": -3.8819999999999997
+ },
+ {
+  "name": "1-Hexene-3-ol",
+  "smiles": "CCCC(O)C=C",
+  "measured_logS": -0.59,
+  "published_esol_logS": -1.199
+ },
+ {
+  "name": "norbormide",
+  "smiles": "OC(C1=CC2C5C(C1C2=C(c3ccccc3)c4ccccn4)C(=O)NC5=O)(c6ccccc6)c7ccccn7",
+  "measured_logS": -3.931,
+  "published_esol_logS": -4.238
+ },
+ {
+  "name": "Dibutyl ether",
+  "smiles": "CCCCOCCCC",
+  "measured_logS": -1.85,
+  "published_esol_logS": -2.135
+ },
+ {
+  "name": "1-Dodecanol",
+  "smiles": "CCCCCCCCCCCCO",
+  "measured_logS": -4.8,
+  "published_esol_logS": -3.523
+ },
+ {
+  "name": "RTI 6",
+  "smiles": "CCN2c1nc(N(C)(CCO))ccc1NC(=O)c3cccnc23",
+  "measured_logS": -3.36,
+  "published_esol_logS": -3.335
+ },
+ {
+  "name": "2-Methyl-2-pentanol",
+  "smiles": "CCCC(C)(C)O",
+  "measured_logS": -0.49,
+  "published_esol_logS": -1.308
+ },
+ {
+  "name": "Flucytosine",
+  "smiles": "Nc1nc(=O)[nH]cc1F",
+  "measured_logS": -0.972,
+  "published_esol_logS": -0.132
+ },
+ {
+  "name": "stadacaine",
+  "smiles": "CCCCOc1ccc(C(=O)OCC)c(c1)N(CC)CC",
+  "measured_logS": -3.84,
+  "published_esol_logS": -5.127999999999999
+ },
+ {
+  "name": "2-Methyl-2-heptanol",
+  "smiles": "CCCCCC(C)(C)O",
+  "measured_logS": -1.72,
+  "published_esol_logS": -2.017
+ },
+ {
+  "name": "Hexamethylbenzene",
+  "smiles": "Cc1c(C)c(C)c(C)c(C)c1C",
+  "measured_logS": -5.23,
+  "published_esol_logS": -4.361000000000001
+ },
+ {
+  "name": "Thymol",
+  "smiles": "CC(C)c1ccc(C)cc1O",
+  "measured_logS": -2.22,
+  "published_esol_logS": -3.1289999999999996
+ },
+ {
+  "name": "Pteridine",
+  "smiles": "c2cnc1ncncc1n2",
+  "measured_logS": 0.02,
+  "published_esol_logS": -0.9059999999999999
+ },
+ {
+  "name": "Parathion",
+  "smiles": "CCOP(=S)(OCC)Oc1ccc(cc1)N(=O)=O",
+  "measured_logS": -4.66,
+  "published_esol_logS": -3.949
+ },
+ {
+  "name": "Methane",
+  "smiles": "C",
+  "measured_logS": -0.9,
+  "published_esol_logS": -0.636
+ },
+ {
+  "name": "indoline",
+  "smiles": "c2ccc1NCCc1c2",
+  "measured_logS": -1.04,
+  "published_esol_logS": -2.195
+ },
+ {
+  "name": "1-Nitronapthalene",
+  "smiles": "O=N(=O)c1cccc2ccccc12",
+  "measured_logS": -3.54,
+  "published_esol_logS": -3.4139999999999997
+ },
+ {
+  "name": "3-Methyl-2-pentanone",
+  "smiles": "CCC(C)C(=O)C",
+  "measured_logS": -0.67,
+  "published_esol_logS": -1.266
+ },
+ {
+  "name": "isoguanine",
+  "smiles": "Nc1nc(O)nc2nc[nH]c12",
+  "measured_logS": -3.4010000000000002,
+  "published_esol_logS": -1.74
+ },
+ {
+  "name": "bromadiolone",
+  "smiles": "OC(CC(c1ccccc1)c3c(O)c2ccccc2oc3=O)c4ccc(cc4)c5ccc(Br)cc5",
+  "measured_logS": -4.445,
+  "published_esol_logS": -7.877000000000001
+ },
+ {
+  "name": "Nitromethane",
+  "smiles": "CN(=O)=O",
+  "measured_logS": 0.26,
+  "published_esol_logS": -0.042
+ },
+ {
+  "name": "Triallate",
+  "smiles": "CC(C)N(C(C)C)C(=O)SCC(Cl)=C(Cl)Cl",
+  "measured_logS": -4.88,
+  "published_esol_logS": -4.578
+ },
+ {
+  "name": "1,5-Hexadiene",
+  "smiles": "C=CCCC=C",
+  "measured_logS": -2.68,
+  "published_esol_logS": -2.112
+ },
+ {
+  "name": "Indole",
+  "smiles": "c2ccc1[nH]ccc1c2",
+  "measured_logS": -1.52,
+  "published_esol_logS": -2.654
+ },
+ {
+  "name": "Androstenedione",
+  "smiles": "CC34CCC1C(CCC2=CC(=O)CCC12C)C3CCC4=O",
+  "measured_logS": -3.69,
+  "published_esol_logS": -3.3930000000000002
+ },
+ {
+  "name": "1-Hexene",
+  "smiles": "CCCCC=C",
+  "measured_logS": -3.23,
+  "published_esol_logS": -2.364
+ },
+ {
+  "name": "Xipamide",
+  "smiles": "Cc1cccc(C)c1NC(=O)c2cc(c(Cl)cc2O)S(N)(=O)=O",
+  "measured_logS": -3.79,
+  "published_esol_logS": -3.642
+ },
+ {
+  "name": "Ethylcyclohexane",
+  "smiles": "CCC1CCCCC1",
+  "measured_logS": -4.25,
+  "published_esol_logS": -3.245
+ },
+ {
+  "name": "2-Nonanone",
+  "smiles": "CCCCCCCC(=O)C",
+  "measured_logS": -2.58,
+  "published_esol_logS": -2.263
+ },
+ {
+  "name": "Mebendazole",
+  "smiles": "COC(=O)Nc2nc1ccc(cc1[nH]2)C(=O)c3ccccc3",
+  "measured_logS": -3.88,
+  "published_esol_logS": -4.118
+ },
+ {
+  "name": "Chloropham",
+  "smiles": "CC(C)OC(=O)Nc1cccc(Cl)c1",
+  "measured_logS": -3.38,
+  "published_esol_logS": -3.5439999999999996
+ },
+ {
+  "name": "RTI 12",
+  "smiles": "CCN2c1nc(Cl)ccc1N(C)C(=O)c3cccnc23",
+  "measured_logS": -4.114,
+  "published_esol_logS": -3.446
+ },
+ {
+  "name": "Carbaryl",
+  "smiles": "CNC(=O)Oc1cccc2ccccc12",
+  "measured_logS": -3.2239999999999998,
+  "published_esol_logS": -3.0869999999999997
+ },
+ {
+  "name": "Ethyne",
+  "smiles": "C#C",
+  "measured_logS": 0.29,
+  "published_esol_logS": -0.252
+ },
+ {
+  "name": "3,5-Dimethylpyridine",
+  "smiles": "Cc1cncc(C)c1",
+  "measured_logS": 0.38,
+  "published_esol_logS": -2.0980000000000003
+ },
+ {
+  "name": "1,4-Cyclohexadiene",
+  "smiles": "C1C=CCC=C1",
+  "measured_logS": -2.06,
+  "published_esol_logS": -1.8419999999999999
+ },
+ {
+  "name": "Mecarbam",
+  "smiles": "CCOC(=O)N(C)C(=O)CSP(=S)(OCC)OCC",
+  "measured_logS": -2.5180000000000002,
+  "published_esol_logS": -3.738
+ },
+ {
+  "name": "1-Phenylethanol",
+  "smiles": "CC(O)c1ccccc1",
+  "measured_logS": -0.92,
+  "published_esol_logS": -1.919
+ },
+ {
+  "name": "1,2-Dichloropropane",
+  "smiles": "CC(Cl)CCl",
+  "measured_logS": -1.6,
+  "published_esol_logS": -1.794
+ },
+ {
+  "name": "2-Ethyl-2-hexanal",
+  "smiles": "CCCC=C(CC)C=O",
+  "measured_logS": -2.46,
+  "published_esol_logS": -2.081
+ },
+ {
+  "name": "Disulfoton",
+  "smiles": "CCOP(=S)(OCC)SCCSCC",
+  "measured_logS": -4.23,
+  "published_esol_logS": -3.975
+ },
+ {
+  "name": "methyltestosterone acetate",
+  "smiles": "CC(=O)OC3(C)CCC4C2CCC1=CC(=O)CCC1(C)C2CCC34C",
+  "measured_logS": -5.284,
+  "published_esol_logS": -4.863
+ },
+ {
+  "name": "2,4,6-PCB",
+  "smiles": "Clc1ccc(cc1)c2c(Cl)cccc2Cl",
+  "measured_logS": -6.14,
+  "published_esol_logS": -5.604
+ },
+ {
+  "name": "difluron",
+  "smiles": "Fc1cccc(F)c1C(=O)NC(=O)Nc2ccc(Cl)cc2",
+  "measured_logS": -6.02,
+  "published_esol_logS": -4.692
+ },
+ {
+  "name": "Triclosan",
+  "smiles": "Oc1cc(Cl)ccc1Oc2ccc(Cl)cc2Cl",
+  "measured_logS": -4.46,
+  "published_esol_logS": -5.645
+ },
+ {
+  "name": "diisooctyl phthalate",
+  "smiles": "c1(C(=O)OCCCCCC(C)(C))c(C(=O)OCCCCCC(C)(C))cccc1",
+  "measured_logS": -6.6370000000000005,
+  "published_esol_logS": -7.117000000000001
+ },
+ {
+  "name": "Corticosterone",
+  "smiles": "CC12CC(O)C3C(CCC4=CC(=O)CCC34C)C2CCC1C(=O)CO",
+  "measured_logS": -3.24,
+  "published_esol_logS": -3.4539999999999997
+ },
+ {
+  "name": "1,3,5-Trimethylbenzene",
+  "smiles": "Cc1cc(C)cc(C)c1",
+  "measured_logS": -3.4,
+  "published_esol_logS": -3.375
+ },
+ {
+  "name": "dioctyl phthalate",
+  "smiles": "CCCCCCCCOC(=O)c1ccccc1C(=O)OCCCCCCCC",
+  "measured_logS": -5.115,
+  "published_esol_logS": -7.148
+ },
+ {
+  "name": "1-Pentadecanol",
+  "smiles": "CCCCCCCCCCCCCCCO",
+  "measured_logS": -6.35,
+  "published_esol_logS": -4.586
+ },
+ {
+  "name": "2,2',6,6'-PCB",
+  "smiles": "Clc1cccc(Cl)c1c2c(Cl)cccc2Cl",
+  "measured_logS": -7.39,
+  "published_esol_logS": -5.915
+ },
+ {
+  "name": "5,5-Dimethylbarbituric acid",
+  "smiles": "O=C1NC(=O)NC(=O)C1(C)C",
+  "measured_logS": -1.742,
+  "published_esol_logS": -0.556
+ },
+ {
+  "name": "2-Iodopropane",
+  "smiles": "CC(C)I",
+  "measured_logS": -2.09,
+  "published_esol_logS": -2.4859999999999998
+ },
+ {
+  "name": "1,2-Dinitrobenzene",
+  "smiles": "O=N(=O)c1ccccc1N(=O)=O",
+  "measured_logS": -3.1,
+  "published_esol_logS": -2.281
+ },
+ {
+  "name": "3-Methyl-2-butanone",
+  "smiles": "CC(C)C(=O)C",
+  "measured_logS": -0.12,
+  "published_esol_logS": -0.912
+ },
+ {
+  "name": "Hexadecane",
+  "smiles": "CCCCCCCCCCCCCCCC",
+  "measured_logS": -8.4,
+  "published_esol_logS": -6.159
+ },
+ {
+  "name": "1,8-Cineole",
+  "smiles": "CC12CCC(CC1)C(C)(C)O2",
+  "measured_logS": -1.74,
+  "published_esol_logS": -2.5789999999999997
+ },
+ {
+  "name": "Tricyclazole",
+  "smiles": "Cc2cccc3sc1nncn1c23",
+  "measured_logS": -2.07,
+  "published_esol_logS": -2.8680000000000003
+ },
+ {
+  "name": "2-Octanone",
+  "smiles": "CCCCCCC(=O)C",
+  "measured_logS": -2.05,
+  "published_esol_logS": -1.909
+ },
+ {
+  "name": "Methyl nonanoate",
+  "smiles": "CCCCCCCCC(=O)OC",
+  "measured_logS": -3.38,
+  "published_esol_logS": -2.9619999999999997
+ },
+ {
+  "name": "1,4-Difluorobenzene",
+  "smiles": "Fc1ccc(F)cc1",
+  "measured_logS": -1.97,
+  "published_esol_logS": -2.636
+ },
+ {
+  "name": "Thalidomide",
+  "smiles": "O=C1N(C2CCC(=O)NC2=O)C(=O)c3ccccc13",
+  "measured_logS": -2.676,
+  "published_esol_logS": -1.944
+ },
+ {
+  "name": "Trifluralin",
+  "smiles": "CCCN(CCC)c1c(cc(cc1N(=O)=O)C(F)(F)F)N(=O)=O",
+  "measured_logS": -5.68,
+  "published_esol_logS": -5.205
+ },
+ {
+  "name": "Ethanol",
+  "smiles": "CCO",
+  "measured_logS": 1.1,
+  "published_esol_logS": 0.02
+ },
+ {
+  "name": "Cyclopentyl-5-spirobarbituric acid",
+  "smiles": "O=C2NC(=O)C1(CCCC1)C(=O)N2",
+  "measured_logS": -2.349,
+  "published_esol_logS": -0.966
+ },
+ {
+  "name": "Carbetamide",
+  "smiles": "c1c(NC(=O)OC(C)C(=O)NCC)cccc1",
+  "measured_logS": -1.83,
+  "published_esol_logS": -2.29
+ },
+ {
+  "name": "phenothrin",
+  "smiles": "CC(C)=CC3C(C(=O)OCc2cccc(Oc1ccccc1)c2)C3(C)C",
+  "measured_logS": -5.24,
+  "published_esol_logS": -6.763
+ },
+ {
+  "name": "Cycluron",
+  "smiles": "CN(C)C(=O)NC1CCCCCCC1",
+  "measured_logS": -2.218,
+  "published_esol_logS": -2.6289999999999996
+ },
+ {
+  "name": "Mirex",
+  "smiles": "ClC1(C2(Cl)C3(Cl)C4(Cl)C5(Cl)C1(Cl)C3(Cl)Cl)C5(Cl)C(Cl)(Cl)C24Cl",
+  "measured_logS": -6.8,
+  "published_esol_logS": -6.155
+ },
+ {
+  "name": "1-Bromooctane",
+  "smiles": "CCCCCCCCBr",
+  "measured_logS": -5.06,
+  "published_esol_logS": -3.721
+ },
+ {
+  "name": "Benomyl",
+  "smiles": "CCCCNC(=O)n1c(NC(=O)OC)nc2ccccc12",
+  "measured_logS": -4.883,
+  "published_esol_logS": -2.9019999999999997
+ },
+ {
+  "name": "aminopyrine",
+  "smiles": "CN(C)c2c(C)n(C)n(c1ccccc1)c2=O",
+  "measured_logS": -0.364,
+  "published_esol_logS": -2.129
+ },
+ {
+  "name": "3-Pentanol",
+  "smiles": "CCC(O)CC",
+  "measured_logS": -0.24,
+  "published_esol_logS": -0.97
+ },
+ {
+  "name": "p-Nitrotoluene",
+  "smiles": "Cc1ccc(cc1)N(=O)=O",
+  "measured_logS": -2.49,
+  "published_esol_logS": -2.64
+ },
+ {
+  "name": "4-Methylpentanol",
+  "smiles": "CC(C)CCCO",
+  "measured_logS": -1.14,
+  "published_esol_logS": -1.381
+ },
+ {
+  "name": "Norethisterone",
+  "smiles": "CC34CCC1C(CCC2=CC(=O)CCC12O)C3CCC4(O)C#C",
+  "measured_logS": -4.57,
+  "published_esol_logS": -2.6689999999999996
+ },
+ {
+  "name": "bromopropylate",
+  "smiles": "CC(C)OC(=O)C(O)(c1ccc(Br)cc1)c2ccc(Br)cc2",
+  "measured_logS": -4.93,
+  "published_esol_logS": -5.832999999999999
+ },
+ {
+  "name": "Pyrazon",
+  "smiles": "Nc2cnn(c1ccccc1)c(=O)c2Cl",
+  "measured_logS": -2.878,
+  "published_esol_logS": -2.603
+ },
+ {
+  "name": "2-Methylbutan-2-ol",
+  "smiles": "CCC(C)(C)O",
+  "measured_logS": 0.15,
+  "published_esol_logS": -0.9540000000000001
+ },
+ {
+  "name": "p-Cresol",
+  "smiles": "Cc1ccc(O)cc1",
+  "measured_logS": -0.73,
+  "published_esol_logS": -2.313
+ },
+ {
+  "name": "Ethyl formate",
+  "smiles": "CCOC=O",
+  "measured_logS": 0.15,
+  "published_esol_logS": -0.402
+ },
+ {
+  "name": "N,N-Dimethylaniline",
+  "smiles": "CN(C)c1ccccc1",
+  "measured_logS": -1.92,
+  "published_esol_logS": -2.542
+ },
+ {
+  "name": "Decalin",
+  "smiles": "C1CCC2CCCCC2C1",
+  "measured_logS": -5.19,
+  "published_esol_logS": -3.715
+ },
+ {
+  "name": "Butanethiol",
+  "smiles": "CCCCS",
+  "measured_logS": -2.18,
+  "published_esol_logS": -1.676
+ },
+ {
+  "name": "Benzo(e)pyrene",
+  "smiles": "c1ccc2c(c1)c3cccc4ccc5cccc2c5c43",
+  "measured_logS": -7.8,
+  "published_esol_logS": -6.007000000000001
+ },
+ {
+  "name": "Tetrachloroethylene",
+  "smiles": "ClC(=C(Cl)Cl)Cl",
+  "measured_logS": -2.54,
+  "published_esol_logS": -3.063
+ },
+ {
+  "name": "3-Pentanone",
+  "smiles": "CCC(=O)CC",
+  "measured_logS": -0.28,
+  "published_esol_logS": -0.912
+ },
+ {
+  "name": "Acrylonitrile",
+  "smiles": "C=CC#N",
+  "measured_logS": 0.15,
+  "published_esol_logS": -0.354
+ },
+ {
+  "name": "Flumethasone",
+  "smiles": "CC1CC2C3CC(F)C4=CC(=O)C=CC4(C)C3(F)C(O)CC2(C)C1(O)C(=O)CO",
+  "measured_logS": -5.6129999999999995,
+  "published_esol_logS": -3.5389999999999997
+ },
+ {
+  "name": "2-Hexanone",
+  "smiles": "CCCCC(=O)C",
+  "measured_logS": -0.8,
+  "published_esol_logS": -1.2
+ },
+ {
+  "name": "Terbumeton",
+  "smiles": "CCNc1nc(NC(C)(C)C)nc(OC)n1",
+  "measured_logS": -3.239,
+  "published_esol_logS": -3.505
+ },
+ {
+  "name": "3-Methylheptane",
+  "smiles": "CCCCC(C)CC",
+  "measured_logS": -5.16,
+  "published_esol_logS": -3.3080000000000003
+ },
+ {
+  "name": "1,2-Dibromoethane",
+  "smiles": "BrCCBr",
+  "measured_logS": -1.68,
+  "published_esol_logS": -2.102
+ },
+ {
+  "name": "Isoprocarb",
+  "smiles": "CNC(=O)Oc1ccccc1C(C)C",
+  "measured_logS": -2.863,
+  "published_esol_logS": -2.734
+ },
+ {
+  "name": "Niridazole",
+  "smiles": "O=C1NCCN1c2ncc(s2)N(=O)=O",
+  "measured_logS": -3.22,
+  "published_esol_logS": -1.9480000000000002
+ },
+ {
+  "name": "Benzo(a)fluorene",
+  "smiles": "C1c2ccccc2c3ccc4ccccc4c13",
+  "measured_logS": -6.68,
+  "published_esol_logS": -5.189
+ },
+ {
+  "name": "2-Chloroanisole",
+  "smiles": "COc1ccccc1Cl",
+  "measured_logS": -2.46,
+  "published_esol_logS": -2.912
+ },
+ {
+  "name": "Bromophos",
+  "smiles": "COP(=S)(OC)Oc1cc(Cl)c(Br)cc1Cl",
+  "measured_logS": -6.09,
+  "published_esol_logS": -5.604
+ },
+ {
+  "name": "Quinonamid",
+  "smiles": "ClC(Cl)CC(=O)NC2=C(Cl)C(=O)c1ccccc1C2=O",
+  "measured_logS": -5.03,
+  "published_esol_logS": -3.988
+ },
+ {
+  "name": "P,P'-DDD",
+  "smiles": "ClC(Cl)C(c1ccc(Cl)cc1)c2ccc(Cl)cc2",
+  "measured_logS": -7.2,
+  "published_esol_logS": -6.007999999999999
+ },
+ {
+  "name": "Methyl acrylate",
+  "smiles": "COC(=O)C=C",
+  "measured_logS": -0.22,
+  "published_esol_logS": -0.878
+ },
+ {
+  "name": "Chloroxuron",
+  "smiles": "CN(C)C(=O)Nc2ccc(Oc1ccc(Cl)cc1)cc2",
+  "measured_logS": -4.89,
+  "published_esol_logS": -4.477
+ },
+ {
+  "name": "Azobenzene",
+  "smiles": "N(=Nc1ccccc1)c2ccccc2",
+  "measured_logS": -4.45,
+  "published_esol_logS": -4.034
+ },
+ {
+  "name": "4-Isopropyltoluene",
+  "smiles": "CC(C)c1ccc(C)cc1",
+  "measured_logS": -3.77,
+  "published_esol_logS": -3.617
+ },
+ {
+  "name": "2,6-Dichlorophenol",
+  "smiles": "Oc1c(Cl)cccc1Cl",
+  "measured_logS": -1.79,
+  "published_esol_logS": -3.012
+ },
+ {
+  "name": "Sucrose",
+  "smiles": "OCC2OC(OC1(CO)OC(CO)C(O)C1O)C(O)C(O)C2O",
+  "measured_logS": 0.79,
+  "published_esol_logS": 0.31
+ },
+ {
+  "name": "d-inositol",
+  "smiles": "OC1C(O)C(O)C(O)C(O)C1O",
+  "measured_logS": 0.35,
+  "published_esol_logS": -0.887
+ },
+ {
+  "name": "Dyphylline",
+  "smiles": "Cn2c(=O)n(C)c1ncn(CC(O)CO)c1c2=O",
+  "measured_logS": -0.17,
+  "published_esol_logS": -0.847
+ },
+ {
+  "name": "Chloramphenicol",
+  "smiles": "OCC(NC(=O)C(Cl)Cl)C(O)c1ccc(cc1)N(=O)=O",
+  "measured_logS": -2.1109999999999998,
+  "published_esol_logS": -2.613
+ },
+ {
+  "name": "3-Ethyl-3-pentanol",
+  "smiles": "CCC(O)(CC)CC",
+  "measured_logS": -0.85,
+  "published_esol_logS": -1.663
+ },
+ {
+  "name": "Epitostanol",
+  "smiles": "CC45CCC2C(CCC3CC1SC1CC23C)C4CCC5O",
+  "measured_logS": -5.41,
+  "published_esol_logS": -4.545
+ },
+ {
+  "name": "1,2-Dibromobenzene",
+  "smiles": "Brc1ccccc1Br",
+  "measured_logS": -3.5,
+  "published_esol_logS": -4.172
+ },
+ {
+  "name": "2,4,6-Trichlorophenol",
+  "smiles": "Oc1c(Cl)cc(Cl)cc1Cl",
+  "measured_logS": -2.34,
+  "published_esol_logS": -3.648
+ },
+ {
+  "name": "oryzalin",
+  "smiles": "CCCN(CCC)c1c(cc(cc1N(=O)=O)S(N)(=O)=O)N(=O)=O",
+  "measured_logS": -5.16,
+  "published_esol_logS": -3.784
+ },
+ {
+  "name": "RTI 20",
+  "smiles": "C2c1ccccc1N(CCF)C(=O)c3ccccc23",
+  "measured_logS": -4.7989999999999995,
+  "published_esol_logS": -3.6630000000000003
+ },
+ {
+  "name": "2,4-Dimethyl-3-pentanone",
+  "smiles": "CC(C)C(=O)C(C)C",
+  "measured_logS": -1.3,
+  "published_esol_logS": -1.7519999999999998
+ },
+ {
+  "name": "5-(3-Methyl-2-butenyl)-5-isoPrbarbital",
+  "smiles": "O=C1NC(=O)NC(=O)C1(C(C)C)CC=C(C)C",
+  "measured_logS": -2.593,
+  "published_esol_logS": -2.465
+ },
+ {
+  "name": "gentisin",
+  "smiles": "c1c(O)C2C(=O)C3cc(O)ccC3OC2cc1(OC)",
+  "measured_logS": -2.943,
+  "published_esol_logS": -1.2919999999999998
+ },
+ {
+  "name": "Caffeine",
+  "smiles": "Cn1cnc2n(C)c(=O)n(C)c(=O)c12",
+  "measured_logS": -0.8759999999999999,
+  "published_esol_logS": -1.4980000000000002
+ },
+ {
+  "name": "Spironolactone",
+  "smiles": "CC(=O)SC4CC1=CC(=O)CCC1(C)C5CCC2(C)C(CCC23CCC(=O)O3)C45",
+  "measured_logS": -4.173,
+  "published_esol_logS": -3.842
+ },
+ {
+  "name": "3,4-Dimethylphenol",
+  "smiles": "Cc1ccc(O)cc1C",
+  "measured_logS": -1.38,
+  "published_esol_logS": -2.6210000000000004
+ },
+ {
+  "name": "Diphenyl ether",
+  "smiles": "O(c1ccccc1)c2ccccc2",
+  "measured_logS": -3.96,
+  "published_esol_logS": -4.254
+ },
+ {
+  "name": "2,2',4,4',5,5'-PCB",
+  "smiles": "Clc1cc(Cl)c(cc1Cl)c2cc(Cl)c(Cl)cc2Cl",
+  "measured_logS": -8.56,
+  "published_esol_logS": -7.343
+ },
+ {
+  "name": "nicotinamide",
+  "smiles": "NC(=O)c1cccnc1",
+  "measured_logS": 0.61,
+  "published_esol_logS": -0.9640000000000001
+ },
+ {
+  "name": "Thiophenol",
+  "smiles": "Sc1ccccc1",
+  "measured_logS": -2.12,
+  "published_esol_logS": -2.758
+ },
+ {
+  "name": "XMC",
+  "smiles": "CNC(=O)Oc1cc(C)cc(C)c1",
+  "measured_logS": -2.5810000000000004,
+  "published_esol_logS": -2.688
+ },
+ {
+  "name": "Chlordane",
+  "smiles": "ClC1CC2C(C1Cl)C3(Cl)C(=C(Cl)C2(Cl)C3(Cl)Cl)Cl",
+  "measured_logS": -6.86,
+  "published_esol_logS": -6.039
+ },
+ {
+  "name": "Dimethyldisulfide",
+  "smiles": "CSSC",
+  "measured_logS": -1.44,
+  "published_esol_logS": -1.524
+ },
+ {
+  "name": "Benzamide",
+  "smiles": "NC(=O)c1ccccc1",
+  "measured_logS": -0.96,
+  "published_esol_logS": -1.501
+ },
+ {
+  "name": "o-Chlorobromobenzene",
+  "smiles": "Clc1ccccc1Br",
+  "measured_logS": -3.19,
+  "published_esol_logS": -3.84
+ },
+ {
+  "name": "Monotropitoside",
+  "smiles": "COC(=O)c1ccccc1OC2OC(COC3OCC(O)C(O)C3O)C(O)C(O)C2O",
+  "measured_logS": -0.742,
+  "published_esol_logS": -1.493
+ },
+ {
+  "name": "3-Heptanol",
+  "smiles": "CCCCC(O)CC",
+  "measured_logS": -1.47,
+  "published_esol_logS": -1.6780000000000002
+ },
+ {
+  "name": "RTI 15",
+  "smiles": "CCN2c1nc(C)cc(C)c1NC(=O)c3cccnc23",
+  "measured_logS": -4.553999999999999,
+  "published_esol_logS": -3.891
+ },
+ {
+  "name": "3,5-Dichlorophenol",
+  "smiles": "Oc1cc(Cl)cc(Cl)c1",
+  "measured_logS": -1.34,
+  "published_esol_logS": -3.428
+ },
+ {
+  "name": "1-Methylphenanthrene",
+  "smiles": "Cc1cccc2c1ccc3ccccc32",
+  "measured_logS": -5.85,
+  "published_esol_logS": -4.87
+ },
+ {
+  "name": "2-Ethyl-1-hexanol",
+  "smiles": "CCCCC(CC)CO",
+  "measured_logS": -2.11,
+  "published_esol_logS": -2.089
+ },
+ {
+  "name": "Diallate",
+  "smiles": "CC(C)N(C(C)C)C(=O)SCC(=CCl)Cl",
+  "measured_logS": -4.2860000000000005,
+  "published_esol_logS": -3.827
+ },
+ {
+  "name": "Toluene",
+  "smiles": "Cc1ccccc1",
+  "measured_logS": -2.21,
+  "published_esol_logS": -2.713
+ },
+ {
+  "name": "Nitrapyrin",
+  "smiles": "Clc1cccc(n1)C(Cl)(Cl)Cl",
+  "measured_logS": -3.76,
+  "published_esol_logS": -3.833
+ },
+ {
+  "name": "Cycloheptene",
+  "smiles": "C1CCC=CCC1",
+  "measured_logS": -3.18,
+  "published_esol_logS": -2.5989999999999998
+ },
+ {
+  "name": "Thiram",
+  "smiles": "CN(C)C(=S)SSC(=S)N(C)C",
+  "measured_logS": -3.9,
+  "published_esol_logS": -2.444
+ },
+ {
+  "name": "Griseofulvin",
+  "smiles": "COC1=CC(=O)CC(C)C13Oc2c(Cl)c(OC)cc(OC)c2C3=O",
+  "measured_logS": -3.2460000000000004,
+  "published_esol_logS": -3.3280000000000003
+ },
+ {
+  "name": "1-Decanol",
+  "smiles": "CCCCCCCCCCO",
+  "measured_logS": -3.63,
+  "published_esol_logS": -2.8139999999999996
+ },
+ {
+  "name": "3,3-Dimethylpentane",
+  "smiles": "CCC(C)(C)CC",
+  "measured_logS": -4.23,
+  "published_esol_logS": -2.938
+ },
+ {
+  "name": "vamidothion",
+  "smiles": "CNC(=O)C(C)SCCSP(=O)(OC)(OC)",
+  "measured_logS": 1.1440000000000001,
+  "published_esol_logS": -1.446
+ },
+ {
+  "name": "2,3,4,5-Tetrachlorophenol",
+  "smiles": "Oc1cc(Cl)c(Cl)c(Cl)c1Cl",
+  "measured_logS": -3.15,
+  "published_esol_logS": -4.335
+ },
+ {
+  "name": "Butyraldehyde",
+  "smiles": "CCCC=O",
+  "measured_logS": -0.01,
+  "published_esol_logS": -0.7490000000000001
+ },
+ {
+  "name": "dexamethasone acetate",
+  "smiles": "CC4CC3C2CCC1=CC(=O)C=CC1(C)C2(F)C(O)CC3(C)C4(O)C(=O)COC(C)=O",
+  "measured_logS": -4.9,
+  "published_esol_logS": -3.9330000000000003
+ },
+ {
+  "name": "Butane",
+  "smiles": "CCCC",
+  "measured_logS": -2.57,
+  "published_esol_logS": -1.9069999999999998
+ },
+ {
+  "name": "o-Methoxyphenol",
+  "smiles": "COc1ccccc1O",
+  "measured_logS": -1.96,
+  "published_esol_logS": -1.9409999999999998
+ },
+ {
+  "name": "Fluoromethalone",
+  "smiles": "CC1CC2C3CCC(O)(C(=O)C)C3(C)CC(O)C2(F)C4(C)C=CC(=O)C=C14",
+  "measured_logS": -4.099,
+  "published_esol_logS": -3.5069999999999997
+ },
+ {
+  "name": "Pentachloroethane",
+  "smiles": "ClC(Cl)C(Cl)(Cl)Cl",
+  "measured_logS": -2.6,
+  "published_esol_logS": -3.3819999999999997
+ },
+ {
+  "name": "Diethyl phthalate",
+  "smiles": "CCOC(=O)c1ccccc1C(=O)OCC",
+  "measured_logS": -2.35,
+  "published_esol_logS": -3.016
+ },
+ {
+  "name": "2-Methylpropan-1-ol",
+  "smiles": "CC(C)CO",
+  "measured_logS": 0.1,
+  "published_esol_logS": -0.672
+ },
+ {
+  "name": "Isobutylbenzene",
+  "smiles": "CC(C)Cc1ccccc1",
+  "measured_logS": -4.12,
+  "published_esol_logS": -3.57
+ },
+ {
+  "name": "Diiodomethane",
+  "smiles": "ICI",
+  "measured_logS": -2.34,
+  "published_esol_logS": -2.958
+ },
+ {
+  "name": "4-Heptanol",
+  "smiles": "CCCC(O)CCC",
+  "measured_logS": -1.4,
+  "published_esol_logS": -1.6780000000000002
+ },
+ {
+  "name": "Pentyl acetate",
+  "smiles": "CCCCCOC(=O)C",
+  "measured_logS": -1.89,
+  "published_esol_logS": -1.8330000000000002
+ },
+ {
+  "name": "2,3,5,6-Tetrachlorophenol",
+  "smiles": "Oc1c(Cl)c(Cl)cc(Cl)c1Cl",
+  "measured_logS": -3.37,
+  "published_esol_logS": -4.203
+ },
+ {
+  "name": "Propylbenzene",
+  "smiles": "CCCc1ccccc1",
+  "measured_logS": -3.37,
+  "published_esol_logS": -3.281
+ },
+ {
+  "name": "1,2-Dichlorotetrafluoroethane",
+  "smiles": "FC(F)(Cl)C(F)(F)Cl",
+  "measured_logS": -2.74,
+  "published_esol_logS": -2.697
+ },
+ {
+  "name": "2-butenal",
+  "smiles": "CC=CC=O",
+  "measured_logS": 0.32,
+  "published_esol_logS": -0.604
+ },
+ {
+  "name": "tetramethylurea",
+  "smiles": "CN(C)C(=O)N(C)C",
+  "measured_logS": 0.94,
+  "published_esol_logS": -0.495
+ },
+ {
+  "name": "1,2,4,5-Tetramethylbenzene",
+  "smiles": "Cc1cc(C)c(C)cc1C",
+  "measured_logS": -4.59,
+  "published_esol_logS": -3.6639999999999997
+ },
+ {
+  "name": "norethindrone acetate",
+  "smiles": "CC(=O)OC3(CCC4C2CCC1=CC(=O)CCC1C2CCC34C)C#C",
+  "measured_logS": -4.8,
+  "published_esol_logS": -4.2410000000000005
+ },
+ {
+  "name": "Ditalimfos",
+  "smiles": "CCOP(=S)(OCC)N2C(=O)c1ccccc1C2=O",
+  "measured_logS": -3.35,
+  "published_esol_logS": -3.992
+ },
+ {
+  "name": "salicylanilide",
+  "smiles": "c1ccccc1NC(=O)c2c(O)cccc2",
+  "measured_logS": -3.59,
+  "published_esol_logS": -3.782
+ },
+ {
+  "name": "Sulfallate",
+  "smiles": "CCN(CC)C(=S)SCC(Cl)=C",
+  "measured_logS": -3.39,
+  "published_esol_logS": -3.2539999999999996
+ },
+ {
+  "name": "Chloroethane",
+  "smiles": "ClCC",
+  "measured_logS": -1.06,
+  "published_esol_logS": -1.165
+ },
+ {
+  "name": "Mefluidide",
+  "smiles": "CC(=O)Nc1cc(NS(=O)(=O)C(F)(F)F)c(C)cc1C",
+  "measured_logS": -3.24,
+  "published_esol_logS": -3.165
+ },
+ {
+  "name": "Piperine",
+  "smiles": "O=C(C=CC=Cc2ccc1OCOc1c2)N3CCCCC3",
+  "measured_logS": -3.46,
+  "published_esol_logS": -3.659
+ },
+ {
+  "name": "cis-2-Pentene",
+  "smiles": "CC/C=C\\C",
+  "measured_logS": -2.54,
+  "published_esol_logS": -2.076
+ },
+ {
+  "name": "thiofanox",
+  "smiles": "CNC(=O)ON=C(CSC)C(C)(C)C",
+  "measured_logS": -1.62,
+  "published_esol_logS": -2.7
+ },
+ {
+  "name": "Cyclooctyl-5-spirobarbituric acid",
+  "smiles": "O=C2NC(=O)C1(CCCCCCC1)C(=O)N2",
+  "measured_logS": -2.9819999999999998,
+  "published_esol_logS": -2.2840000000000003
+ },
+ {
+  "name": "butacarb",
+  "smiles": "c1(C(C)(C)C)cc(C(C)(C)C)cc(OC(=O)NC)c1",
+  "measured_logS": -4.24,
+  "published_esol_logS": -4.6419999999999995
+ },
+ {
+  "name": "Eriodictyol",
+  "smiles": "Oc2cc(O)c1C(=O)CC(Oc1c2)c3ccc(O)c(O)c3",
+  "measured_logS": -3.62,
+  "published_esol_logS": -3.1519999999999997
+ },
+ {
+  "name": "Benzophenone",
+  "smiles": "O=C(c1ccccc1)c2ccccc2",
+  "measured_logS": -3.12,
+  "published_esol_logS": -3.612
+ },
+ {
+  "name": "Eicosane",
+  "smiles": "CCCCCCCCCCCCCCCCCCCC",
+  "measured_logS": -8.172,
+  "published_esol_logS": -7.5760000000000005
+ },
+ {
+  "name": "hydrazobenzene",
+  "smiles": "N(Nc1ccccc1)c2ccccc2",
+  "measured_logS": -2.92,
+  "published_esol_logS": -3.492
+ },
+ {
+  "name": "2-Ethyl-1-butanol",
+  "smiles": "CCC(CC)CO",
+  "measured_logS": -1.17,
+  "published_esol_logS": -1.381
+ },
+ {
+  "name": "4-hydroxypyridine",
+  "smiles": "Oc1ccncc1",
+  "measured_logS": 1.02,
+  "published_esol_logS": -1.655
+ },
+ {
+  "name": "cis 1,2-Dichloroethylene",
+  "smiles": "Cl\\C=C/Cl",
+  "measured_logS": -1.3,
+  "published_esol_logS": -1.561
+ },
+ {
+  "name": "Methylcyclopentane",
+  "smiles": "CC1CCCC1",
+  "measured_logS": -3.3,
+  "published_esol_logS": -2.452
+ },
+ {
+  "name": "4-Methyl-2-pentanol",
+  "smiles": "CC(C)CC(C)O",
+  "measured_logS": -0.8,
+  "published_esol_logS": -1.308
+ },
+ {
+  "name": "RTI 11",
+  "smiles": "O2c1ccc(N)cc1N(C)C(=O)c3cc(C)ccc23",
+  "measured_logS": -3.928,
+  "published_esol_logS": -3.125
+ },
+ {
+  "name": "2,2-Dimethylpropanol",
+  "smiles": "CC(C)(C)CO",
+  "measured_logS": -0.4,
+  "published_esol_logS": -1.011
+ },
+ {
+  "name": "Triadimefon",
+  "smiles": "CC(C)(C)C(=O)C(Oc1ccc(Cl)cc1)n2cncn2",
+  "measured_logS": -3.61,
+  "published_esol_logS": -4.132
+ },
+ {
+  "name": "Isocarboxazid",
+  "smiles": "Cc1cc(no1)C(=O)NNCc2ccccc2",
+  "measured_logS": -2.461,
+  "published_esol_logS": -2.251
+ },
+ {
+  "name": "Propylene",
+  "smiles": "CC=C",
+  "measured_logS": -1.08,
+  "published_esol_logS": -1.235
+ },
+ {
+  "name": "Dichlorophen",
+  "smiles": "Oc1ccc(Cl)cc1Cc2cc(Cl)ccc2O",
+  "measured_logS": -3.9530000000000003,
+  "published_esol_logS": -4.9239999999999995
+ },
+ {
+  "name": "Desmedipham",
+  "smiles": "CCOC(=O)Nc2cccc(OC(=O)Nc1ccccc1)c2",
+  "measured_logS": -4.632,
+  "published_esol_logS": -4.1819999999999995
+ },
+ {
+  "name": "Anthraquinone",
+  "smiles": "O=C1c2ccccc2C(=O)c3ccccc13",
+  "measured_logS": -5.19,
+  "published_esol_logS": -3.34
+ },
+ {
+  "name": "2-Octanol",
+  "smiles": "CCCCCCC(C)O",
+  "measured_logS": -2.09,
+  "published_esol_logS": -2.033
+ },
+ {
+  "name": "Oxycarboxin",
+  "smiles": "CC1=C(C(=O)Nc2ccccc2)S(=O)(=O)CCO1",
+  "measured_logS": -2.281,
+  "published_esol_logS": -2.169
+ },
+ {
+  "name": "Butylbenzene",
+  "smiles": "CCCCc1ccccc1",
+  "measured_logS": -4.06,
+  "published_esol_logS": -3.585
+ },
+ {
+  "name": "parabanic acid",
+  "smiles": "O=C1NC(=O)C(=O)N1",
+  "measured_logS": -0.4,
+  "published_esol_logS": 1.091
+ },
+ {
+  "name": "Abate",
+  "smiles": "COP(=S)(OC)Oc1ccc(Sc2ccc(OP(=S)(OC)OC)cc2)cc1",
+  "measured_logS": -6.237,
+  "published_esol_logS": -6.678
+ },
+ {
+  "name": "Chlorthalidone",
+  "smiles": "NS(=O)(=O)c1cc(ccc1Cl)C2(O)NC(=O)c3ccccc23",
+  "measured_logS": -3.451,
+  "published_esol_logS": -2.5639999999999996
+ },
+ {
+  "name": "Isobutyl acetate",
+  "smiles": "CC(C)COC(=O)C",
+  "measured_logS": -1.21,
+  "published_esol_logS": -1.463
+ },
+ {
+  "name": "2,2,3-Trimethylbutane",
+  "smiles": "CC(C)C(C)(C)C",
+  "measured_logS": -4.36,
+  "published_esol_logS": -2.9219999999999997
+ },
+ {
+  "name": "2,3,3',4,4'6-PCB",
+  "smiles": "Clc1ccc(c(Cl)c1Cl)c2c(Cl)cc(Cl)c(Cl)c2Cl",
+  "measured_logS": -7.66,
+  "published_esol_logS": -7.746
+ },
+ {
+  "name": "Phthalonitrile",
+  "smiles": "N#Cc1ccccc1C#N",
+  "measured_logS": -2.38,
+  "published_esol_logS": -1.7169999999999999
+ },
+ {
+  "name": "m-Nitrotoluene",
+  "smiles": "Cc1cccc(c1)N(=O)=O",
+  "measured_logS": -2.44,
+  "published_esol_logS": -2.64
+ },
+ {
+  "name": "halothane",
+  "smiles": "FC(F)(F)C(Cl)Br",
+  "measured_logS": -1.71,
+  "published_esol_logS": -2.608
+ },
+ {
+  "name": "Oxamyl",
+  "smiles": "CNC(=O)ON=C(SC)C(=O)N(C)C",
+  "measured_logS": 0.106,
+  "published_esol_logS": -0.9079999999999999
+ },
+ {
+  "name": "Thiometon",
+  "smiles": "CCSCCSP(=S)(OC)OC",
+  "measured_logS": -3.091,
+  "published_esol_logS": -3.323
+ },
+ {
+  "name": "2-Methylbutane",
+  "smiles": "CCC(C)C",
+  "measured_logS": -3.18,
+  "published_esol_logS": -2.245
+ },
+ {
+  "name": "Stirofos",
+  "smiles": "COP(=O)(OC)OC(=CCl)c1cc(Cl)c(Cl)cc1Cl",
+  "measured_logS": -4.522,
+  "published_esol_logS": -4.32
+ }
+]

@@ -1,0 +1,16 @@
+{
+  "name": "molsculpt",
+  "version": "1.0.0",
+  "description": "MolSculpt - touchless hand-gesture organic molecule builder with a Groq-powered agentic AI chemist",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "node --test tests/chem.test.mjs tests/gestures.test.mjs tests/server.test.mjs",
+    "eval:js": "node evaluation/compute_js.mjs"
+  },
+  "license": "MIT"
+}

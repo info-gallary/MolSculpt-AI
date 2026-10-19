@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MolSculpt</title>
+  <meta name="description" content="Touchless hand-gesture organic molecule builder with a Groq-powered agentic AI chemist">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 3l11 6.5v13L16 29 5 22.5v-13z' fill='none' stroke='%230e7c86' stroke-width='3'/%3E%3Ccircle cx='16' cy='16' r='4' fill='%23e4572e'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <div class="app" id="app">
+    <header class="topbar">
+      <div class="brand">
+        <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><path d="M16 3l11 6.5v13L16 29 5 22.5v-13z" fill="none" stroke="currentColor" stroke-width="2.6"/><circle cx="16" cy="16" r="4" fill="var(--accent-2)"/></svg>
+        <div><strong>MolSculpt</strong><span>touchless molecule studio</span></div>
+      </div>
+      <div class="modality" role="group" aria-label="Input modalities">
+        <button id="btn-hand" class="toggle" data-dwell aria-pressed="false" title="Track your hand with the webcam (H)">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 11V5.5a1.5 1.5 0 013 0V10m0-5.5V4a1.5 1.5 0 013 0v6m0-4.5a1.5 1.5 0 013 0V11m0-3a1.5 1.5 0 013 0v6.5c0 3.6-2.9 6.5-6.5 6.5h-1.3a6 6 0 01-4.6-2.2L4 15.2a1.6 1.6 0 012.4-2.1L8 14.5"/></svg>
+          <span>Hand tracking</span>
+        </button>
+        <button id="btn-voice" class="toggle" data-dwell aria-pressed="false" title="Voice commands (V)">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0014 0M12 18v3"/></svg>
+          <span>Voice</span>
+        </button>
+      </div>
+      <nav class="top-actions" aria-label="Application">
+        <button id="btn-library" data-dwell title="Molecule library and SMILES import (L)">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h6v14H4zM14 5l5 1.3-3.4 13L11 18"/></svg><span>Library</span>
+        </button>
+        <button id="btn-study" data-dwell title="User-study mode">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="13" r="7"/><path d="M12 9v4l2.5 2M9 3h6"/></svg><span>Study</span>
+        </button>
+        <button id="btn-help" data-dwell title="Gesture guide (?)">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 114 2c-1 .6-1.5 1.2-1.5 2.5M12 17h.01"/></svg><span>Guide</span>
+        </button>
+        <button id="btn-settings" data-dwell title="Settings">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 00.3 1.8l.1.1a2 2 0 11-2.8 2.8l-.1-.1a1.7 1.7 0 00-1.8-.3 1.7 1.7 0 00-1 1.5V21a2 2 0 01-4 0v-.1A1.7 1.7 0 009 19.4a1.7 1.7 0 00-1.8.3l-.1.1a2 2 0 11-2.8-2.8l.1-.1a1.7 1.7 0 00.3-1.8 1.7 1.7 0 00-1.5-1H3a2 2 0 010-4h.1A1.7 1.7 0 004.6 9a1.7 1.7 0 00-.3-1.8l-.1-.1a2 2 0 112.8-2.8l.1.1a1.7 1.7 0 001.8.3H9a1.7 1.7 0 001-1.5V3a2 2 0 014 0v.1a1.7 1.7 0 001 1.5 1.7 1.7 0 001.8-.3l.1-.1a2 2 0 112.8 2.8l-.1.1a1.7 1.7 0 00-.3 1.8V9a1.7 1.7 0 001.5 1H21a2 2 0 010 4h-.1a1.7 1.7 0 00-1.5 1z"/></svg><span>Settings</span>
+        </button>
+      </nav>
+    </header>
+
+    <aside class="toolrail" aria-label="Drawing tools">
+      <section>
+        <h2>Element</h2>
+        <div id="palette" class="palette" role="radiogroup" aria-label="Element"></div>
+      </section>
+      <section>
+        <h2>Bond</h2>
+        <div class="seg3" role="radiogroup" aria-label="Bond order">
+          <button data-bond="1" data-dwell role="radio" title="Single bond (1)"><svg viewBox="0 0 32 16" aria-hidden="true"><path d="M3 8h26"/></svg></button>
+          <button data-bond="2" data-dwell role="radio" title="Double bond (2)"><svg viewBox="0 0 32 16" aria-hidden="true"><path d="M3 5h26M3 11h26"/></svg></button>
+          <button data-bond="3" data-dwell role="radio" title="Triple bond (3)"><svg viewBox="0 0 32 16" aria-hidden="true"><path d="M3 3h26M3 8h26M3 13h26"/></svg></button>
+        </div>
+      </section>
+      <section>
+        <h2>Tool</h2>
+        <div class="tools" role="radiogroup" aria-label="Tool">
+          <button data-tool="draw" data-dwell role="radio" title="Draw atoms and bonds (D)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l4-1 11-11-3-3L5 16z"/></svg><span>Draw</span></button>
+          <button data-tool="move" data-dwell role="radio" title="Move atoms or the canvas (M)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M3 12h18M12 3l-3 3m3-3l3 3M12 21l-3-3m3 3l3-3M3 12l3-3m-3 3l3 3m15-3l-3-3m3 3l-3 3"/></svg><span>Move</span></button>
+          <button data-tool="erase" data-dwell role="radio" title="Erase (E)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 4l5 5-10 10H6l-3-3z"/><path d="M11 19h9"/></svg><span>Erase</span></button>
+          <button data-tool="charge" data-dwell role="radio" title="Cycle formal charge (Q)"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M8.5 12h7M12 8.5v7"/></svg><span>Charge</span></button>
+        </div>
+      </section>
+      <section>
+        <h2>Ring</h2>
+        <div class="rings" role="radiogroup" aria-label="Ring templates">
+          <button data-ring="benzene" data-dwell role="radio" title="Benzene ring (B)"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 4l10.4 6v12L16 28 5.6 22V10z"/><path d="M8.5 11.7L16 7.4M23.5 20.3L16 24.6M8 20.5v-9" opacity=".55"/></svg></button>
+          <button data-ring="cyclohexane" data-dwell role="radio" title="Cyclohexane"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 4l10.4 6v12L16 28 5.6 22V10z"/></svg></button>
+          <button data-ring="cyclopentane" data-dwell role="radio" title="Cyclopentane"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 4.5l11 8-4.2 13H9.2L5 12.5z"/></svg></button>
+        </div>
+      </section>
+      <section>
+        <h2>Edit</h2>
+        <div class="edits">
+          <button id="btn-undo" data-dwell title="Undo (Ctrl+Z) · gesture: hold ✌"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 14L4 9l5-5"/><path d="M4 9h10a6 6 0 010 12h-3"/></svg><span>Undo</span></button>
+          <button id="btn-redo" data-dwell title="Redo (Ctrl+Y)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 14l5-5-5-5"/><path d="M20 9H10a6 6 0 000 12h3"/></svg><span>Redo</span></button>
+          <button id="btn-fit" data-dwell title="Fit molecule to view (Shift+F)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg><span>Fit</span></button>
+          <button id="btn-clear" data-dwell title="Clear canvas"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13"/></svg><span>Clear</span></button>
+        </div>
+      </section>
+    </aside>
+
+    <main class="stage" id="stage">
+      <canvas id="canvas" aria-label="Molecule canvas"></canvas>
+      <div class="stage-hud">
+        <span id="hand-status" class="chip"><i class="dot"></i><span>Mouse / touch mode</span></span>
+        <span id="perf" class="chip mono" hidden></span>
+        <span id="voice-status" class="chip" hidden><i class="dot live"></i><span>Listening…</span></span>
+      </div>
+      <div id="empty-hint" class="empty-hint">
+        <h3>Build a molecule</h3>
+        <p><b>Pinch</b> (or click) on empty space to place an atom. <b>Pinch-drag</b> from an atom to draw a bond. <b>Pinch an atom</b> again to grow a chain.</p>
+        <p class="muted">Turn on <b>Hand tracking</b> above. Your camera image is never shown or uploaded; only your hand skeleton is used.</p>
+      </div>
+      <div id="minimap" class="minimap" hidden>
+        <canvas id="minimap-canvas" width="192" height="144"></canvas>
+        <video id="video" playsinline muted></video>
+        <span>Hand view (no camera image)</span>
+      </div>
+      <div id="study-banner" class="study-banner" hidden></div>
+    </main>
+
+    <aside class="sidepanel" aria-label="Analysis">
+      <div class="tabs" role="tablist">
+        <button role="tab" id="tabbtn-props" aria-controls="tab-props" aria-selected="true" data-tab="props" data-dwell>Properties</button>
+        <button role="tab" id="tabbtn-agent" aria-controls="tab-agent" aria-selected="false" data-tab="agent" data-dwell>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8zM19 16l.8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8z"/></svg>
+          AI Chemist
+        </button>
+      </div>
+
+      <section id="tab-props" class="tabpanel" role="tabpanel" aria-labelledby="tabbtn-props">
+        <div class="formula-card">
+          <div id="p-formula" class="formula">—</div>
+          <div id="p-mw" class="mw"></div>
+          <code id="p-smiles" class="smiles"></code>
+        </div>
+        <div id="p-problems"></div>
+        <div class="card">
+          <h3>Drug-likeness filters</h3>
+          <div id="p-rules" class="rules"></div>
+        </div>
+        <div class="card">
+          <h3>Descriptors</h3>
+          <dl id="p-desc" class="desc-grid"></dl>
+        </div>
+        <div class="card">
+          <h3>Functional groups <small>hover to highlight</small></h3>
+          <div id="p-groups" class="chips"></div>
+        </div>
+        <div class="card">
+          <h3>Structural alerts</h3>
+          <div id="p-alerts"></div>
+        </div>
+      </section>
+
+      <section id="tab-agent" class="tabpanel" role="tabpanel" aria-labelledby="tabbtn-agent" hidden>
+        <div class="agent-head">
+          <label class="field">
+            <span>Application focus</span>
+            <select id="agent-focus">
+              <option value="drug">Drug discovery</option>
+              <option value="agro">Agrochemicals</option>
+              <option value="materials">Materials &amp; industry</option>
+              <option value="education">Learning chemistry</option>
+            </select>
+          </label>
+          <button id="btn-analyze" class="primary big" data-dwell>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/></svg>
+            Characterise with ChemAgent
+          </button>
+          <p id="agent-note" class="muted small"></p>
+        </div>
+        <div id="agent-report" class="report"></div>
+        <details id="trace-wrap" class="trace-wrap" open hidden>
+          <summary id="trace-summary">Agent trace</summary>
+          <ol id="agent-trace" class="trace" aria-live="polite"></ol>
+        </details>
+        <div id="chat" class="chat" hidden>
+          <h3>Ask a follow-up</h3>
+          <div id="chat-log" class="chat-log"></div>
+          <form id="chat-form" class="chat-form">
+            <input id="chat-input" type="text" maxlength="500" placeholder="e.g. How could I improve its solubility?" autocomplete="off">
+            <button type="submit" class="primary">Ask</button>
+          </form>
+        </div>
+      </section>
+    </aside>
+
+    <footer class="statusbar">
+      <span id="sb-tool" class="sb-item"></span>
+      <span class="sb-sep"></span>
+      <span class="legend">
+        <span><b>👌 Pinch</b> click / drag</span>
+        <span><b>3 fingers hold</b> element menu</span>
+        <span><b>✌️ Hold</b> undo</span>
+        <span><b>👍 Hold</b> analyse</span>
+        <span><b>✊ Fist</b> pan</span>
+      </span>
+      <button id="btn-copy" class="link" data-dwell title="Copy SMILES">Copy SMILES</button>
+    </footer>
+  </div>
+
+  <canvas id="overlay" class="overlay" aria-hidden="true"></canvas>
+  <div id="toasts" class="toasts" role="status" aria-live="polite"></div>
+
+  <dialog id="dlg-settings" class="dialog">
+    <form method="dialog" class="dialog-body">
+      <header><h2>Settings</h2><button value="close" class="icon-btn" aria-label="Close" data-dwell>✕</button></header>
+      <fieldset>
+        <legend>AI agent (Groq)</legend>
+        <label class="field"><span>Groq API key <small>stored only in this browser; the server's .env key is used when empty</small></span>
+          <input id="set-key" type="password" autocomplete="off" placeholder="gsk_…"></label>
+        <label class="field"><span>Model</span><select id="set-model"></select></label>
+      </fieldset>
+      <fieldset>
+        <legend>Hand tracking</legend>
+        <label class="field"><span>Reach <small>smaller = less arm movement (higher control-display gain)</small></span>
+          <input id="set-reach" type="range" min="0.35" max="0.95" step="0.05"><output id="out-reach"></output></label>
+        <label class="field"><span>Smoothing <small>One-Euro filter min cut-off; lower = steadier, higher = snappier</small></span>
+          <input id="set-smoothing" type="range" min="0.3" max="4" step="0.1"><output id="out-smoothing"></output></label>
+        <label class="field"><span>Pinch sensitivity</span>
+          <input id="set-pinch" type="range" min="0.2" max="0.5" step="0.01"><output id="out-pinch"></output></label>
+        <label class="field"><span>Dwell time for buttons</span>
+          <input id="set-dwell" type="range" min="400" max="2000" step="100"><output id="out-dwell"></output></label>
+        <label class="check"><input id="set-virtualhand" type="checkbox"> Show virtual hand at the cursor</label>
+        <label class="check"><input id="set-minimap" type="checkbox"> Show hand skeleton mini-map</label>
+        <label class="check"><input id="set-preview" type="checkbox"> Show live camera preview <small>(off by default for privacy)</small></label>
+      </fieldset>
+      <fieldset>
+        <legend>Display &amp; feedback</legend>
+        <label class="field"><span>Atom style</span>
+          <select id="set-style"><option value="ball">Ball (large targets)</option><option value="skeletal">Skeletal formula</option></select></label>
+        <label class="field"><span>Theme</span>
+          <select id="set-theme"><option value="auto">System</option><option value="light">Light</option><option value="dark">Dark</option></select></label>
+        <label class="check"><input id="set-sound" type="checkbox"> Audio feedback (earcons)</label>
+        <label class="check"><input id="set-speak" type="checkbox"> Read agent summaries aloud</label>
+      </fieldset>
+    </form>
+  </dialog>
+
+  <dialog id="dlg-library" class="dialog wide">
+    <form method="dialog" class="dialog-body">
+      <header><h2>Molecule library</h2><button value="close" class="icon-btn" aria-label="Close" data-dwell>✕</button></header>
+      <div class="import-row">
+        <input id="smiles-input" type="text" placeholder="Paste a SMILES string, e.g. CC(=O)Nc1ccc(O)cc1" autocomplete="off" spellcheck="false">
+        <button id="btn-import" type="button" class="primary" data-dwell>Load SMILES</button>
+      </div>
+      <p id="import-error" class="error small" hidden></p>
+      <div id="library-grid" class="library"></div>
+    </form>
+  </dialog>
+
+  <dialog id="dlg-help" class="dialog wide">
+    <form method="dialog" class="dialog-body">
+      <header><h2>Gesture guide</h2><button value="close" class="icon-btn" aria-label="Close" data-dwell>✕</button></header>
+      <div class="gesture-grid">
+        <div class="gesture"><span class="g-icon">☝️</span><h3>Point</h3><p>Move the cursor. Keep your hand roughly 40–70 cm from the camera.</p></div>
+        <div class="gesture"><span class="g-icon">👌</span><h3>Pinch</h3><p>Touch thumb and index finger to click: place an atom, grow a chain, change a bond, press a button.</p></div>
+        <div class="gesture"><span class="g-icon">🤏</span><h3>Pinch &amp; drag</h3><p>From an atom, drag to draw a bond. It snaps to 30° angles and to nearby atoms.</p></div>
+        <div class="gesture"><span class="g-icon">🖐️</span><h3>Hold three fingers</h3><p>Index, middle and ring finger up: opens a radial element menu at the cursor. Move into a slice, then pinch or dwell.</p></div>
+        <div class="gesture"><span class="g-icon">✋</span><h3>Open palm</h3><p>The rest pose. Nothing is triggered, so you can relax your hand at any time.</p></div>
+        <div class="gesture"><span class="g-icon">✌️</span><h3>Hold victory</h3><p>Undo the last action. Hold again to keep undoing.</p></div>
+        <div class="gesture"><span class="g-icon">👍</span><h3>Hold thumbs-up</h3><p>Ask the AI chemist to characterise the molecule.</p></div>
+        <div class="gesture"><span class="g-icon">✊</span><h3>Fist</h3><p>Grab and pan the whole canvas while the fist is closed.</p></div>
+        <div class="gesture"><span class="g-icon">⏱️</span><h3>Dwell</h3><p>Hover over any button for about a second to press it without pinching.</p></div>
+      </div>
+      <h3>Keyboard &amp; voice</h3>
+      <p class="small">Keys: C N O S P F H · L (Cl) · B (benzene) · 1/2/3 bond · D/M/E/Q tools · Ctrl+Z / Ctrl+Y · Enter analyse · Shift+F fit · right-click opens the element menu. Voice (Chrome/Edge): say “carbon”, “double bond”, “benzene”, “erase”, “undo”, “analyse”, “read report”.</p>
+      <p class="small muted">Privacy: video frames are processed on this device by MediaPipe and are never displayed, stored or uploaded. Voice recognition uses the browser's speech service.</p>
+    </form>
+  </dialog>
+
+  <dialog id="dlg-study" class="dialog wide">
+    <form method="dialog" class="dialog-body">
+      <header><h2>User-study mode</h2><button value="close" class="icon-btn" aria-label="Close" data-dwell>✕</button></header>
+      <div class="study-grid">
+        <label class="field"><span>Participant ID</span><input id="st-participant" type="text" placeholder="P01" maxlength="20"></label>
+        <label class="field"><span>Condition</span>
+          <select id="st-condition"><option value="hand">Hand gestures</option><option value="mouse">Mouse</option><option value="hand+voice">Hand + voice</option></select></label>
+      </div>
+      <h3>Tasks</h3>
+      <div id="st-tasks" class="task-list"></div>
+      <h3>Questionnaires</h3>
+      <div class="study-actions">
+        <button id="st-sus" type="button" data-dwell>System Usability Scale (SUS)</button>
+        <button id="st-tlx" type="button" data-dwell>NASA-TLX (raw)</button>
+      </div>
+      <div id="st-questionnaire"></div>
+      <h3>Data</h3>
+      <p id="st-summary" class="small muted"></p>
+      <div class="study-actions">
+        <button id="st-export-csv" type="button" class="primary" data-dwell>Export trials (CSV)</button>
+        <button id="st-export-json" type="button" data-dwell>Export full log (JSON)</button>
+        <button id="st-reset" type="button" class="danger" data-dwell>Delete study data</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

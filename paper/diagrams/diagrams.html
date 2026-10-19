@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>MolSculpt diagrams</title>
+<style>
+  body { margin: 0; background: #fff; font-family: Arial, Helvetica, sans-serif; color: #111; }
+  .fig { display: inline-block; padding: 8px; background: #fff; }
+  svg text { font-family: Arial, Helvetica, sans-serif; }
+  .box { fill: #fff; stroke: #333; stroke-width: 1.4; }
+  .grp { fill: #f3f6f8; stroke: #8a96a3; stroke-width: 1.2; stroke-dasharray: 5 4; }
+  .acc { fill: #e3f1f2; stroke: #0b7480; stroke-width: 1.6; }
+  .warm { fill: #fdeee8; stroke: #c4532a; stroke-width: 1.6; }
+  .t { font-size: 15px; font-weight: 700; }
+  .s { font-size: 12.5px; fill: #333; }
+  .h { font-size: 16px; font-weight: 700; fill: #4a5562; letter-spacing: .5px; }
+  .ln { stroke: #333; stroke-width: 1.5; fill: none; marker-end: url(#arr); }
+  .dash { stroke-dasharray: 5 4; }
+  .lbl { font-size: 11.5px; fill: #444; font-style: italic; }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333"/>
+    </marker>
+  </defs>
+</svg>
+
+<!-- Fig: system architecture -->
+<div class="fig" id="arch">
+<svg width="1380" height="640" viewBox="0 0 1380 640">
+  <rect class="grp" x="10" y="30" width="860" height="600" rx="10"/>
+  <text class="h" x="26" y="56">BROWSER (on-device)</text>
+  <rect class="grp" x="900" y="30" width="250" height="600" rx="10"/>
+  <text class="h" x="916" y="56">LOCAL NODE SERVER</text>
+  <rect class="grp" x="1175" y="30" width="195" height="600" rx="10"/>
+  <text class="h" x="1191" y="56">CLOUD SERVICES</text>
+
+  <!-- input modalities -->
+  <rect class="box" x="30" y="80" width="170" height="64" rx="8"/>
+  <text class="t" x="44" y="106">Webcam</text><text class="s" x="44" y="128">640×480 · 30 fps</text>
+  <rect class="acc" x="230" y="80" width="200" height="64" rx="8"/>
+  <text class="t" x="244" y="106">MediaPipe Hand</text><text class="s" x="244" y="128">Landmarker (WASM/GPU)</text>
+  <rect class="acc" x="460" y="80" width="390" height="64" rx="8"/>
+  <text class="t" x="474" y="106">Gesture interpreter</text><text class="s" x="474" y="128">1€ filter · pinch hysteresis · poses · hold + stillness gate</text>
+
+  <rect class="box" x="30" y="170" width="170" height="54" rx="8"/>
+  <text class="t" x="44" y="194">Mouse / touch</text><text class="s" x="44" y="214">pointer + keyboard</text>
+  <rect class="box" x="30" y="240" width="170" height="54" rx="8"/>
+  <text class="t" x="44" y="264">Microphone</text><text class="s" x="44" y="284">Web Speech commands</text>
+
+  <rect class="acc" x="460" y="170" width="390" height="64" rx="8"/>
+  <text class="t" x="474" y="196">Hand controller (input routing)</text><text class="s" x="474" y="218">canvas pinch · UI pinch/dwell click · commands · radial menu</text>
+
+  <rect class="warm" x="230" y="320" width="620" height="78" rx="8"/>
+  <text class="t" x="244" y="346">Modality-independent editor</text>
+  <text class="s" x="244" y="368">hover/down/move/up/cancel · 30° snapping · fixed bond length · magnetic atoms</text>
+  <text class="s" x="244" y="387">tap-to-grow chains · ring templates · valence-aware error prevention · undo/redo</text>
+
+  <rect class="acc" x="230" y="424" width="620" height="78" rx="8"/>
+  <text class="t" x="244" y="450">Cheminformatics engine (shared JS module)</text>
+  <text class="s" x="244" y="472">SMILES I/O · valence &amp; implicit H · SSSR · RDKit-model aromaticity · SMARTS</text>
+  <text class="s" x="244" y="491">Crippen logP/MR · TPSA · Ro5/Veber/Egan/Ghose · ESOL · groups · alerts · layout</text>
+
+  <rect class="box" x="30" y="528" width="250" height="84" rx="8"/>
+  <text class="t" x="44" y="554">Canvas renderer + HUD</text><text class="s" x="44" y="576">feedforward ghosts, cursor states,</text><text class="s" x="44" y="594">virtual hand, progress rings</text>
+  <rect class="box" x="300" y="528" width="250" height="84" rx="8"/>
+  <text class="t" x="314" y="554">Properties panel</text><text class="s" x="314" y="576">live descriptors, filters,</text><text class="s" x="314" y="594">group brushing &amp; linking</text>
+  <rect class="box" x="570" y="528" width="280" height="84" rx="8"/>
+  <text class="t" x="584" y="554">AI Chemist panel</text><text class="s" x="584" y="576">live agent trace, report cards,</text><text class="s" x="584" y="594">analogue loading, chat, TTS</text>
+
+  <!-- server -->
+  <rect class="warm" x="915" y="170" width="220" height="110" rx="8"/>
+  <text class="t" x="929" y="196">ChemAgent loop</text><text class="s" x="929" y="218">ReAct: plan → tool calls</text><text class="s" x="929" y="237">→ observe → JSON report</text><text class="s" x="929" y="256">schema + analogue checks</text>
+  <rect class="box" x="915" y="300" width="220" height="210" rx="8"/>
+  <text class="t" x="929" y="326">Tools</text>
+  <text class="s" x="929" y="350">compute_descriptors</text><text class="s" x="929" y="372">pubchem_lookup</text><text class="s" x="929" y="394">find_similar_compounds</text>
+  <text class="s" x="929" y="416">check_structural_alerts</text><text class="s" x="929" y="438">assess_drug_likeness</text><text class="s" x="929" y="460">get_safety_data</text>
+  <text class="lbl" x="929" y="490">engine reused server-side</text>
+  <rect class="box" x="915" y="80" width="220" height="64" rx="8"/>
+  <text class="t" x="929" y="106">/api/agent (SSE)</text><text class="s" x="929" y="128">key kept server-side</text>
+
+  <rect class="box" x="1190" y="170" width="165" height="80" rx="8"/>
+  <text class="t" x="1204" y="196">Groq API</text><text class="s" x="1204" y="218">gpt-oss-120b /</text><text class="s" x="1204" y="236">Llama 3.3 70B</text>
+  <rect class="box" x="1190" y="330" width="165" height="80" rx="8"/>
+  <text class="t" x="1204" y="356">PubChem</text><text class="s" x="1204" y="378">PUG-REST /</text><text class="s" x="1204" y="396">PUG-View (GHS)</text>
+
+  <!-- arrows -->
+  <path class="ln" d="M200 112 H228"/>
+  <path class="ln" d="M430 112 H458"/>
+  <path class="ln" d="M655 144 V168"/>
+  <path class="ln" d="M655 234 V318"/>
+  <path class="ln" d="M200 197 H300 V318"/>
+  <path class="ln" d="M200 267 H260 V318"/>
+  <text class="lbl" x="666" y="290">pointer events + commands</text>
+  <path class="ln" d="M540 398 V422"/>
+  <path class="ln" d="M330 502 V526"/><path class="ln" d="M155 502 V526"/><path d="M230 470 H155 V502" stroke="#333" stroke-width="1.5" fill="none"/>
+  <path class="ln" d="M425 502 V526"/>
+  <path class="ln" d="M710 526 V502"/>
+  <path class="ln" d="M850 560 H880 V112 H913"/>
+  <text class="lbl" x="752" y="520">SMILES</text>
+  <path class="ln" d="M1025 144 V168"/>
+  <path class="ln" d="M1025 280 V298"/>
+  <path class="ln" d="M1135 210 H1188"/>
+  <path class="ln" d="M1188 228 H1137"/>
+  <text class="lbl" x="1138" y="262">chat + tools</text>
+  <path class="ln" d="M1135 370 H1188"/>
+  <path class="ln" d="M913 230 H890 V590 H852"/>
+  <text class="lbl" x="700" y="624" text-anchor="start">streamed trace + report</text>
+</svg>
+</div>
+
+<!-- Fig: gesture pipeline -->
+<div class="fig" id="pipeline">
+<svg width="980" height="600" viewBox="0 0 980 600">
+  <rect class="acc" x="20" y="20" width="270" height="70" rx="8"/>
+  <text class="t" x="34" y="47">21 hand landmarks</text><text class="s" x="34" y="70">mirror x, scale x by aspect ratio</text>
+
+  <rect class="box" x="20" y="130" width="270" height="92" rx="8"/>
+  <text class="t" x="34" y="157">Pointer path</text>
+  <text class="s" x="34" y="179">p = midpoint(thumb tip, index tip)</text>
+  <text class="s" x="34" y="199">reach box → screen (gain 1/r)</text>
+  <rect class="box" x="20" y="250" width="270" height="70" rx="8"/>
+  <text class="t" x="34" y="277">1€ filter</text><text class="s" x="34" y="299">f_c = 1.2 Hz + 0.012·|ṗ|</text>
+  <rect class="box" x="20" y="350" width="270" height="70" rx="8"/>
+  <text class="t" x="34" y="377">Cursor + 400 ms history</text><text class="s" x="34" y="399">click point taken 70 ms earlier</text>
+
+  <rect class="box" x="350" y="130" width="280" height="92" rx="8"/>
+  <text class="t" x="364" y="157">Features</text>
+  <text class="s" x="364" y="179">d = |thumb–index| / |wrist–MCP₃|</text>
+  <text class="s" x="364" y="199">ρ_f = |wrist–tip_f| / |wrist–MCP_f|</text>
+
+  <!-- pinch FSM -->
+  <rect class="warm" x="350" y="250" width="280" height="170" rx="8"/>
+  <text class="t" x="364" y="277">Pinch state machine</text><text class="lbl" x="364" y="296">(2-frame debounce)</text>
+  <circle cx="430" cy="350" r="40" fill="#fff" stroke="#333" stroke-width="1.4"/><text class="s" x="402" y="355">Released</text>
+  <circle cx="560" cy="350" r="40" fill="#fff" stroke="#333" stroke-width="1.4"/><text class="s" x="534" y="355">Pressed</text>
+  <path class="ln" d="M462 330 Q495 305 528 330"/><text class="lbl" x="450" y="316">d &lt; 0.30, ρ_idx &gt; 1.15</text>
+  <path class="ln" d="M528 372 Q495 398 462 372"/><text class="lbl" x="472" y="412">d &gt; 0.44</text>
+
+  <rect class="box" x="690" y="130" width="270" height="92" rx="8"/>
+  <text class="t" x="704" y="157">Pose classifier</text>
+  <text class="s" x="704" y="179">extended ρ &gt; 1.5 · curled ρ &lt; 1.3</text>
+  <text class="s" x="704" y="199">palm, point, ✌, 3-finger, 👍, ✊</text>
+  <rect class="warm" x="690" y="250" width="270" height="92" rx="8"/>
+  <text class="t" x="704" y="277">Hold timer</text>
+  <text class="s" x="704" y="299">3-frame stable pose, then 650–900 ms</text>
+  <text class="s" x="704" y="319">reset if cursor speed &gt; 420 px/s</text>
+
+  <rect class="acc" x="350" y="470" width="610" height="110" rx="8"/>
+  <text class="t" x="364" y="497">Hand controller → editor / UI</text>
+  <text class="s" x="364" y="520">down/up on canvas → pointerDown/Up · on control → click · dwell 900 ms on [data-dwell]</text>
+  <text class="s" x="364" y="541">✌ undo · 👍 analyse · 3-finger radial menu · ✊ pan · hand lost &gt; 250 ms → cancel drag</text>
+  <text class="s" x="364" y="562">open palm = rest (no command): avoids Midas-touch activation</text>
+
+  <path class="ln" d="M155 90 V128"/>
+  <path class="ln" d="M290 55 H490 V128"/>
+  <path class="ln" d="M290 55 H825 V128"/>
+  <path class="ln" d="M155 222 V248"/>
+  <path class="ln" d="M155 320 V348"/>
+  <path class="ln" d="M490 222 V248"/>
+  <path class="ln" d="M825 222 V248"/>
+  <path class="ln" d="M155 420 V525 H348"/>
+  <path class="ln" d="M490 420 V468"/>
+  <path class="ln" d="M825 342 V468"/>
+</svg>
+</div>
+
+<!-- Fig: agent sequence -->
+<div class="fig" id="agent">
+<svg width="980" height="660" viewBox="0 0 980 660">
+  <g font-size="14">
+    <rect class="box" x="20" y="16" width="140" height="44" rx="8"/><text class="t" x="44" y="44">User</text>
+    <rect class="box" x="200" y="16" width="150" height="44" rx="8"/><text class="t" x="214" y="44">Browser UI</text>
+    <rect class="warm" x="390" y="16" width="170" height="44" rx="8"/><text class="t" x="404" y="44">ChemAgent</text>
+    <rect class="acc" x="600" y="16" width="160" height="44" rx="8"/><text class="t" x="614" y="44">Groq LLM</text>
+    <rect class="box" x="800" y="16" width="160" height="44" rx="8"/><text class="t" x="814" y="44">Tools/PubChem</text>
+  </g>
+  <g stroke="#999" stroke-width="1.2" stroke-dasharray="4 4">
+    <path d="M90 60 V650"/><path d="M275 60 V650"/><path d="M475 60 V650"/><path d="M680 60 V650"/><path d="M880 60 V650"/>
+  </g>
+  <path class="ln" d="M90 95 H273"/><text class="lbl" x="98" y="88">👍 hold / click / “analyse”</text>
+  <path class="ln" d="M275 130 H473"/><text class="lbl" x="283" y="123">POST /api/agent {SMILES, focus}</text>
+  <path class="ln" d="M475 165 H678"/><text class="lbl" x="483" y="158">system prompt + tool schemas</text>
+  <path class="ln dash" d="M680 200 H477"/><text class="lbl" x="490" y="193">tool_calls: descriptors, pubchem_lookup</text>
+  <path class="ln" d="M475 235 H878"/><text class="lbl" x="600" y="228">execute (in parallel)</text>
+  <path class="ln dash" d="M880 270 H477"/><text class="lbl" x="660" y="263">observations (JSON)</text>
+  <path class="ln dash" d="M475 290 H277"/><text class="lbl" x="283" y="284">SSE tool_call / tool_result</text>
+  <path class="ln" d="M475 325 H678"/><text class="lbl" x="483" y="318">observations appended</text>
+  <path class="ln dash" d="M680 360 H477"/><text class="lbl" x="490" y="353">tool_calls: alerts, drug-likeness, GHS</text>
+  <path class="ln" d="M475 395 H878"/><text class="lbl" x="660" y="388">execute</text>
+  <path class="ln dash" d="M880 430 H477"/><text class="lbl" x="660" y="423">observations</text>
+  <path class="ln" d="M475 465 H678"/><text class="lbl" x="483" y="458">observations appended</text>
+  <path class="ln dash" d="M680 500 H477"/><text class="lbl" x="490" y="493">final JSON report (no tool call)</text>
+  <rect class="warm" x="395" y="515" width="160" height="56" rx="6"/>
+  <text class="s" x="405" y="538">validate schema;</text><text class="s" x="405" y="558">re-check analogues</text>
+  <path class="ln dash" d="M475 590 H277"/><text class="lbl" x="283" y="584">SSE report + done (latency, tokens)</text>
+  <path class="ln dash" d="M275 625 H92"/><text class="lbl" x="98" y="618">report cards, trace, “load analogue”</text>
+</svg>
+</div>
+
+<!-- Fig: agent loop (compact, column width) -->
+<div class="fig" id="loop">
+<svg width="644" height="640" viewBox="-24 0 644 640" style="font-size:17px">
+  <style>#loop .t{font-size:18px}#loop .s{font-size:15.5px}#loop .lbl{font-size:14.5px}</style>
+  <rect class="box" x="20" y="14" width="440" height="62" rx="9"/>
+  <text class="t" x="36" y="40">User trigger</text><text class="s" x="36" y="64">👍 hold · button · voice “analyse”</text>
+  <rect class="warm" x="20" y="128" width="440" height="70" rx="9"/>
+  <text class="t" x="36" y="156">Reason (Groq LLM, T = 0.2)</text><text class="s" x="36" y="181">decide which evidence is still missing</text>
+  <rect class="acc" x="20" y="252" width="440" height="92" rx="9"/>
+  <text class="t" x="36" y="280">Act: run tool calls in parallel</text>
+  <text class="s" x="36" y="304">local engine: descriptors · alerts · rules</text>
+  <text class="s" x="36" y="327">PubChem: identity · similarity · GHS</text>
+  <rect class="box" x="20" y="400" width="440" height="92" rx="9"/>
+  <text class="t" x="36" y="428">Report: JSON (16 fields)</text>
+  <text class="s" x="36" y="452">schema check · fallback verdicts</text>
+  <text class="s" x="36" y="475">analogue SMILES re-parsed, Δ-properties</text>
+  <rect class="acc" x="20" y="546" width="440" height="80" rx="9"/>
+  <text class="t" x="36" y="574">UI: report cards + collapsible trace</text>
+  <text class="s" x="36" y="598">load analogue · follow-up chat · read aloud</text>
+  <path class="ln" d="M240 76 V126"/><text class="lbl" x="252" y="108">SMILES + focus</text>
+  <path class="ln" d="M240 198 V250"/><text class="lbl" x="252" y="230">tool_calls</text>
+  <path class="ln" d="M460 298 H548 V163 H462"/><text class="lbl" x="466" y="230">observe</text><text class="lbl" x="466" y="248">≤ 6 rounds</text>
+  <path class="ln" d="M20 172 H-10 V446 H18" stroke-dasharray="5 4"/><text class="lbl" x="28" y="378">no more calls → report</text>
+  <path class="ln" d="M240 492 V544"/><text class="lbl" x="252" y="524">SSE report, done</text>
+  <path d="M460 320 H596 V586 H462" stroke="#0b7480" stroke-width="1.5" fill="none" stroke-dasharray="3 3" marker-end="url(#arr)"/>
+  <text class="lbl" x="476" y="620" fill="#0b7480">live trace (SSE)</text>
+</svg>
+</div>
+</body>
+</html>

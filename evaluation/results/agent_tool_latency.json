@@ -1,0 +1,433 @@
+{
+  "measured_at": "2026-10-19T19:14:51.157Z",
+  "per_tool": {
+    "compute_descriptors": {
+      "n": 10,
+      "mean_ms": 5,
+      "median_ms": 6,
+      "max_ms": 10
+    },
+    "pubchem_lookup": {
+      "n": 10,
+      "mean_ms": 2854,
+      "median_ms": 3162,
+      "max_ms": 4190
+    },
+    "check_structural_alerts": {
+      "n": 10,
+      "mean_ms": 6,
+      "median_ms": 6,
+      "max_ms": 12
+    },
+    "assess_drug_likeness": {
+      "n": 10,
+      "mean_ms": 4,
+      "median_ms": 5,
+      "max_ms": 9
+    },
+    "get_safety_data": {
+      "n": 8,
+      "mean_ms": 913,
+      "median_ms": 1021,
+      "max_ms": 1674
+    },
+    "find_similar_compounds": {
+      "n": 2,
+      "mean_ms": 2432,
+      "median_ms": 2630,
+      "max_ms": 2630
+    }
+  },
+  "runs": [
+    {
+      "name": "Aspirin",
+      "smiles": "CC(=O)Oc1ccccc1C(=O)O",
+      "total_ms": 2877,
+      "known": true,
+      "identified_as": "Aspirin",
+      "tools": [
+        {
+          "tool": "compute_descriptors",
+          "ms": 6,
+          "ok": true,
+          "summary": "C9H8O4, MW 180.16, logP 1.31, TPSA 63.6 Å²"
+        },
+        {
+          "tool": "pubchem_lookup",
+          "ms": 2422,
+          "ok": true,
+          "summary": "Found: Aspirin (CID 2244)"
+        },
+        {
+          "tool": "check_structural_alerts",
+          "ms": 3,
+          "ok": true,
+          "summary": "No structural alerts"
+        },
+        {
+          "tool": "assess_drug_likeness",
+          "ms": 2,
+          "ok": true,
+          "summary": "Drug-like; Lipinski violations 0"
+        },
+        {
+          "tool": "get_safety_data",
+          "ms": 419,
+          "ok": true,
+          "summary": "Hazard level moderate; 1 predominant of 12 GHS statements"
+        }
+      ]
+    },
+    {
+      "name": "Paracetamol",
+      "smiles": "CC(=O)Nc1ccc(O)cc1",
+      "total_ms": 4851,
+      "known": true,
+      "identified_as": "Acetaminophen",
+      "tools": [
+        {
+          "tool": "compute_descriptors",
+          "ms": 3,
+          "ok": true,
+          "summary": "C8H9NO2, MW 151.17, logP 1.35, TPSA 49.33 Å²"
+        },
+        {
+          "tool": "pubchem_lookup",
+          "ms": 3162,
+          "ok": true,
+          "summary": "Found: Acetaminophen (CID 1983)"
+        },
+        {
+          "tool": "check_structural_alerts",
+          "ms": 3,
+          "ok": true,
+          "summary": "No structural alerts"
+        },
+        {
+          "tool": "assess_drug_likeness",
+          "ms": 5,
+          "ok": true,
+          "summary": "Drug-like; Lipinski violations 0"
+        },
+        {
+          "tool": "get_safety_data",
+          "ms": 1674,
+          "ok": true,
+          "summary": "Hazard level moderate; 1 predominant of 12 GHS statements"
+        }
+      ]
+    },
+    {
+      "name": "Caffeine",
+      "smiles": "Cn1cnc2c1c(=O)n(C)c(=O)n2C",
+      "total_ms": 4354,
+      "known": true,
+      "identified_as": "Caffeine",
+      "tools": [
+        {
+          "tool": "compute_descriptors",
+          "ms": 4,
+          "ok": true,
+          "summary": "C8H10N4O2, MW 194.19, logP -1.03, TPSA 61.82 Å²"
+        },
+        {
+          "tool": "pubchem_lookup",
+          "ms": 3230,
+          "ok": true,
+          "summary": "Found: Caffeine (CID 2519)"
+        },
+        {
+          "tool": "check_structural_alerts",
+          "ms": 4,
+          "ok": true,
+          "summary": "No structural alerts"
+        },
+        {
+          "tool": "assess_drug_likeness",
+          "ms": 4,
+          "ok": true,
+          "summary": "Drug-like; Lipinski violations 0"
+        },
+        {
+          "tool": "get_safety_data",
+          "ms": 1107,
+          "ok": true,
+          "summary": "Hazard level moderate; 1 predominant of 4 GHS statements"
+        }
+      ]
+    },
+    {
+      "name": "Ibuprofen",
+      "smiles": "CC(C)Cc1ccc(cc1)C(C)C(=O)O",
+      "total_ms": 3296,
+      "known": true,
+      "identified_as": "Ibuprofen, (+-)-",
+      "tools": [
+        {
+          "tool": "compute_descriptors",
+          "ms": 7,
+          "ok": true,
+          "summary": "C13H18O2, MW 206.28, logP 3.07, TPSA 37.3 Å²"
+        },
+        {
+          "tool": "pubchem_lookup",
+          "ms": 2292,
+          "ok": true,
+          "summary": "Found: Ibuprofen, (+-)- (CID 3672)"
+        },
+        {
+          "tool": "check_structural_alerts",
+          "ms": 7,
+          "ok": true,
+          "summary": "No structural alerts"
+        },
+        {
+          "tool": "assess_drug_likeness",
+          "ms": 5,
+          "ok": true,
+          "summary": "Drug-like; Lipinski violations 0"
+        },
+        {
+          "tool": "get_safety_data",
+          "ms": 976,
+          "ok": true,
+          "summary": "Hazard level moderate; 3 predominant of 9 GHS statements"
+        }
+      ]
+    },
+    {
+      "name": "Dopamine",
+      "smiles": "NCCc1ccc(O)c(O)c1",
+      "total_ms": 4076,
+      "known": true,
+      "identified_as": "Dopamine",
+      "tools": [
+        {
+          "tool": "compute_descriptors",
+          "ms": 10,
+          "ok": true,
+          "summary": "C8H11NO2, MW 153.18, logP 0.6, TPSA 66.48 Å²"
+        },
+        {
+          "tool": "pubchem_lookup",
+          "ms": 2924,
+          "ok": true,
+          "summary": "Found: Dopamine (CID 681)"
+        },
+        {
+          "tool": "check_structural_alerts",
+          "ms": 8,
+          "ok": true,
+          "summary": "Catechol (low)"
+        },
+        {
+          "tool": "assess_drug_likeness",
+          "ms": 2,
+          "ok": true,
+          "summary": "Drug-like; Lipinski violations 0"
+        },
+        {
+          "tool": "get_safety_data",
+          "ms": 1125,
+          "ok": true,
+          "summary": "Hazard level high; 4 predominant of 4 GHS statements"
+        }
+      ]
+    },
+    {
+      "name": "Benzocaine",
+      "smiles": "CCOC(=O)c1ccc(N)cc1",
+      "total_ms": 4202,
+      "known": true,
+      "identified_as": "Benzocaine",
+      "tools": [
+        {
+          "tool": "compute_descriptors",
+          "ms": 6,
+          "ok": true,
+          "summary": "C9H11NO2, MW 165.19, logP 1.45, TPSA 52.32 Å²"
+        },
+        {
+          "tool": "pubchem_lookup",
+          "ms": 3680,
+          "ok": true,
+          "summary": "Found: Benzocaine (CID 2337)"
+        },
+        {
+          "tool": "check_structural_alerts",
+          "ms": 4,
+          "ok": true,
+          "summary": "Primary aromatic amine (medium)"
+        },
+        {
+          "tool": "assess_drug_likeness",
+          "ms": 2,
+          "ok": true,
+          "summary": "Borderline; Lipinski violations 0"
+        },
+        {
+          "tool": "get_safety_data",
+          "ms": 495,
+          "ok": true,
+          "summary": "Hazard level moderate; 1 predominant of 6 GHS statements"
+        }
+      ]
+    },
+    {
+      "name": "Nicotine",
+      "smiles": "CN1CCCC1c1cccnc1",
+      "total_ms": 4705,
+      "known": true,
+      "identified_as": "3-(1-Methylpyrrolidin-2-yl)pyridine",
+      "tools": [
+        {
+          "tool": "compute_descriptors",
+          "ms": 2,
+          "ok": true,
+          "summary": "C10H14N2, MW 162.24, logP 1.85, TPSA 16.13 Å²"
+        },
+        {
+          "tool": "pubchem_lookup",
+          "ms": 4190,
+          "ok": true,
+          "summary": "Found: 3-(1-Methylpyrrolidin-2-yl)pyridine (CID 942)"
+        },
+        {
+          "tool": "check_structural_alerts",
+          "ms": 12,
+          "ok": true,
+          "summary": "No structural alerts"
+        },
+        {
+          "tool": "assess_drug_likeness",
+          "ms": 9,
+          "ok": true,
+          "summary": "Drug-like; Lipinski violations 0"
+        },
+        {
+          "tool": "get_safety_data",
+          "ms": 488,
+          "ok": true,
+          "summary": "Hazard level high; 3 predominant of 3 GHS statements"
+        }
+      ]
+    },
+    {
+      "name": "Metformin",
+      "smiles": "CN(C)C(=N)NC(=N)N",
+      "total_ms": 4911,
+      "known": true,
+      "identified_as": "Metformin",
+      "tools": [
+        {
+          "tool": "compute_descriptors",
+          "ms": 2,
+          "ok": true,
+          "summary": "C4H11N5, MW 129.17, logP -1.03, TPSA 88.99 Å²"
+        },
+        {
+          "tool": "pubchem_lookup",
+          "ms": 3880,
+          "ok": true,
+          "summary": "Found: Metformin (CID 4091)"
+        },
+        {
+          "tool": "check_structural_alerts",
+          "ms": 3,
+          "ok": true,
+          "summary": "No structural alerts"
+        },
+        {
+          "tool": "assess_drug_likeness",
+          "ms": 1,
+          "ok": true,
+          "summary": "Drug-like; Lipinski violations 0"
+        },
+        {
+          "tool": "get_safety_data",
+          "ms": 1021,
+          "ok": true,
+          "summary": "Hazard level moderate; 1 predominant of 3 GHS statements"
+        }
+      ]
+    },
+    {
+      "name": "Novel analogue A",
+      "smiles": "CC(=O)Oc1ccc(C#CCCCN2CCOCC2)cc1C(=O)OCC(F)(F)F",
+      "total_ms": 4488,
+      "known": false,
+      "identified_as": "Unregistered structure",
+      "tools": [
+        {
+          "tool": "compute_descriptors",
+          "ms": 7,
+          "ok": true,
+          "summary": "C20H22F3NO5, MW 413.39, logP 2.79, TPSA 65.07 Å²"
+        },
+        {
+          "tool": "pubchem_lookup",
+          "ms": 1834,
+          "ok": true,
+          "summary": "Not in PubChem: possibly a novel structure"
+        },
+        {
+          "tool": "check_structural_alerts",
+          "ms": 6,
+          "ok": true,
+          "summary": "No structural alerts"
+        },
+        {
+          "tool": "assess_drug_likeness",
+          "ms": 5,
+          "ok": true,
+          "summary": "Drug-like; Lipinski violations 0"
+        },
+        {
+          "tool": "find_similar_compounds",
+          "ms": 2630,
+          "ok": true,
+          "summary": "6 analogues, e.g. Flavoxate, Flavoxate Hydrochloride, 1-Methylpiperidin-3-YL 2-methoxybenzoate hydrochloride"
+        }
+      ]
+    },
+    {
+      "name": "Novel analogue B",
+      "smiles": "O=C(Nc1ccc(OC(F)(F)F)cc1)c1cc2cc(Cl)ccc2[nH]1",
+      "total_ms": 3185,
+      "known": false,
+      "identified_as": "Unregistered structure",
+      "tools": [
+        {
+          "tool": "compute_descriptors",
+          "ms": 4,
+          "ok": true,
+          "summary": "C16H10ClF3N2O2, MW 354.72, logP 4.97, TPSA 54.12 Å²"
+        },
+        {
+          "tool": "pubchem_lookup",
+          "ms": 924,
+          "ok": true,
+          "summary": "Not in PubChem: possibly a novel structure"
+        },
+        {
+          "tool": "check_structural_alerts",
+          "ms": 9,
+          "ok": true,
+          "summary": "No structural alerts"
+        },
+        {
+          "tool": "assess_drug_likeness",
+          "ms": 5,
+          "ok": true,
+          "summary": "Drug-like; Lipinski violations 0"
+        },
+        {
+          "tool": "find_similar_compounds",
+          "ms": 2234,
+          "ok": true,
+          "summary": "6 analogues, e.g. N-(4-methoxyphenyl)-1H-indole-2-carboxamide, 5-chloranyl-6-fluoranyl-3-(2-propan-2-yloxyphenyl)-1~{H}-indole-2-carboxamide, 5-chloro-3-[methoxy-(3-methoxy-5-methyl-phenyl)phosphoryl]-1H-indole-2-carboxamide"
+        }
+      ]
+    }
+  ]
+}

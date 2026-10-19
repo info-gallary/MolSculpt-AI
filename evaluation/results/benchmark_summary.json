@@ -1,0 +1,43 @@
+{
+  "rdkit_version": "2026.09.1",
+  "n_input": 60,
+  "n_compared": 60,
+  "rdkit_parse_failures": [],
+  "exact_agreement_pct": {
+    "formula": 100.0,
+    "heavy_atoms": 100.0,
+    "hbd": 100.0,
+    "hba": 100.0,
+    "rotb": 100.0,
+    "rings": 100.0,
+    "aromatic_rings": 100.0,
+    "roundtrip": 100.0
+  },
+  "mean_abs_error": {
+    "mw": 0.0,
+    "exact_mass": 0.0,
+    "tpsa": 0.0,
+    "logp": 0.0,
+    "mr": 0.0,
+    "fsp3": 0.0
+  },
+  "max_abs_error": {
+    "mw": 0.0,
+    "exact_mass": 0.0,
+    "tpsa": 0.0,
+    "logp": 0.0,
+    "mr": 0.0,
+    "fsp3": 0.0
+  },
+  "within_0.01_pct": {
+    "mw": 100.0,
+    "exact_mass": 100.0,
+    "tpsa": 100.0,
+    "logp": 100.0,
+    "mr": 100.0,
+    "fsp3": 100.0
+  },
+  "js_mean_analysis_ms": 0.462,
+  "js_median_analysis_ms": 0.333,
+  "rdkit_mean_descriptor_ms": 0.722
+}
