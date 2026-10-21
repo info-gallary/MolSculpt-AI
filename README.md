@@ -1,6 +1,6 @@
 # MolSculpt: touchless molecule building with an agentic AI chemist
 
-MolSculpt is a browser application in which you build organic molecules **in mid-air with your bare hand** in front of a normal webcam. A **Groq-powered AI agent** then characterises the compound you built: its identity, physicochemical profile, drug-likeness, biological activity, safety, and analogues worth exploring.
+MolSculpt is a gesture-driven browser application in which you build organic molecules **in mid-air with your bare hand** in front of a normal webcam. A **Groq-powered AI agent** then characterises the compound you built: its identity, physicochemical profile, drug-likeness, biological activity, safety, and analogues worth exploring.
 
 HCI term project · **Nisarg Vashi (23BCE370)** and **Heli Shah (23BCE093)**, Department of Computer Science and Engineering, Institute of Technology, Nirma University
 
